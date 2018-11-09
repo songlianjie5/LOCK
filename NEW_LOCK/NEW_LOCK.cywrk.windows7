@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CyXmlSerializer>
+<!--This file is machine generated and read. It is not intended to be edited by hand.-->
+<!--Due to this, there is no schema for this file.-->
+<CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21 type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWrkspcCustomData" version="4">
+<CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997 type_name="CyDesigner.Common.Base.CyCustomData" version="2">
+<userData>
+<dataGuid v="1b906a0f-a7b6-4e4d-a428-82f98b53cb35">
+<CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35 type_name="CyDesigner.Common.ProjMgmt.GUI.CyExplorerWindow+CyExplorerWindowState" version="3" SelectedTab="Source">
+<TreeKeys>
+<v>Source</v>
+<v>Components</v>
+<v>Output</v>
+</TreeKeys>
+<TreeStates>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="NEW_LOCK\LOCK\Modules\Function\FunMsg\List.h">
+<ExpandedNodeIds>
+<v>NEW_LOCK</v>
+<v>NEW_LOCK\LOCK</v>
+<v>NEW_LOCK\LOCK\TopDesign</v>
+<v>NEW_LOCK\LOCK\LOCK.cydwr</v>
+<v>NEW_LOCK\LOCK\LOCK.cydwr\Pins</v>
+<v>NEW_LOCK\LOCK\LOCK.cydwr\Analog</v>
+<v>NEW_LOCK\LOCK\LOCK.cydwr\Clocks</v>
+<v>NEW_LOCK\LOCK\LOCK.cydwr\Interrupts</v>
+<v>NEW_LOCK\LOCK\LOCK.cydwr\System</v>
+<v>NEW_LOCK\LOCK\LOCK.cydwr\Directives</v>
+<v>NEW_LOCK\LOCK\LOCK.cydwr\Flash Security</v>
+<v>NEW_LOCK\LOCK\Main</v>
+<v>NEW_LOCK\LOCK\Main\cyapicallbacks.h</v>
+<v>NEW_LOCK\LOCK\Main\gpio.c</v>
+<v>NEW_LOCK\LOCK\Main\gpio.h</v>
+<v>NEW_LOCK\LOCK\Main\main.c</v>
+<v>NEW_LOCK\LOCK\Main\main.h</v>
+<v>NEW_LOCK\LOCK\Modules</v>
+<v>NEW_LOCK\LOCK\Modules\Bat</v>
+<v>NEW_LOCK\LOCK\Modules\Bat\Bat.c</v>
+<v>NEW_LOCK\LOCK\Modules\Bat\Bat.h</v>
+<v>NEW_LOCK\LOCK\Modules\Ble</v>
+<v>NEW_LOCK\LOCK\Modules\Ble\BLE.c</v>
+<v>NEW_LOCK\LOCK\Modules\Ble\BLE.h</v>
+<v>NEW_LOCK\LOCK\Modules\Card</v>
+<v>NEW_LOCK\LOCK\Modules\Card\Card.c</v>
+<v>NEW_LOCK\LOCK\Modules\Card\Card.h</v>
+<v>NEW_LOCK\LOCK\Modules\Card\nxp520.c</v>
+<v>NEW_LOCK\LOCK\Modules\Card\nxp520.h</v>
+<v>NEW_LOCK\LOCK\Modules\Display</v>
+<v>NEW_LOCK\LOCK\Modules\Display\Display.c</v>
+<v>NEW_LOCK\LOCK\Modules\Display\Display.h</v>
+<v>NEW_LOCK\LOCK\Modules\Display\DisplayFont.c</v>
+<v>NEW_LOCK\LOCK\Modules\Extend</v>
+<v>NEW_LOCK\LOCK\Modules\Extend\Extend.c</v>
+<v>NEW_LOCK\LOCK\Modules\Extend\Extend.h</v>
+<v>NEW_LOCK\LOCK\Modules\Fingerprint</v>
+<v>NEW_LOCK\LOCK\Modules\Fingerprint\Fingerprint.c</v>
+<v>NEW_LOCK\LOCK\Modules\Fingerprint\Fingerprint.h</v>
+<v>NEW_LOCK\LOCK\Modules\Function</v>
+<v>NEW_LOCK\LOCK\Modules\Function\FunMsg</v>
+<v>NEW_LOCK\LOCK\Modules\Function\FunMsg\List.c</v>
+<v>NEW_LOCK\LOCK\Modules\Function\FunMsg\List.h</v>
+<v>NEW_LOCK\LOCK\Modules\Function\Function.c</v>
+<v>NEW_LOCK\LOCK\Modules\Function\Function.h</v>
+<v>NEW_LOCK\LOCK\Modules\Function\LockMode.c</v>
+<v>NEW_LOCK\LOCK\Modules\Function\ManageMode.c</v>
+<v>NEW_LOCK\LOCK\Modules\Function\MenuTips.c</v>
+<v>NEW_LOCK\LOCK\Modules\Function\MenuTips.h</v>
+<v>NEW_LOCK\LOCK\Modules\Function\NormalMode.c</v>
+<v>NEW_LOCK\LOCK\Modules\Function\Utilities.c</v>
+<v>NEW_LOCK\LOCK\Modules\Function\Utilities.h</v>
+<v>NEW_LOCK\LOCK\Modules\Led</v>
+<v>NEW_LOCK\LOCK\Modules\Led\Led.c</v>
+<v>NEW_LOCK\LOCK\Modules\Led\Led.h</v>
+<v>NEW_LOCK\LOCK\Modules\Lock</v>
+<v>NEW_LOCK\LOCK\Modules\Lock\MLock.c</v>
+<v>NEW_LOCK\LOCK\Modules\Lock\MLock.h</v>
+<v>NEW_LOCK\LOCK\Modules\Power</v>
+<v>NEW_LOCK\LOCK\Modules\Power\power.c</v>
+<v>NEW_LOCK\LOCK\Modules\Power\power.h</v>
+<v>NEW_LOCK\LOCK\Modules\Record</v>
+<v>NEW_LOCK\LOCK\Modules\Record\Record.c</v>
+<v>NEW_LOCK\LOCK\Modules\Record\Record.h</v>
+<v>NEW_LOCK\LOCK\Modules\Rtc</v>
+<v>NEW_LOCK\LOCK\Modules\Rtc\Rtc.c</v>
+<v>NEW_LOCK\LOCK\Modules\Rtc\Rtc.h</v>
+<v>NEW_LOCK\LOCK\Modules\SwitchKey</v>
+<v>NEW_LOCK\LOCK\Modules\SwitchKey\SwitchKey.c</v>
+<v>NEW_LOCK\LOCK\Modules\SwitchKey\SwitchKey.h</v>
+<v>NEW_LOCK\LOCK\Modules\Tuch</v>
+<v>NEW_LOCK\LOCK\Modules\Tuch\Tuch.c</v>
+<v>NEW_LOCK\LOCK\Modules\Tuch\Tuch.h</v>
+<v>NEW_LOCK\LOCK\Modules\Voice</v>
+<v>NEW_LOCK\LOCK\Modules\Voice\Voice.c</v>
+<v>NEW_LOCK\LOCK\Modules\Voice\Voice.h</v>
+<v>NEW_LOCK\LOCK\Modules\Wdt</v>
+<v>NEW_LOCK\LOCK\Modules\Wdt\Wdt.c</v>
+<v>NEW_LOCK\LOCK\Modules\Wdt\Wdt.h</v>
+<v>NEW_LOCK\LOCK\Generated_Source</v>
+<v>NEW_LOCK\LOCK\Generated_Source\PSoC4</v>
+</ExpandedNodeIds>
+<VisibleNodeIds />
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="NEW_LOCK">
+<ExpandedNodeIds>
+<v>NEW_LOCK</v>
+<v>NEW_LOCK\LOCK</v>
+<v>NEW_LOCK\LOCK\TopDesign</v>
+<v>NEW_LOCK\LOCK\TopDesign\TopDesign.cysch</v>
+</ExpandedNodeIds>
+<VisibleNodeIds />
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="NEW_LOCK">
+<ExpandedNodeIds>
+<v>NEW_LOCK</v>
+<v>NEW_LOCK\LOCK</v>
+<v>NEW_LOCK\LOCK\CortexM0p</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\ADC.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\ADC_INT.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\ADC_intClock.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\ADC_IRQ.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\ADC_PM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\BAT_ADC.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\BAT_ADC_PM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\CapSense_Control.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\CapSense_Filter.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\CapSense_INT.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\CapSense_ISR.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\CapSense_Processing.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\CapSense_Sensing.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\CapSense_SensingCSD_LL.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\CapSense_Structure.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\CapSense_Tuner.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\CARD_RESET.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\CARD_RESET_PM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\Cm0plusStart.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\COVER_CHK_INT.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\COVER_CHK_INT_PM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\cy_em_eeprom.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\CyBootAsmRv.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\CyDMA.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\CyFlash.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\CyLFClk.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\CyLib.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\cymetadata.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\cyPm.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\cyutils.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\Em_EEPROM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\GPIO_ISR1.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\GPIO_ISR1_PM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\I2C_SCL.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\I2C_SCL_PM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\I2C_SDA.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\I2C_SDA_PM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\I2C_ST.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\I2C_ST_PM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\isr_1.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\isr_2.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\isr_wdt.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\LOCK_INT.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\LOCK_INT_PM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\main.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\MOTO_ADC.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\MOTO_ADC_PM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\OLED_DC.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\OLED_DC_PM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\OP1_INT.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\OP1_INT_PM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\OP3_INT.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\OP3_INT_PM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\RF_ADC.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\RF_ADC_PM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\RTC_1.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\SPI_0_OLED_FLASH.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\SPI_0_OLED_FLASH_BOOT.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\SPI_0_OLED_FLASH_miso_m.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\SPI_0_OLED_FLASH_miso_m_PM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\SPI_0_OLED_FLASH_mosi_m.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\SPI_0_OLED_FLASH_mosi_m_PM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\SPI_0_OLED_FLASH_PM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\SPI_0_OLED_FLASH_SCBCLK.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\SPI_0_OLED_FLASH_sclk_m.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\SPI_0_OLED_FLASH_sclk_m_PM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\SPI_0_OLED_FLASH_SPI.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\SPI_0_OLED_FLASH_SPI_BOOT.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\SPI_0_OLED_FLASH_SPI_UART.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\SPI_0_OLED_FLASH_ss0_m.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\SPI_0_OLED_FLASH_ss0_m_PM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\SPI_0_OLED_FLASH_ss1_m.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\SPI_0_OLED_FLASH_ss1_m_PM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\SPI_1_CARD.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\SPI_1_CARD_BOOT.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\SPI_1_CARD_miso_m.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\SPI_1_CARD_miso_m_PM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\SPI_1_CARD_mosi_m.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\SPI_1_CARD_mosi_m_PM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\SPI_1_CARD_PM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\SPI_1_CARD_SCBCLK.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\SPI_1_CARD_sclk_m.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\SPI_1_CARD_sclk_m_PM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\SPI_1_CARD_SPI.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\SPI_1_CARD_SPI_BOOT.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\SPI_1_CARD_SPI_UART.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\SPI_1_CARD_ss0_m.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\SPI_1_CARD_ss0_m_PM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\UART_0_FPC.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\UART_0_FPC_BOOT.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\UART_0_FPC_PM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\UART_0_FPC_rx.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\UART_0_FPC_rx_PM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\UART_0_FPC_SCB_IRQ.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\UART_0_FPC_SCBCLK.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\UART_0_FPC_SPI_UART.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\UART_0_FPC_SPI_UART_INT.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\UART_0_FPC_tx.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\UART_0_FPC_tx_PM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\UART_0_FPC_UART.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\UART_0_FPC_UART_BOOT.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\UART_1_BLE.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\UART_1_BLE_BOOT.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\UART_1_BLE_PM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\UART_1_BLE_rx.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\UART_1_BLE_rx_PM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\UART_1_BLE_SCB_IRQ.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\UART_1_BLE_SCBCLK.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\UART_1_BLE_SPI_UART.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\UART_1_BLE_SPI_UART_INT.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\UART_1_BLE_tx.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\UART_1_BLE_tx_PM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\UART_1_BLE_UART.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\UART_1_BLE_UART_BOOT.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\UART_2_EXT.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\UART_2_EXT_BOOT.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\UART_2_EXT_PM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\UART_2_EXT_rx.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\UART_2_EXT_rx_PM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\UART_2_EXT_SCB_IRQ.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\UART_2_EXT_SCBCLK.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\UART_2_EXT_SPI_UART.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\UART_2_EXT_SPI_UART_INT.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\UART_2_EXT_tx.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\UART_2_EXT_tx_PM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\UART_2_EXT_UART.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\UART_2_EXT_UART_BOOT.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\VOICE_BUSY.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\VOICE_BUSY_PM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\VOICE_DATA.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\Listing Files\VOICE_DATA_PM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\LOCK.elf</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\LOCK.hex</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Debug\LOCK.map</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\ADC.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\ADC_INT.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\ADC_intClock.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\ADC_IRQ.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\ADC_PM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\Bat.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\BAT_ADC.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\BAT_ADC_PM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\BLE.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\CapSense_Control.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\CapSense_Filter.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\CapSense_INT.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\CapSense_ISR.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\CapSense_Processing.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\CapSense_Sensing.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\CapSense_SensingCSD_LL.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\CapSense_Structure.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\CapSense_Tuner.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\Card.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\CARD_RESET.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\CARD_RESET_PM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\Cm0plusStart.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\COVER_CHK_INT.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\COVER_CHK_INT_PM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\cy_em_eeprom.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\CyBootAsmRv.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\CyDMA.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\cyfitter_cfg.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\CyFlash.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\CyLFClk.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\CyLib.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\cymetadata.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\cyPm.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\cyutils.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\Display.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\DisplayFont.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\Em_EEPROM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\Extend.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\Fingerprint.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\Function.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\gpio.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\GPIO_ISR1.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\GPIO_ISR1_PM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\I2C_SCL.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\I2C_SCL_PM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\I2C_SDA.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\I2C_SDA_PM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\I2C_ST.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\I2C_ST_PM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\isr_1.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\isr_2.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\isr_wdt.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\Led.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\List.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\LOCK_INT.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\LOCK_INT_PM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\LockMode.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\main.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\ManageMode.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\MenuTips.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\MLock.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\MOTO_ADC.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\MOTO_ADC_PM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\NormalMode.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\nxp520.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\OLED_DC.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\OLED_DC_PM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\OP1_INT.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\OP1_INT_PM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\OP3_INT.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\OP3_INT_PM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\Opamp_Bat.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\Opamp_Bat_PM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\Opamp_Rf.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\Opamp_Rf_PM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\power.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\Record.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\RF_ADC.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\RF_ADC_PM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\Rtc.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\RTC_1.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\SPI_0_OLED_FLASH.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\SPI_0_OLED_FLASH_BOOT.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\SPI_0_OLED_FLASH_miso_m.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\SPI_0_OLED_FLASH_miso_m_PM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\SPI_0_OLED_FLASH_mosi_m.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\SPI_0_OLED_FLASH_mosi_m_PM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\SPI_0_OLED_FLASH_PM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\SPI_0_OLED_FLASH_SCBCLK.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\SPI_0_OLED_FLASH_sclk_m.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\SPI_0_OLED_FLASH_sclk_m_PM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\SPI_0_OLED_FLASH_SPI.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\SPI_0_OLED_FLASH_SPI_BOOT.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\SPI_0_OLED_FLASH_SPI_UART.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\SPI_0_OLED_FLASH_ss0_m.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\SPI_0_OLED_FLASH_ss0_m_PM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\SPI_0_OLED_FLASH_ss1_m.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\SPI_0_OLED_FLASH_ss1_m_PM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\SPI_1_CARD.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\SPI_1_CARD_BOOT.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\SPI_1_CARD_miso_m.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\SPI_1_CARD_miso_m_PM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\SPI_1_CARD_mosi_m.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\SPI_1_CARD_mosi_m_PM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\SPI_1_CARD_PM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\SPI_1_CARD_SCBCLK.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\SPI_1_CARD_sclk_m.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\SPI_1_CARD_sclk_m_PM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\SPI_1_CARD_SPI.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\SPI_1_CARD_SPI_BOOT.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\SPI_1_CARD_SPI_UART.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\SPI_1_CARD_ss0_m.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\SPI_1_CARD_ss0_m_PM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\SwitchKey.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\TEST.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\TEST_PM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\Tuch.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\UART_0_FPC.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\UART_0_FPC_BOOT.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\UART_0_FPC_PM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\UART_0_FPC_rx.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\UART_0_FPC_rx_PM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\UART_0_FPC_SCB_IRQ.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\UART_0_FPC_SCBCLK.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\UART_0_FPC_SPI_UART.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\UART_0_FPC_SPI_UART_INT.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\UART_0_FPC_tx.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\UART_0_FPC_tx_PM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\UART_0_FPC_UART.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\UART_0_FPC_UART_BOOT.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\UART_1_BLE.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\UART_1_BLE_BOOT.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\UART_1_BLE_PM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\UART_1_BLE_rx.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\UART_1_BLE_rx_PM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\UART_1_BLE_SCB_IRQ.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\UART_1_BLE_SCBCLK.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\UART_1_BLE_SPI_UART.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\UART_1_BLE_SPI_UART_INT.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\UART_1_BLE_tx.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\UART_1_BLE_tx_PM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\UART_1_BLE_UART.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\UART_1_BLE_UART_BOOT.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\UART_2_EXT.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\UART_2_EXT_BOOT.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\UART_2_EXT_PM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\UART_2_EXT_rx.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\UART_2_EXT_rx_PM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\UART_2_EXT_SCB_IRQ.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\UART_2_EXT_SCBCLK.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\UART_2_EXT_SPI_UART.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\UART_2_EXT_SPI_UART_INT.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\UART_2_EXT_tx.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\UART_2_EXT_tx_PM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\UART_2_EXT_UART.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\UART_2_EXT_UART_BOOT.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\Utilities.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\Voice.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\VOICE_BUSY.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\VOICE_BUSY_PM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\VOICE_DATA.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\VOICE_DATA_PM.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\Listing Files\Wdt.lst</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\LOCK.elf</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\LOCK.hex</v>
+<v>NEW_LOCK\LOCK\CortexM0p\ARM_MDK_Generic\Release\LOCK.map</v>
+<v>NEW_LOCK\LOCK\LOCK.gpdsc</v>
+<v>NEW_LOCK\LOCK\LOCK.rpt</v>
+<v>NEW_LOCK\LOCK\LOCK_timing.html</v>
+</ExpandedNodeIds>
+<VisibleNodeIds />
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStates>
+<TreeKeysV2>
+<v>Datasheet</v>
+</TreeKeysV2>
+<TreeStatesV2>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>NEW_LOCK</v>
+<v>NEW_LOCK\LOCK</v>
+<v>NEW_LOCK\LOCK\PSoC 4 Architecture TRM</v>
+<v>NEW_LOCK\LOCK\System Reference Guides</v>
+<v>NEW_LOCK\LOCK\System Reference Guides\cy_boot_v5_70</v>
+<v>NEW_LOCK\LOCK\System Reference Guides\cy_dmac_v1_10</v>
+<v>NEW_LOCK\LOCK\System Reference Guides\cy_lfclk_v1_20</v>
+<v>NEW_LOCK\LOCK\Project Datasheet</v>
+<v>NEW_LOCK\LOCK\ADC_SAR_SEQ_P4_v2_50.pdf</v>
+<v>NEW_LOCK\LOCK\CapSense_P4_v5_0.pdf</v>
+<v>NEW_LOCK\LOCK\cy_gsref_v2_10.pdf</v>
+<v>NEW_LOCK\LOCK\cy_isr_v1_70</v>
+<v>NEW_LOCK\LOCK\cy_isr_v1_70\cy_isr_v1_70.pdf</v>
+<v>NEW_LOCK\LOCK\cy_pins_v2_20</v>
+<v>NEW_LOCK\LOCK\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>NEW_LOCK\LOCK\Em_EEPROM_v2_0.pdf</v>
+<v>NEW_LOCK\LOCK\OpAmp_P4_v1_20</v>
+<v>NEW_LOCK\LOCK\OpAmp_P4_v1_20\OpAmp_P4_v1_20.pdf</v>
+<v>NEW_LOCK\LOCK\RTC_P4_v1_30.pdf</v>
+<v>NEW_LOCK\LOCK\SCB_P4_v4_0</v>
+<v>NEW_LOCK\LOCK\SCB_P4_v4_0\SCB_P4_v4_0.pdf</v>
+</ExpandedNodeIds>
+<VisibleNodeIds />
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStatesV2>
+</CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35>
+</dataGuid>
+<dataGuid v="5f2be1a5-0687-4501-bb8c-cf21cb8211bf">
+<CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf type_name="CyDesigner.Common.ProjMgmt.GUI.CyBookmarkData" version="1">
+<indicators />
+</CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf>
+</dataGuid>
+</userData>
+</CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
+<Unloaded />
+<OpenDocs>
+<name v=".\LOCK.cydsn\Modules\Function\NormalMode.c" />
+<name v=".\LOCK.cydsn\Modules\Lock\MLock.h" />
+<name v=".\LOCK.cydsn\Modules\Lock\MLock.c" />
+<name v=".\LOCK.cydsn\main.c" />
+<name v=".\LOCK.cydsn\Modules\SwitchKey\SwitchKey.c" />
+<name v=".\LOCK.cydsn\Modules\Voice\Voice.c" />
+<name v=".\LOCK.cydsn\Modules\Voice\Voice.h" />
+<name v=".\LOCK.cydsn\Modules\Function\MenuTips.c" />
+<name v=".\LOCK.cydsn\TopDesign\TopDesign.cysch" />
+<name v=".\LOCK.cydsn\Modules\Tuch\Tuch.c" />
+<name v=".\LOCK.cydsn\Modules\Function\ManageMode.c" />
+<name v=".\LOCK.cydsn\Modules\Function\List\List.c" />
+<name v=".\LOCK.cydsn\Modules\Function\List\List.h" />
+</OpenDocs>
+<OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
+
+  Actipro Docking/MDI for WinForms
+  Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
+  http://www.actiprosoftware.com
+
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Vertical"><TabbedMdiContainer Size="1322, 627" SelectedTabbedMdiWindow="5a82b0fc-798c-4b3e-af7a-886d14f7adcb"><DocumentWindow Key="E:\Cypress\NEW_LOCK\LOCK.cydsn\Modules\Function\NormalMode.c" Guid="da3460b1-2fe5-4f73-9bf7-c3f94b2f5848" /><DocumentWindow Key="E:\Cypress\NEW_LOCK\LOCK.cydsn\Modules\Lock\MLock.h" Guid="903e72c3-de3a-415d-b83c-f2e792ee6c49" /><DocumentWindow Key="E:\Cypress\NEW_LOCK\LOCK.cydsn\Modules\Lock\MLock.c" Guid="61513342-f8c8-4b39-81db-1ce145ef1d80" /><DocumentWindow Key="E:\Cypress\NEW_LOCK\LOCK.cydsn\main.c" Guid="71ffb395-58a7-42bf-b7a0-f20d96f0b660" /><DocumentWindow Key="E:\Cypress\NEW_LOCK\LOCK.cydsn\Modules\SwitchKey\SwitchKey.c" Guid="c079f7e8-5fd1-43e4-9e92-82b60b499d67" /><DocumentWindow Key="E:\Cypress\NEW_LOCK\LOCK.cydsn\Modules\Voice\Voice.c" Guid="043013ba-793c-47c1-9149-60175274a7e7" /><DocumentWindow Key="E:\Cypress\NEW_LOCK\LOCK.cydsn\Modules\Voice\Voice.h" Guid="8670f6ba-c8a0-4d62-8a10-79df9a79c7b0" /><DocumentWindow Key="E:\Cypress\NEW_LOCK\LOCK.cydsn\Modules\Function\MenuTips.c" Guid="06f3618a-c2a7-4cad-a3d8-6493d943d867" /><DocumentWindow Key="E:\Cypress\NEW_LOCK\LOCK.cydsn\TopDesign\TopDesign.cysch" Guid="afbe1b30-f09d-4200-8085-f2a00059daa6" /><DocumentWindow Key="E:\Cypress\NEW_LOCK\LOCK.cydsn\Modules\Tuch\Tuch.c" Guid="11a8f759-e515-4711-a918-b8a7d166e0a9" /><DocumentWindow Key="E:\Cypress\NEW_LOCK\LOCK.cydsn\Modules\Function\ManageMode.c" Guid="5a82b0fc-798c-4b3e-af7a-886d14f7adcb" /><DocumentWindow Key="E:\Cypress\NEW_LOCK\LOCK.cydsn\Modules\Function\List\List.c" Guid="8db86f6d-680b-4938-a856-a2f0c3377afa" /><DocumentWindow Key="E:\Cypress\NEW_LOCK\LOCK.cydsn\Modules\Function\List\List.h" Guid="fbd1b89a-2f87-4302-a3d0-eba37405c483" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+<config v="Release" />
+<AutoUpdate v="true" />
+</CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
+</CyXmlSerializer>

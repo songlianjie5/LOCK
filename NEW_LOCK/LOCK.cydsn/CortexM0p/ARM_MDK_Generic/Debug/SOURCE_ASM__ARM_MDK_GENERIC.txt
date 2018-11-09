@@ -1,0 +1,1 @@
+'E:\Cypress\NEW_LOCK\LOCK.cydsn\Generated_Source\PSoC4\CyBootAsmRv.s' -o .o -T SOURCE_ASM__ARM_MDK_GENERIC -I 'E:\Cypress\NEW_LOCK\LOCK.cydsn' -I 'E:\Cypress\NEW_LOCK\LOCK.cydsn\Generated_Source\PSoC4' -f 'E:\Cypress\NEW_LOCK\LOCK.cydsn\CortexM0p\ARM_MDK_Generic\Debug\.deps\SOURCE_ASM__ARM_MDK_GENERIC.d'

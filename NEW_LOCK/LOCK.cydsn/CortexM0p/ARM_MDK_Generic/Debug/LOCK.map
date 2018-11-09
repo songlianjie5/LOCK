@@ -1,0 +1,141 @@
+Component: ARM Compiler 5.06 update 4 (build 422) Tool: armlink [4d35d2]
+
+==============================================================================
+
+Memory Map of the image
+
+  Image Entry point : 0x00000215
+
+  Load Region APPLICATION (Base: 0x00000000, Size: 0x00000898, Max: 0x00020000, ABSOLUTE)
+
+    Execution Region VECTORS (Base: 0x00000000, Size: 0x00000010, Max: 0xffffffff, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x00000000   0x00000010   Data   RO          530    .romvectors         Cm0plusStart.o
+
+
+    Execution Region RELOCATION (Base: 0x00000010, Size: 0x00000204, Max: 0xffffffff, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x00000010   0x00000204   Code   RO          472    .psocinit           cyfitter_cfg.o
+
+
+    Execution Region CODE (Base: 0x00000214, Size: 0x0000065c, Max: 0xffffffff, ABSOLUTE, FIXED)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x00000214   0x00000000   Code   RO         1335  * .ARM.Collect$$$$00000000  mc_p.l(entry.o)
+    0x00000214   0x00000004   Code   RO         1348    .ARM.Collect$$$$00000003  mc_p.l(entry4.o)
+    0x00000218   0x00000004   Code   RO         1351    .ARM.Collect$$$$00000004  mc_p.l(entry5.o)
+    0x0000021c   0x00000000   Code   RO         1353    .ARM.Collect$$$$00000008  mc_p.l(entry7b.o)
+    0x0000021c   0x00000000   Code   RO         1355    .ARM.Collect$$$$0000000A  mc_p.l(entry8b.o)
+    0x0000021c   0x00000008   Code   RO         1356    .ARM.Collect$$$$0000000B  mc_p.l(entry9a.o)
+    0x00000224   0x00000000   Code   RO         1358    .ARM.Collect$$$$0000000D  mc_p.l(entry10a.o)
+    0x00000224   0x00000000   Code   RO         1360    .ARM.Collect$$$$0000000F  mc_p.l(entry11a.o)
+    0x00000224   0x00000004   Code   RO         1349    .ARM.Collect$$$$00002714  mc_p.l(entry4.o)
+    0x00000228   0x0000001e   Code   RO         1331    .text               LOCK.a(CyBootAsmRv.o)
+    0x00000246   0x00000002   PAD
+    0x00000248   0x00000024   Code   RO         1362    .text               mc_p.l(init.o)
+    0x0000026c   0x0000000c   Code   RO          524    i.$Sub$$main        Cm0plusStart.o
+    0x00000278   0x00000044   Code   RO          473    i.AnalogSetDefault  cyfitter_cfg.o
+    0x000002bc   0x00000034   Code   RO          560    i.CyDelay           LOCK.a(CyLib.o)
+    0x000002f0   0x00000018   Code   RO          562    i.CyDelayUs         LOCK.a(CyLib.o)
+    0x00000308   0x00000004   Code   RO          566    i.CyHalt            LOCK.a(CyLib.o)
+    0x0000030c   0x00000014   Code   RO          569    i.CyIntEnable       LOCK.a(CyLib.o)
+    0x00000320   0x00000032   Code   RO          577    i.CyIntSetVector    LOCK.a(CyLib.o)
+    0x00000352   0x00000002   PAD
+    0x00000354   0x00000010   Code   RO          973    i.CySysClkGetTimerSource  LOCK.a(CyLFClk.o)
+    0x00000364   0x00000014   Code   RO          585    i.CySysClkImoDisableWcoLock  LOCK.a(CyLib.o)
+    0x00000378   0x000000d0   Code   RO          586    i.CySysClkImoEnableWcoLock  LOCK.a(CyLib.o)
+    0x00000448   0x0000001c   Code   RO          587    i.CySysClkImoGetWcoLock  LOCK.a(CyLib.o)
+    0x00000464   0x00000074   Code   RO          979    i.CySysClkSetTimerSource  LOCK.a(CyLFClk.o)
+    0x000004d8   0x00000018   Code   RO          981    i.CySysClkWcoEnabled  LOCK.a(CyLFClk.o)
+    0x000004f0   0x0000003c   Code   RO          982    i.CySysClkWcoSetHighPowerMode  LOCK.a(CyLFClk.o)
+    0x0000052c   0x0000001c   Code   RO          984    i.CySysClkWcoStart  LOCK.a(CyLFClk.o)
+    0x00000548   0x000000d8   Code   RO          603    i.CySysClkWriteImoFreq  LOCK.a(CyLib.o)
+    0x00000620   0x0000005c   Code   RO         1293    i.CySysFlashSetWaitCycles  LOCK.a(CyFlash.o)
+    0x0000067c   0x00000034   Code   RO          986    i.CySysTimerClearInterrupt  LOCK.a(CyLFClk.o)
+    0x000006b0   0x000000d4   Code   RO         1002    i.CySysTimerIsr     LOCK.a(CyLFClk.o)
+    0x00000784   0x00000010   Code   RO         1011    i.CySysWdtDisable   LOCK.a(CyLFClk.o)
+    0x00000794   0x00000004   Code   RO          525    i.IntDefaultHandler  Cm0plusStart.o
+    0x00000798   0x0000000c   Code   RO          526    i.Reset             Cm0plusStart.o
+    0x000007a4   0x00000020   Code   RO          477    i.SetAnalogRoutingPumps  cyfitter_cfg.o
+    0x000007c4   0x0000000e   Code   RO         1366    i.__scatterload_copy  mc_p.l(handlers.o)
+    0x000007d2   0x00000002   Code   RO         1367    i.__scatterload_null  mc_p.l(handlers.o)
+    0x000007d4   0x0000000e   Code   RO         1368    i.__scatterload_zeroinit  mc_p.l(handlers.o)
+    0x000007e2   0x00000002   PAD
+    0x000007e4   0x00000048   Code   RO          527    i.initialize_psoc   Cm0plusStart.o
+    0x0000082c   0x0000000a   Code   RO            5    i.main              main.o
+    0x00000836   0x00000017   Data   RO          628    .constdata          LOCK.a(CyLib.o)
+    0x0000084d   0x00000003   PAD
+    0x00000850   0x00000020   Data   RO         1364    Region$$Table       anon$$obj.o
+
+
+    Execution Region ISRVECTORS (Base: 0x20000000, Size: 0x000000b0, Max: 0xffffffff, ABSOLUTE, UNINIT)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x20000000   0x000000b0   Zero   RW          529    .ramvectors         Cm0plusStart.o
+
+
+    Execution Region NOINIT_DATA (Base: 0x200000b0, Size: 0x00000004, Max: 0xffffffff, ABSOLUTE, UNINIT)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x200000b0   0x00000004   Zero   RW          528    .noinit             Cm0plusStart.o
+
+
+    Execution Region DATA (Base: 0x200000b4, Size: 0x00000034, Max: 0xffffffff, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x200000b4   0x00000018   Data   RW          629    .data               LOCK.a(CyLib.o)
+    0x200000cc   0x00000010   Data   RW         1026    .data               LOCK.a(CyLFClk.o)
+    0x200000dc   0x0000000c   Zero   RW         1024    .bss                LOCK.a(CyLFClk.o)
+
+
+    Execution Region ARM_LIB_HEAP (Base: 0x20003780, Size: 0x00000080, Max: 0x00000080, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x20003780   0x00000080   Zero   RW            1    ARM_LIB_HEAP.bss    anon$$obj.o
+
+
+    Execution Region ARM_LIB_STACK (Base: 0x20003800, Size: 0x00000800, Max: 0x00000800, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x20003800   0x00000800   Zero   RW            2    ARM_LIB_STACK.bss   anon$$obj.o
+
+
+
+  Load Region CYFLASHPROTECT (Base: 0x90400000, Size: 0x00000040, Max: 0xffffffff, ABSOLUTE)
+
+    Execution Region .cyflashprotect (Base: 0x90400000, Size: 0x00000040, Max: 0xffffffff, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x90400000   0x00000040   Data   RO          514    .cyflashprotect     cymetadata.o
+
+
+
+  Load Region CYMETA (Base: 0x90500000, Size: 0x0000000c, Max: 0xffffffff, ABSOLUTE)
+
+    Execution Region .cymeta (Base: 0x90500000, Size: 0x0000000c, Max: 0xffffffff, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x90500000   0x0000000c   Data   RO          515    .cymeta             cymetadata.o
+
+
+
+  Load Region CYCHIPPROTECT (Base: 0x90600000, Size: 0x00000004, Max: 0xffffffff, ABSOLUTE)
+
+    Execution Region .cychipprotect (Base: 0x90600000, Size: 0x00000004, Max: 0xffffffff, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x90600000   0x00000001   Data   RO          513    .cychipprotect      cymetadata.o
+

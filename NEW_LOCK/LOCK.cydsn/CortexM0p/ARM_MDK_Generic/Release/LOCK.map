@@ -1,0 +1,841 @@
+Component: ARM Compiler 5.06 update 4 (build 422) Tool: armlink [4d35d2]
+
+==============================================================================
+
+Memory Map of the image
+
+  Image Entry point : 0x00000235
+
+  Load Region APPLICATION (Base: 0x00000000, Size: 0x0000d4b8, Max: 0x00020000, ABSOLUTE, COMPRESSED[0x0000d354])
+
+    Execution Region VECTORS (Base: 0x00000000, Size: 0x00000010, Max: 0xffffffff, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x00000000   0x00000010   Data   RO         2488    .romvectors         Cm0plusStart.o
+
+
+    Execution Region RELOCATION (Base: 0x00000010, Size: 0x00000224, Max: 0xffffffff, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x00000010   0x00000224   Code   RO         2450    .psocinit           cyfitter_cfg.o
+
+
+    Execution Region CODE (Base: 0x00000234, Size: 0x0000d0e4, Max: 0xffffffff, ABSOLUTE, FIXED)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x00000234   0x00000000   Code   RO         6652  * .ARM.Collect$$$$00000000  mc_p.l(entry.o)
+    0x00000234   0x00000004   Code   RO         6984    .ARM.Collect$$$$00000003  mc_p.l(entry4.o)
+    0x00000238   0x00000004   Code   RO         6987    .ARM.Collect$$$$00000004  mc_p.l(entry5.o)
+    0x0000023c   0x00000000   Code   RO         6989    .ARM.Collect$$$$00000008  mc_p.l(entry7b.o)
+    0x0000023c   0x00000000   Code   RO         6991    .ARM.Collect$$$$0000000A  mc_p.l(entry8b.o)
+    0x0000023c   0x00000008   Code   RO         6992    .ARM.Collect$$$$0000000B  mc_p.l(entry9a.o)
+    0x00000244   0x00000000   Code   RO         6994    .ARM.Collect$$$$0000000D  mc_p.l(entry10a.o)
+    0x00000244   0x00000000   Code   RO         6996    .ARM.Collect$$$$0000000F  mc_p.l(entry11a.o)
+    0x00000244   0x00000004   Code   RO         6985    .ARM.Collect$$$$00002714  mc_p.l(entry4.o)
+    0x00000248   0x0000001e   Code   RO         5938    .text               LOCK.a(CyBootAsmRv.o)
+    0x00000266   0x0000002c   Code   RO         6655    .text               mc_p.l(uidiv.o)
+    0x00000292   0x00000028   Code   RO         6657    .text               mc_p.l(idiv.o)
+    0x000002ba   0x00000060   Code   RO         6659    .text               mc_p.l(uldiv.o)
+    0x0000031a   0x00000024   Code   RO         6663    .text               mc_p.l(memcpya.o)
+    0x0000033e   0x00000024   Code   RO         6665    .text               mc_p.l(memseta.o)
+    0x00000362   0x0000000e   Code   RO         6667    .text               mc_p.l(strlen.o)
+    0x00000370   0x0000001a   Code   RO         6669    .text               mc_p.l(memcmp.o)
+    0x0000038a   0x0000001e   Code   RO         6671    .text               mc_p.l(strncmp.o)
+    0x000003a8   0x0000007a   Code   RO         6964    .text               mf_p.l(fmul.o)
+    0x00000422   0x0000007c   Code   RO         6966    .text               mf_p.l(fdiv.o)
+    0x0000049e   0x00000002   PAD
+    0x000004a0   0x000000d0   Code   RO         6968    .text               mf_p.l(dmul.o)
+    0x00000570   0x000000f0   Code   RO         6970    .text               mf_p.l(ddiv.o)
+    0x00000660   0x00000016   Code   RO         6972    .text               mf_p.l(fflti.o)
+    0x00000676   0x0000000e   Code   RO         6974    .text               mf_p.l(ffltui.o)
+    0x00000684   0x0000001c   Code   RO         6976    .text               mf_p.l(dfltui.o)
+    0x000006a0   0x00000032   Code   RO         6978    .text               mf_p.l(ffixi.o)
+    0x000006d2   0x00000028   Code   RO         6980    .text               mf_p.l(ffixui.o)
+    0x000006fa   0x00000002   PAD
+    0x000006fc   0x0000003c   Code   RO         6982    .text               mf_p.l(dfixui.o)
+    0x00000738   0x00000020   Code   RO         7001    .text               mc_p.l(llshl.o)
+    0x00000758   0x00000022   Code   RO         7003    .text               mc_p.l(llushr.o)
+    0x0000077a   0x00000000   Code   RO         7007    .text               mc_p.l(iusefp.o)
+    0x0000077a   0x00000082   Code   RO         7008    .text               mf_p.l(fepilogue.o)
+    0x000007fc   0x000000be   Code   RO         7010    .text               mf_p.l(depilogue.o)
+    0x000008ba   0x00000002   PAD
+    0x000008bc   0x00000024   Code   RO         7020    .text               mc_p.l(init.o)
+    0x000008e0   0x0000003a   Code   RO         7034    .text               mc_p.l(__dczerorl.o)
+    0x0000091a   0x0000000a   Code   RO         2482    i.$Sub$$main        Cm0plusStart.o
+    0x00000924   0x00000044   Code   RO         4577    i.ADC_CountsTo_mVolts  LOCK.a(ADC.o)
+    0x00000968   0x0000002c   Code   RO         4579    i.ADC_Enable        LOCK.a(ADC.o)
+    0x00000994   0x0000001c   Code   RO         4580    i.ADC_GetResult16   LOCK.a(ADC.o)
+    0x000009b0   0x0000000c   Code   RO         6463    i.ADC_ISR           LOCK.a(ADC_INT.o)
+    0x000009bc   0x00000100   Code   RO         4581    i.ADC_Init          LOCK.a(ADC.o)
+    0x00000abc   0x00000024   Code   RO         4582    i.ADC_IsEndConversion  LOCK.a(ADC.o)
+    0x00000ae0   0x00000010   Code   RO         4583    i.ADC_SetChanMask   LOCK.a(ADC.o)
+    0x00000af0   0x0000001c   Code   RO         4590    i.ADC_Start         LOCK.a(ADC.o)
+    0x00000b0c   0x00000010   Code   RO         4592    i.ADC_Stop          LOCK.a(ADC.o)
+    0x00000b1c   0x00000024   Code   RO         1891    i.AdcHal_InitChange  MLock.o
+    0x00000b40   0x0000003c   Code   RO         1892    i.AdcHal_ReadResult  MLock.o
+    0x00000b7c   0x00000178   Code   RO         1330    i.AddManPswMenu     ManageMode.o
+    0x00000cf4   0x000001a8   Code   RO         1331    i.AddUserCarMenu    ManageMode.o
+    0x00000e9c   0x00000244   Code   RO         1332    i.AddUserFigMenu    ManageMode.o
+    0x000010e0   0x00000210   Code   RO         1333    i.AddUserPswMenu    ManageMode.o
+    0x000012f0   0x00000040   Code   RO          619    i.Bat_Init          Bat.o
+    0x00001330   0x00000118   Code   RO          620    i.Bat_Numeric       Bat.o
+    0x00001448   0x00000018   Code   RO         3973    i.CARD_RESET_SetDriveMode  LOCK.a(CARD_RESET.o)
+    0x00001460   0x00000018   Code   RO         3975    i.CARD_RESET_Write  LOCK.a(CARD_RESET.o)
+    0x00001478   0x000000fc   Code   RO          756    i.CV520_PcdAnticoll  nxp520.o
+    0x00001574   0x00000074   Code   RO          698    i.Cal_Rf_Snr        Card.o
+    0x000015e8   0x00000034   Code   RO         3244    i.CalcChecksum      LOCK.a(cy_em_eeprom.o)
+    0x0000161c   0x00000060   Code   RO         4322    i.CapSense_BistDischargeExtCapacitors  LOCK.a(CapSense_Sensing.o)
+    0x0000167c   0x000000d4   Code   RO         4460    i.CapSense_CSDCalibrateWidget  LOCK.a(CapSense_SensingCSD_LL.o)
+    0x00001750   0x00000036   Code   RO         4461    i.CapSense_CSDConnectSns  LOCK.a(CapSense_SensingCSD_LL.o)
+    0x00001786   0x00000042   Code   RO         4462    i.CapSense_CSDDisconnectSns  LOCK.a(CapSense_SensingCSD_LL.o)
+    0x000017c8   0x00000040   Code   RO         6429    i.CapSense_CSDPostMultiScan  LOCK.a(CapSense_INT.o)
+    0x00001808   0x0000002c   Code   RO         6430    i.CapSense_CSDPostMultiScanGanged  LOCK.a(CapSense_INT.o)
+    0x00001834   0x0000002c   Code   RO         6431    i.CapSense_CSDPostSingleScan  LOCK.a(CapSense_INT.o)
+    0x00001860   0x00000070   Code   RO         4463    i.CapSense_CSDScan  LOCK.a(CapSense_SensingCSD_LL.o)
+    0x000018d0   0x00000020   Code   RO         4464    i.CapSense_CSDScanExt  LOCK.a(CapSense_SensingCSD_LL.o)
+    0x000018f0   0x00000054   Code   RO         4465    i.CapSense_CSDSetupWidget  LOCK.a(CapSense_SensingCSD_LL.o)
+    0x00001944   0x00000080   Code   RO         4466    i.CapSense_CSDSetupWidgetExt  LOCK.a(CapSense_SensingCSD_LL.o)
+    0x000019c4   0x00000018   Code   RO         4323    i.CapSense_CalibrateAllWidgets  LOCK.a(CapSense_Sensing.o)
+    0x000019dc   0x00000012   Code   RO         4324    i.CapSense_CalibrateWidget  LOCK.a(CapSense_Sensing.o)
+    0x000019ee   0x00000002   PAD
+    0x000019f0   0x0000005c   Code   RO         6295    i.CapSense_DpInitialize  LOCK.a(CapSense_Processing.o)
+    0x00001a4c   0x00000062   Code   RO         6296    i.CapSense_DpProcessButton  LOCK.a(CapSense_Processing.o)
+    0x00001aae   0x00000036   Code   RO         6298    i.CapSense_DpProcessCsdWidgetRawCounts  LOCK.a(CapSense_Processing.o)
+    0x00001ae4   0x00000048   Code   RO         6299    i.CapSense_DpProcessCsdWidgetStatus  LOCK.a(CapSense_Processing.o)
+    0x00001b2c   0x00000074   Code   RO         6300    i.CapSense_DpProcessProximity  LOCK.a(CapSense_Processing.o)
+    0x00001ba0   0x00000014   Code   RO         6301    i.CapSense_DpUpdateDifferences  LOCK.a(CapSense_Processing.o)
+    0x00001bb4   0x00000068   Code   RO         4248    i.CapSense_DsInitialize  LOCK.a(CapSense_Structure.o)
+    0x00001c1c   0x00000012   Code   RO         6363    i.CapSense_FtIIR1stOrder  LOCK.a(CapSense_Filter.o)
+    0x00001c2e   0x00000002   Code   RO         6364    i.CapSense_FtInitialize  LOCK.a(CapSense_Filter.o)
+    0x00001c30   0x0000001a   Code   RO         6365    i.CapSense_FtInitializeBaseline  LOCK.a(CapSense_Filter.o)
+    0x00001c4a   0x00000016   Code   RO         6366    i.CapSense_FtInitializeBaselineChannel  LOCK.a(CapSense_Filter.o)
+    0x00001c60   0x000000b2   Code   RO         6367    i.CapSense_FtUpdateBaseline  LOCK.a(CapSense_Filter.o)
+    0x00001d12   0x00000002   PAD
+    0x00001d14   0x00000020   Code   RO         6483    i.CapSense_ISR_SetPriority  LOCK.a(CapSense_ISR.o)
+    0x00001d34   0x00000024   Code   RO         6486    i.CapSense_ISR_StartEx  LOCK.a(CapSense_ISR.o)
+    0x00001d58   0x00000024   Code   RO         4180    i.CapSense_Initialize  LOCK.a(CapSense_Control.o)
+    0x00001d7c   0x00000012   Code   RO         6368    i.CapSense_InitializeAllBaselines  LOCK.a(CapSense_Filter.o)
+    0x00001d8e   0x00000002   PAD
+    0x00001d90   0x00000020   Code   RO         6369    i.CapSense_InitializeSensorBaseline  LOCK.a(CapSense_Filter.o)
+    0x00001db0   0x00000024   Code   RO         6370    i.CapSense_InitializeWidgetBaseline  LOCK.a(CapSense_Filter.o)
+    0x00001dd4   0x0000001c   Code   RO         4250    i.CapSense_IsAnyWidgetActive  LOCK.a(CapSense_Structure.o)
+    0x00001df0   0x00000010   Code   RO         4325    i.CapSense_IsBusy   LOCK.a(CapSense_Sensing.o)
+    0x00001e00   0x00000038   Code   RO         4252    i.CapSense_IsSensorActive  LOCK.a(CapSense_Structure.o)
+    0x00001e38   0x00000048   Code   RO         4181    i.CapSense_ProcessAllWidgets  LOCK.a(CapSense_Control.o)
+    0x00001e80   0x0000004c   Code   RO         4183    i.CapSense_ProcessWidget  LOCK.a(CapSense_Control.o)
+    0x00001ecc   0x00000030   Code   RO         4326    i.CapSense_Scan     LOCK.a(CapSense_Sensing.o)
+    0x00001efc   0x00000040   Code   RO         4327    i.CapSense_ScanAllWidgets  LOCK.a(CapSense_Sensing.o)
+    0x00001f3c   0x00000038   Code   RO         4329    i.CapSense_SetupWidget  LOCK.a(CapSense_Sensing.o)
+    0x00001f74   0x00000002   Code   RO         4186    i.CapSense_Sleep    LOCK.a(CapSense_Control.o)
+    0x00001f76   0x00000022   Code   RO         4330    i.CapSense_SsCSDCalcPrsSize  LOCK.a(CapSense_Sensing.o)
+    0x00001f98   0x0000001c   Code   RO         4467    i.CapSense_SsCSDCalculateScanDuration  LOCK.a(CapSense_SensingCSD_LL.o)
+    0x00001fb4   0x00000120   Code   RO         4468    i.CapSense_SsCSDCalibrateOneSensor  LOCK.a(CapSense_SensingCSD_LL.o)
+    0x000020d4   0x00000048   Code   RO         4469    i.CapSense_SsCSDConfigClock  LOCK.a(CapSense_SensingCSD_LL.o)
+    0x0000211c   0x0000005c   Code   RO         4470    i.CapSense_SsCSDConnectSensorExt  LOCK.a(CapSense_SensingCSD_LL.o)
+    0x00002178   0x0000005c   Code   RO         4471    i.CapSense_SsCSDDisconnectSnsExt  LOCK.a(CapSense_SensingCSD_LL.o)
+    0x000021d4   0x00000058   Code   RO         4472    i.CapSense_SsCSDElectrodeCheck  LOCK.a(CapSense_SensingCSD_LL.o)
+    0x0000222c   0x00000014   Code   RO         4331    i.CapSense_SsCSDGetColSnsClkDivider  LOCK.a(CapSense_Sensing.o)
+    0x00002240   0x00000028   Code   RO         4473    i.CapSense_SsCSDGetNumberOfConversions  LOCK.a(CapSense_SensingCSD_LL.o)
+    0x00002268   0x00000098   Code   RO         6432    i.CapSense_SsCSDInitNextScan  LOCK.a(CapSense_INT.o)
+    0x00002300   0x000000cc   Code   RO         4474    i.CapSense_SsCSDInitialize  LOCK.a(CapSense_SensingCSD_LL.o)
+    0x000023cc   0x00000048   Code   RO         6433    i.CapSense_SsCSDPostScan  LOCK.a(CapSense_INT.o)
+    0x00002414   0x00000048   Code   RO         4475    i.CapSense_SsCSDSetFilterDelay  LOCK.a(CapSense_SensingCSD_LL.o)
+    0x0000245c   0x00000050   Code   RO         4476    i.CapSense_SsCSDSetUpIdacs  LOCK.a(CapSense_SensingCSD_LL.o)
+    0x000024ac   0x000000c4   Code   RO         4477    i.CapSense_SsCSDStartSample  LOCK.a(CapSense_SensingCSD_LL.o)
+    0x00002570   0x00000074   Code   RO         4332    i.CapSense_SsClearCSDSensors  LOCK.a(CapSense_Sensing.o)
+    0x000025e4   0x0000001a   Code   RO         4333    i.CapSense_SsInitialize  LOCK.a(CapSense_Sensing.o)
+    0x000025fe   0x00000002   PAD
+    0x00002600   0x00000020   Code   RO         4334    i.CapSense_SsInitializeSourceSenseClk  LOCK.a(CapSense_Sensing.o)
+    0x00002620   0x00000068   Code   RO         4336    i.CapSense_SsPostAllWidgetsScan  LOCK.a(CapSense_Sensing.o)
+    0x00002688   0x00000040   Code   RO         4338    i.CapSense_SsSetIOsInDefaultState  LOCK.a(CapSense_Sensing.o)
+    0x000026c8   0x0000002c   Code   RO         4339    i.CapSense_SsSetModClkClockDivider  LOCK.a(CapSense_Sensing.o)
+    0x000026f4   0x000000c4   Code   RO         4341    i.CapSense_SsSetWidgetSenseClkSrc  LOCK.a(CapSense_Sensing.o)
+    0x000027b8   0x00000054   Code   RO         4342    i.CapSense_SsSwitchSensingMode  LOCK.a(CapSense_Sensing.o)
+    0x0000280c   0x0000002e   Code   RO         4187    i.CapSense_Start    LOCK.a(CapSense_Control.o)
+    0x0000283a   0x00000002   PAD
+    0x0000283c   0x00000014   Code   RO         6344    i.CapSense_TuInitialize  LOCK.a(CapSense_Tuner.o)
+    0x00002850   0x00000002   Code   RO         4189    i.CapSense_Wakeup   LOCK.a(CapSense_Control.o)
+    0x00002852   0x00000002   PAD
+    0x00002854   0x00000018   Code   RO          699    i.Card_Init         Card.o
+    0x0000286c   0x00000090   Code   RO          700    i.Card_ReadId       Card.o
+    0x000028fc   0x00000008   Code   RO          701    i.Card_Status       Card.o
+    0x00002904   0x0000006e   Code   RO         3245    i.CheckCrcAndCopy   LOCK.a(cy_em_eeprom.o)
+    0x00002972   0x00000016   Code   RO          757    i.ClearBitMask      nxp520.o
+    0x00002988   0x00000028   Code   RO         2518    i.CyDelay           LOCK.a(CyLib.o)
+    0x000029b0   0x00000014   Code   RO         2520    i.CyDelayUs         LOCK.a(CyLib.o)
+    0x000029c4   0x00000014   Code   RO         2525    i.CyIntClearPending  LOCK.a(CyLib.o)
+    0x000029d8   0x00000014   Code   RO         2526    i.CyIntDisable      LOCK.a(CyLib.o)
+    0x000029ec   0x00000014   Code   RO         2527    i.CyIntEnable       LOCK.a(CyLib.o)
+    0x00002a00   0x00000034   Code   RO         2533    i.CyIntSetPriority  LOCK.a(CyLib.o)
+    0x00002a34   0x0000000c   Code   RO         2534    i.CyIntSetSysVector  LOCK.a(CyLib.o)
+    0x00002a40   0x0000000e   Code   RO         2535    i.CyIntSetVector    LOCK.a(CyLib.o)
+    0x00002a4e   0x00000002   PAD
+    0x00002a50   0x0000002c   Code   RO         2939    i.CySysClkIloStartMeasurement  LOCK.a(CyLFClk.o)
+    0x00002a7c   0x00000020   Code   RO         2941    i.CySysClkIloStopMeasurement  LOCK.a(CyLFClk.o)
+    0x00002a9c   0x00000010   Code   RO         2543    i.CySysClkImoDisableWcoLock  LOCK.a(CyLib.o)
+    0x00002aac   0x000000b4   Code   RO         2544    i.CySysClkImoEnableWcoLock  LOCK.a(CyLib.o)
+    0x00002b60   0x00000010   Code   RO         2545    i.CySysClkImoGetWcoLock  LOCK.a(CyLib.o)
+    0x00002b70   0x0000005c   Code   RO         2942    i.CySysClkSetTimerSource  LOCK.a(CyLFClk.o)
+    0x00002bcc   0x0000000c   Code   RO         2944    i.CySysClkWcoEnabled  LOCK.a(CyLFClk.o)
+    0x00002bd8   0x00000034   Code   RO         2945    i.CySysClkWcoSetHighPowerMode  LOCK.a(CyLFClk.o)
+    0x00002c0c   0x00000018   Code   RO         2947    i.CySysClkWcoStart  LOCK.a(CyLFClk.o)
+    0x00002c24   0x00000074   Code   RO         2558    i.CySysClkWriteHfclkDirect  LOCK.a(CyLib.o)
+    0x00002c98   0x000000b4   Code   RO         2560    i.CySysClkWriteImoFreq  LOCK.a(CyLib.o)
+    0x00002d4c   0x00000040   Code   RO         5942    i.CySysFlashClockBackup  LOCK.a(CyFlash.o)
+    0x00002d8c   0x00000034   Code   RO         5943    i.CySysFlashClockConfig  LOCK.a(CyFlash.o)
+    0x00002dc0   0x00000040   Code   RO         5944    i.CySysFlashClockRestore  LOCK.a(CyFlash.o)
+    0x00002e00   0x00000040   Code   RO         5945    i.CySysFlashSetWaitCycles  LOCK.a(CyFlash.o)
+    0x00002e40   0x000000d8   Code   RO         5946    i.CySysFlashWriteRow  LOCK.a(CyFlash.o)
+    0x00002f18   0x00000058   Code   RO         2913    i.CySysPmDeepSleep  LOCK.a(cyPm.o)
+    0x00002f70   0x0000001c   Code   RO         2915    i.CySysPmSleep      LOCK.a(cyPm.o)
+    0x00002f8c   0x00000018   Code   RO         2570    i.CySysTickEnable   LOCK.a(CyLib.o)
+    0x00002fa4   0x00000010   Code   RO         2571    i.CySysTickEnableInterrupt  LOCK.a(CyLib.o)
+    0x00002fb4   0x00000010   Code   RO         2574    i.CySysTickGetCountFlag  LOCK.a(CyLib.o)
+    0x00002fc4   0x00000048   Code   RO         2577    i.CySysTickInit     LOCK.a(CyLib.o)
+    0x0000300c   0x00000024   Code   RO         2578    i.CySysTickServiceCallbacks  LOCK.a(CyLib.o)
+    0x00003030   0x00000010   Code   RO         2579    i.CySysTickSetCallback  LOCK.a(CyLib.o)
+    0x00003040   0x00000018   Code   RO         2580    i.CySysTickSetClockSource  LOCK.a(CyLib.o)
+    0x00003058   0x00000010   Code   RO         2581    i.CySysTickSetReload  LOCK.a(CyLib.o)
+    0x00003068   0x0000001c   Code   RO         2582    i.CySysTickStart    LOCK.a(CyLib.o)
+    0x00003084   0x0000002c   Code   RO         2949    i.CySysTimerClearInterrupt  LOCK.a(CyLFClk.o)
+    0x000030b0   0x00000090   Code   RO         2965    i.CySysTimerIsr     LOCK.a(CyLFClk.o)
+    0x00003140   0x00000018   Code   RO         2969    i.CySysTimerSetInterruptCallback  LOCK.a(CyLFClk.o)
+    0x00003158   0x00000010   Code   RO         2973    i.CySysWdtClearInterrupt  LOCK.a(CyLFClk.o)
+    0x00003168   0x00000010   Code   RO         2974    i.CySysWdtDisable   LOCK.a(CyLFClk.o)
+    0x00003178   0x0000000c   Code   RO         2975    i.CySysWdtEnable    LOCK.a(CyLFClk.o)
+    0x00003184   0x0000000c   Code   RO         2980    i.CySysWdtGetMatch  LOCK.a(CyLFClk.o)
+    0x00003190   0x00000014   Code   RO         2985    i.CySysWdtSetMatch  LOCK.a(CyLFClk.o)
+    0x000031a4   0x00000010   Code   RO         2986    i.CySysWdtUnmaskInterrupt  LOCK.a(CyLFClk.o)
+    0x000031b4   0x000000a0   Code   RO         3247    i.Cy_Em_EEPROM_Init  LOCK.a(cy_em_eeprom.o)
+    0x00003254   0x000001d4   Code   RO         3249    i.Cy_Em_EEPROM_Read  LOCK.a(cy_em_eeprom.o)
+    0x00003428   0x00000174   Code   RO         3250    i.Cy_Em_EEPROM_Write  LOCK.a(cy_em_eeprom.o)
+    0x0000359c   0x00000250   Code   RO         1334    i.DateSetMenu       ManageMode.o
+    0x000037ec   0x00000070   Code   RO         2067    i.DelCardRecord     Record.o
+    0x0000385c   0x00000070   Code   RO         2068    i.DelFigRecord      Record.o
+    0x000038cc   0x000002dc   Code   RO         1335    i.DelUserCarMenu    ManageMode.o
+    0x00003ba8   0x00000368   Code   RO         1336    i.DelUserFigMenu    ManageMode.o
+    0x00003f10   0x0000028c   Code   RO         1337    i.DelUserPswMenu    ManageMode.o
+    0x0000419c   0x00000078   Code   RO         2069    i.DelUserPswRecord  Record.o
+    0x00004214   0x00000064   Code   RO         1752    i.DisplayBat        NormalMode.o
+    0x00004278   0x00000092   Code   RO         1338    i.DisplayItem       ManageMode.o
+    0x0000430a   0x00000050   Code   RO         1339    i.DisplayItemSelect  ManageMode.o
+    0x0000435a   0x00000002   PAD
+    0x0000435c   0x000000d8   Code   RO         1753    i.DisplayNormalMainPage  NormalMode.o
+    0x00004434   0x000000f8   Code   RO         1340    i.DisplayRecordItem  ManageMode.o
+    0x0000452c   0x00000056   Code   RO         1511    i.DisplayTips       MenuTips.o
+    0x00004582   0x0000005c   Code   RO         1512    i.DisplayTipsEx     MenuTips.o
+    0x000045de   0x00000002   PAD
+    0x000045e0   0x00000098   Code   RO          955    i.Display_char      Display.o
+    0x00004678   0x000000fc   Code   RO          956    i.Display_chinese_str  Display.o
+    0x00004774   0x0000004e   Code   RO          957    i.Display_clear_screen  Display.o
+    0x000047c2   0x00000038   Code   RO          958    i.Display_english_str  Display.o
+    0x000047fa   0x00000002   PAD
+    0x000047fc   0x00000118   Code   RO          959    i.Display_init      Display.o
+    0x00004914   0x0000003c   Code   RO          962    i.Display_picture   Display.o
+    0x00004950   0x00000028   Code   RO          963    i.Display_set_pos   Display.o
+    0x00004978   0x00000036   Code   RO          964    i.Display_write_array  Display.o
+    0x000049ae   0x0000002e   Code   RO          965    i.Display_write_byte  Display.o
+    0x000049dc   0x00000018   Code   RO         1065    i.EXTEND_ISR        Extend.o
+    0x000049f4   0x00000028   Code   RO         5371    i.Em_EEPROM_Init    LOCK.a(Em_EEPROM.o)
+    0x00004a1c   0x0000002a   Code   RO         2305    i.EnterDeepSleepLowPowerMode  Tuch.o
+    0x00004a46   0x00000002   PAD
+    0x00004a48   0x00000014   Code   RO         1066    i.Extend_Init       Extend.o
+    0x00004a5c   0x00000160   Code   RO         1341    i.ExternMenu        ManageMode.o
+    0x00004bbc   0x0000000c   Code   RO         1971    i.FL3225_DataUpdate  power.o
+    0x00004bc8   0x00000028   Code   RO         1972    i.FL3225_Init       power.o
+    0x00004bf0   0x0000001e   Code   RO         1973    i.FPC_POWER         power.o
+    0x00004c0e   0x0000006c   Code   RO         3251    i.FillChecksum      LOCK.a(cy_em_eeprom.o)
+    0x00004c7a   0x0000002c   Code   RO         3252    i.FindLastWrittenRow  LOCK.a(cy_em_eeprom.o)
+    0x00004ca6   0x00000002   PAD
+    0x00004ca8   0x000000ac   Code   RO         1094    i.Fingerprint_Check_Ack  Fingerprint.o
+    0x00004d54   0x00000030   Code   RO         1095    i.Fingerprint_GenChar  Fingerprint.o
+    0x00004d84   0x00000020   Code   RO         1096    i.Fingerprint_GetImage  Fingerprint.o
+    0x00004da4   0x00000190   Code   RO         1097    i.Fingerprint_NormalProcess  Fingerprint.o
+    0x00004f34   0x00000010   Code   RO         1098    i.Fingerprint_Power  Fingerprint.o
+    0x00004f44   0x00000104   Code   RO         1099    i.Fingerprint_RegDelProcess  Fingerprint.o
+    0x00005048   0x000001bc   Code   RO         1100    i.Fingerprint_RegProcess  Fingerprint.o
+    0x00005204   0x00000020   Code   RO         1101    i.Fingerprint_Sleep  Fingerprint.o
+    0x00005224   0x00000030   Code   RO         1102    i.Fingerprint_WriteReg  Fingerprint.o
+    0x00005254   0x00000060   Code   RO         1103    i.Fingerprint_init  Fingerprint.o
+    0x000052b4   0x00000048   Code   RO         1104    i.Fingerprint_recive_isr  Fingerprint.o
+    0x000052fc   0x00000008   Code   RO         1105    i.Fingerprint_send  Fingerprint.o
+    0x00005304   0x00000008   Code   RO         1106    i.Fingerprint_status  Fingerprint.o
+    0x0000530c   0x00000030   Code   RO         1236    i.FunctionProcess   Function.o
+    0x0000533c   0x00000018   Code   RO         1237    i.Function_ISR1     Function.o
+    0x00005354   0x00000024   Code   RO         1238    i.Function_ISR2     Function.o
+    0x00005378   0x00000024   Code   RO         1239    i.Function_Sleep    Function.o
+    0x0000539c   0x00000034   Code   RO         1240    i.Function_Wakup    Function.o
+    0x000053d0   0x00000070   Code   RO         1241    i.Function_init     Function.o
+    0x00005440   0x00000008   Code   RO         1242    i.Function_status   Function.o
+    0x00005448   0x00000014   Code   RO         4907    i.GPIO_ISR1_ClearInterrupt  LOCK.a(GPIO_ISR1.o)
+    0x0000545c   0x00000058   Code   RO          554    i.GPIO_LoadStat     gpio.o
+    0x000054b4   0x00000064   Code   RO          555    i.GPIO_ReadPin      gpio.o
+    0x00005518   0x00000058   Code   RO          556    i.GPIO_SaveStat     gpio.o
+    0x00005570   0x00000070   Code   RO          557    i.GPIO_SetPinDriveMode  gpio.o
+    0x000055e0   0x00000202   Code   RO          558    i.GPIO_SleepSet     gpio.o
+    0x000057e2   0x00000002   PAD
+    0x000057e4   0x0000006c   Code   RO          559    i.GPIO_WritePin     gpio.o
+    0x00005850   0x0000006a   Code   RO         3253    i.GetAddresses      LOCK.a(cy_em_eeprom.o)
+    0x000058ba   0x0000004c   Code   RO         3254    i.GetNextRowToWrite  LOCK.a(cy_em_eeprom.o)
+    0x00005906   0x0000001c   Code   RO         3255    i.GetRowAddrBySeqNum  LOCK.a(cy_em_eeprom.o)
+    0x00005922   0x00000002   PAD
+    0x00005924   0x00000018   Code   RO         4059    i.I2C_SCL_Write     LOCK.a(I2C_SCL.o)
+    0x0000593c   0x00000010   Code   RO         4097    i.I2C_SDA_Read      LOCK.a(I2C_SDA.o)
+    0x0000594c   0x00000018   Code   RO         4101    i.I2C_SDA_Write     LOCK.a(I2C_SDA.o)
+    0x00005964   0x00000018   Code   RO         4143    i.I2C_ST_Write      LOCK.a(I2C_ST.o)
+    0x0000597c   0x00000030   Code   RO         1974    i.I2C_WriteReg      power.o
+    0x000059ac   0x00000002   Code   RO         2483    i.IntDefaultHandler  Cm0plusStart.o
+    0x000059ae   0x00000002   PAD
+    0x000059b0   0x00000080   Code   RO         1342    i.JinNetMenu        ManageMode.o
+    0x00005a30   0x00000068   Code   RO         1809    i.LED_play_tab      Led.o
+    0x00005a98   0x00000030   Code   RO         1810    i.LED_switch        Led.o
+    0x00005ac8   0x00000010   Code   RO         4865    i.LOCK_INT_ClearInterrupt  LOCK.a(LOCK_INT.o)
+    0x00005ad8   0x00000010   Code   RO         4866    i.LOCK_INT_Read     LOCK.a(LOCK_INT.o)
+    0x00005ae8   0x0000001e   Code   RO         1977    i.LOCK_POWER        power.o
+    0x00005b06   0x00000002   PAD
+    0x00005b08   0x000001ac   Code   RO         1343    i.LanguageSetMenu   ManageMode.o
+    0x00005cb4   0x00000018   Code   RO         1811    i.Led_Init          Led.o
+    0x00005ccc   0x0000000c   Code   RO         1812    i.Led_Play          Led.o
+    0x00005cd8   0x000000fc   Code   RO         1813    i.Led_Process       Led.o
+    0x00005dd4   0x00000008   Code   RO         1814    i.Led_Status        Led.o
+    0x00005ddc   0x000000dc   Code   RO         2361    i.Line_1A_WT588_EXT  Voice.o
+    0x00005eb8   0x00000014   Code   RO         1894    i.LockClose         MLock.o
+    0x00005ecc   0x0000000e   Code   RO         1310    i.LockMode          LockMode.o
+    0x00005eda   0x00000002   PAD
+    0x00005edc   0x00000014   Code   RO         1895    i.LockOpen          MLock.o
+    0x00005ef0   0x0000061c   Code   RO         1896    i.LockProceess      MLock.o
+    0x0000650c   0x00000014   Code   RO         1897    i.Lock_Init         MLock.o
+    0x00006520   0x00000038   Code   RO         1898    i.Lock_Slot_Scan    MLock.o
+    0x00006558   0x00000008   Code   RO         1899    i.Lock_Status       MLock.o
+    0x00006560   0x00000072   Code   RO          759    i.Lowpower_Request  nxp520.o
+    0x000065d2   0x00000002   PAD
+    0x000065d4   0x000001b0   Code   RO         1344    i.MainMenu          ManageMode.o
+    0x00006784   0x00000114   Code   RO         1345    i.ManageMode        ManageMode.o
+    0x00006898   0x00000590   Code   RO         1754    i.NormalMode        NormalMode.o
+    0x00006e28   0x0000032c   Code   RO         1346    i.NumRecordMenu     ManageMode.o
+    0x00007154   0x0000000c   Code   RO          760    i.Nxp520_Antenna_Off  nxp520.o
+    0x00007160   0x00000016   Code   RO          761    i.Nxp520_Antenna_On  nxp520.o
+    0x00007176   0x00000052   Code   RO          763    i.Nxp520_Auth_State  nxp520.o
+    0x000071c8   0x0000001c   Code   RO          765    i.Nxp520_Init       nxp520.o
+    0x000071e4   0x00000026   Code   RO          768    i.Nxp520_Read_Reg   nxp520.o
+    0x0000720a   0x00000002   PAD
+    0x0000720c   0x00000074   Code   RO          770    i.Nxp520_Reset      nxp520.o
+    0x00007280   0x00000020   Code   RO          771    i.Nxp520_Reset_Wait  nxp520.o
+    0x000072a0   0x00000022   Code   RO          773    i.Nxp520_Write_Reg  nxp520.o
+    0x000072c2   0x00000002   PAD
+    0x000072c4   0x00000018   Code   RO         4017    i.OLED_DC_Write     LOCK.a(OLED_DC.o)
+    0x000072dc   0x0000001e   Code   RO         1978    i.OLED_FLASH_POWER  power.o
+    0x000072fa   0x00000002   PAD
+    0x000072fc   0x00000010   Code   RO         5073    i.OP1_INT_Read      LOCK.a(OP1_INT.o)
+    0x0000730c   0x00000010   Code   RO         5031    i.OP3_INT_Read      LOCK.a(OP3_INT.o)
+    0x0000731c   0x0000001c   Code   RO         5891    i.Opamp_Bat_Enable  LOCK.a(Opamp_Bat.o)
+    0x00007338   0x00000024   Code   RO         5892    i.Opamp_Bat_Init    LOCK.a(Opamp_Bat.o)
+    0x0000735c   0x0000001c   Code   RO         5895    i.Opamp_Bat_Start   LOCK.a(Opamp_Bat.o)
+    0x00007378   0x00000014   Code   RO         5896    i.Opamp_Bat_Stop    LOCK.a(Opamp_Bat.o)
+    0x0000738c   0x0000001c   Code   RO         5844    i.Opamp_Rf_Enable   LOCK.a(Opamp_Rf.o)
+    0x000073a8   0x00000024   Code   RO         5845    i.Opamp_Rf_Init     LOCK.a(Opamp_Rf.o)
+    0x000073cc   0x0000001c   Code   RO         5848    i.Opamp_Rf_Start    LOCK.a(Opamp_Rf.o)
+    0x000073e8   0x00000014   Code   RO         5849    i.Opamp_Rf_Stop     LOCK.a(Opamp_Rf.o)
+    0x000073fc   0x00000204   Code   RO         1347    i.OrderRecordMenu   ManageMode.o
+    0x00007600   0x00000060   Code   RO         1789    i.Pwd_Analyse       Utilities.o
+    0x00007660   0x00000068   Code   RO         1348    i.QuitNetMenu       ManageMode.o
+    0x000076c8   0x0000004e   Code   RO         5195    i.RTC_1_ConstructDate  LOCK.a(RTC_1.o)
+    0x00007716   0x0000003e   Code   RO         5196    i.RTC_1_ConstructTime  LOCK.a(RTC_1.o)
+    0x00007754   0x0000010c   Code   RO         5199    i.RTC_1_DateTimeToUnix  LOCK.a(RTC_1.o)
+    0x00007860   0x00000024   Code   RO         5200    i.RTC_1_DaysInMonth  LOCK.a(RTC_1.o)
+    0x00007884   0x00000010   Code   RO         5201    i.RTC_1_GetAmPm     LOCK.a(RTC_1.o)
+    0x00007894   0x00000028   Code   RO         5202    i.RTC_1_GetDate     LOCK.a(RTC_1.o)
+    0x000078bc   0x00000010   Code   RO         5204    i.RTC_1_GetDay      LOCK.a(RTC_1.o)
+    0x000078cc   0x0000004a   Code   RO         5205    i.RTC_1_GetDayOfWeek  LOCK.a(RTC_1.o)
+    0x00007916   0x00000010   Code   RO         5206    i.RTC_1_GetMonth    LOCK.a(RTC_1.o)
+    0x00007926   0x00000002   PAD
+    0x00007928   0x00000028   Code   RO         5209    i.RTC_1_GetTime     LOCK.a(RTC_1.o)
+    0x00007950   0x00000026   Code   RO         5211    i.RTC_1_GetYear     LOCK.a(RTC_1.o)
+    0x00007976   0x00000002   PAD
+    0x00007978   0x00000044   Code   RO         5212    i.RTC_1_Init        LOCK.a(RTC_1.o)
+    0x000079bc   0x00000028   Code   RO         5213    i.RTC_1_LeapYear    LOCK.a(RTC_1.o)
+    0x000079e4   0x0000004c   Code   RO         5216    i.RTC_1_SetDateAndTime  LOCK.a(RTC_1.o)
+    0x00007a30   0x00000020   Code   RO         5219    i.RTC_1_Start       LOCK.a(RTC_1.o)
+    0x00007a50   0x00000130   Code   RO         5221    i.RTC_1_UnixToDateTime  LOCK.a(RTC_1.o)
+    0x00007b80   0x0000002c   Code   RO         5222    i.RTC_1_Update      LOCK.a(RTC_1.o)
+    0x00007bac   0x00000048   Code   RO         2070    i.ReadAndcheckCardByUID  Record.o
+    0x00007bf4   0x00000044   Code   RO         2071    i.ReadAndcheckCardByid  Record.o
+    0x00007c38   0x00000040   Code   RO         2072    i.ReadAndcheckFigByid  Record.o
+    0x00007c78   0x00000020   Code   RO         2073    i.ReadAndcheckUserPmpswByPSW  Record.o
+    0x00007c98   0x00000048   Code   RO         2074    i.ReadAndcheckUserPswByID  Record.o
+    0x00007ce0   0x00000050   Code   RO         2075    i.ReadAndcheckUserPswByPSW  Record.o
+    0x00007d30   0x00000030   Code   RO         2076    i.ReadManagePSW     Record.o
+    0x00007d60   0x00000014   Code   RO         2077    i.ReadOptionRecord  Record.o
+    0x00007d74   0x00000098   Code   RO         1349    i.ReadSnNuber       ManageMode.o
+    0x00007e0c   0x00000160   Code   RO         1350    i.RecordMenu        ManageMode.o
+    0x00007f6c   0x00000018   Code   RO         2078    i.Record_InitSet    Record.o
+    0x00007f84   0x00000024   Code   RO         2079    i.Record_Read       Record.o
+    0x00007fa8   0x00000028   Code   RO         2080    i.Record_Write      Record.o
+    0x00007fd0   0x0000000c   Code   RO         2484    i.Reset             Cm0plusStart.o
+    0x00007fdc   0x000000ac   Code   RO         2081    i.ResteLockRecord   Record.o
+    0x00008088   0x00000082   Code   RO         2217    i.Rtc_Get           Rtc.o
+    0x0000810a   0x00000002   PAD
+    0x0000810c   0x00000100   Code   RO         2218    i.Rtc_Set           Rtc.o
+    0x0000820c   0x0000002c   Code   RO         2219    i.Rtc_init          Rtc.o
+    0x00008238   0x0000001c   Code   RO         1979    i.SN_IIC_Start      power.o
+    0x00008254   0x0000001c   Code   RO         1980    i.SN_IIC_Stop       power.o
+    0x00008270   0x0000001e   Code   RO         1981    i.SN_IIC_TestAck    power.o
+    0x0000828e   0x0000002c   Code   RO         1982    i.SN_IIC_Write_Byte  power.o
+    0x000082ba   0x00000002   PAD
+    0x000082bc   0x00000018   Code   RO         3746    i.SPI_0_OLED_FLASH_Enable  LOCK.a(SPI_0_OLED_FLASH.o)
+    0x000082d4   0x00000070   Code   RO         6223    i.SPI_0_OLED_FLASH_SpiInit  LOCK.a(SPI_0_OLED_FLASH_SPI.o)
+    0x00008344   0x00000034   Code   RO         6224    i.SPI_0_OLED_FLASH_SpiPostEnable  LOCK.a(SPI_0_OLED_FLASH_SPI.o)
+    0x00008378   0x00000018   Code   RO         6225    i.SPI_0_OLED_FLASH_SpiSetActiveSlaveSelect  LOCK.a(SPI_0_OLED_FLASH_SPI.o)
+    0x00008390   0x00000064   Code   RO         6227    i.SPI_0_OLED_FLASH_SpiStop  LOCK.a(SPI_0_OLED_FLASH_SPI.o)
+    0x000083f4   0x00000010   Code   RO         3802    i.SPI_0_OLED_FLASH_SpiUartGetRxBufferSize  LOCK.a(SPI_0_OLED_FLASH_SPI_UART.o)
+    0x00008404   0x00000010   Code   RO         3803    i.SPI_0_OLED_FLASH_SpiUartGetTxBufferSize  LOCK.a(SPI_0_OLED_FLASH_SPI_UART.o)
+    0x00008414   0x00000018   Code   RO         3804    i.SPI_0_OLED_FLASH_SpiUartPutArray  LOCK.a(SPI_0_OLED_FLASH_SPI_UART.o)
+    0x0000842c   0x0000000c   Code   RO         3805    i.SPI_0_OLED_FLASH_SpiUartReadRxData  LOCK.a(SPI_0_OLED_FLASH_SPI_UART.o)
+    0x00008438   0x00000018   Code   RO         3806    i.SPI_0_OLED_FLASH_SpiUartWriteTxData  LOCK.a(SPI_0_OLED_FLASH_SPI_UART.o)
+    0x00008450   0x0000001c   Code   RO         3750    i.SPI_0_OLED_FLASH_Start  LOCK.a(SPI_0_OLED_FLASH.o)
+    0x0000846c   0x00000020   Code   RO         3751    i.SPI_0_OLED_FLASH_Stop  LOCK.a(SPI_0_OLED_FLASH.o)
+    0x0000848c   0x00000018   Code   RO         6573    i.SPI_0_OLED_FLASH_sclk_m_Write  LOCK.a(SPI_0_OLED_FLASH_sclk_m.o)
+    0x000084a4   0x00000018   Code   RO         6615    i.SPI_0_OLED_FLASH_ss0_m_Write  LOCK.a(SPI_0_OLED_FLASH_ss0_m.o)
+    0x000084bc   0x00000018   Code   RO         5639    i.SPI_0_OLED_FLASH_ss1_m_Write  LOCK.a(SPI_0_OLED_FLASH_ss1_m.o)
+    0x000084d4   0x00000018   Code   RO         3858    i.SPI_1_CARD_Enable  LOCK.a(SPI_1_CARD.o)
+    0x000084ec   0x00000070   Code   RO         6259    i.SPI_1_CARD_SpiInit  LOCK.a(SPI_1_CARD_SPI.o)
+    0x0000855c   0x00000034   Code   RO         6260    i.SPI_1_CARD_SpiPostEnable  LOCK.a(SPI_1_CARD_SPI.o)
+    0x00008590   0x00000018   Code   RO         6261    i.SPI_1_CARD_SpiSetActiveSlaveSelect  LOCK.a(SPI_1_CARD_SPI.o)
+    0x000085a8   0x0000004c   Code   RO         6263    i.SPI_1_CARD_SpiStop  LOCK.a(SPI_1_CARD_SPI.o)
+    0x000085f4   0x00000010   Code   RO         3914    i.SPI_1_CARD_SpiUartGetRxBufferSize  LOCK.a(SPI_1_CARD_SPI_UART.o)
+    0x00008604   0x0000000c   Code   RO         3917    i.SPI_1_CARD_SpiUartReadRxData  LOCK.a(SPI_1_CARD_SPI_UART.o)
+    0x00008610   0x00000018   Code   RO         3918    i.SPI_1_CARD_SpiUartWriteTxData  LOCK.a(SPI_1_CARD_SPI_UART.o)
+    0x00008628   0x0000001c   Code   RO         3862    i.SPI_1_CARD_Start  LOCK.a(SPI_1_CARD.o)
+    0x00008644   0x00000020   Code   RO         3863    i.SPI_1_CARD_Stop   LOCK.a(SPI_1_CARD.o)
+    0x00008664   0x00000018   Code   RO         5721    i.SPI_1_CARD_miso_m_SetDriveMode  LOCK.a(SPI_1_CARD_miso_m.o)
+    0x0000867c   0x00000018   Code   RO         5763    i.SPI_1_CARD_mosi_m_SetDriveMode  LOCK.a(SPI_1_CARD_mosi_m.o)
+    0x00008694   0x00000018   Code   RO         5679    i.SPI_1_CARD_sclk_m_SetDriveMode  LOCK.a(SPI_1_CARD_sclk_m.o)
+    0x000086ac   0x00000018   Code   RO         5681    i.SPI_1_CARD_sclk_m_Write  LOCK.a(SPI_1_CARD_sclk_m.o)
+    0x000086c4   0x00000018   Code   RO         5805    i.SPI_1_CARD_ss0_m_SetDriveMode  LOCK.a(SPI_1_CARD_ss0_m.o)
+    0x000086dc   0x00000018   Code   RO         5807    i.SPI_1_CARD_ss0_m_Write  LOCK.a(SPI_1_CARD_ss0_m.o)
+    0x000086f4   0x00000016   Code   RO          966    i.SPI_ReadWriteByte  Display.o
+    0x0000870a   0x00000002   PAD
+    0x0000870c   0x0000001c   Code   RO         2451    i.SetAnalogRoutingPumps  cyfitter_cfg.o
+    0x00008728   0x000001cc   Code   RO         1351    i.SetOpenModeMenu   ManageMode.o
+    0x000088f4   0x00000016   Code   RO          775    i.Set_Reg_Mask      nxp520.o
+    0x0000890a   0x00000002   PAD
+    0x0000890c   0x00000134   Code   RO          702    i.Sleep_SearchCard  Card.o
+    0x00008a40   0x0000009c   Code   RO          703    i.Sleep_SearchGetAdc  Card.o
+    0x00008adc   0x00000024   Code   RO          776    i.Spi_ReadWrite_Byte  nxp520.o
+    0x00008b00   0x00000060   Code   RO         2256    i.SwitchKey_Cover_Scan  SwitchKey.o
+    0x00008b60   0x00000034   Code   RO         2257    i.SwitchKey_Mode_Scan  SwitchKey.o
+    0x00008b94   0x000000b8   Code   RO         2258    i.SwitchKey_Scan    SwitchKey.o
+    0x00008c4c   0x00000008   Code   RO         2259    i.SwitchKey_Status  SwitchKey.o
+    0x00008c54   0x00000018   Code   RO         2260    i.SwitchKey_init    SwitchKey.o
+    0x00008c6c   0x00000104   Code   RO         1352    i.SysRecordMenu     ManageMode.o
+    0x00008d70   0x00000160   Code   RO         1353    i.SystemSetMenu     ManageMode.o
+    0x00008ed0   0x0000000c   Code   RO         1243    i.SystickCB         Function.o
+    0x00008edc   0x00000220   Code   RO         1354    i.TimeSetMenu       ManageMode.o
+    0x000090fc   0x0000015c   Code   RO         1755    i.TuchPadProcess    NormalMode.o
+    0x00009258   0x0000003c   Code   RO         2306    i.Tuch_LowpowerScan  Tuch.o
+    0x00009294   0x00000144   Code   RO         2307    i.Tuch_Scan         Tuch.o
+    0x000093d8   0x00000024   Code   RO         2308    i.Tuch_init         Tuch.o
+    0x000093fc   0x00000008   Code   RO         2309    i.Tuch_status       Tuch.o
+    0x00009404   0x0000001c   Code   RO         3474    i.UART_0_FPC_Enable  LOCK.a(UART_0_FPC.o)
+    0x00009420   0x00000024   Code   RO         5480    i.UART_0_FPC_SCB_IRQ_SetPriority  LOCK.a(UART_0_FPC_SCB_IRQ.o)
+    0x00009444   0x00000024   Code   RO         5483    i.UART_0_FPC_SCB_IRQ_StartEx  LOCK.a(UART_0_FPC_SCB_IRQ.o)
+    0x00009468   0x00000010   Code   RO         6556    i.UART_0_FPC_SPI_UART_ISR  LOCK.a(UART_0_FPC_SPI_UART_INT.o)
+    0x00009478   0x00000018   Code   RO         3538    i.UART_0_FPC_SpiUartPutArray  LOCK.a(UART_0_FPC_SPI_UART.o)
+    0x00009490   0x0000000c   Code   RO         3539    i.UART_0_FPC_SpiUartReadRxData  LOCK.a(UART_0_FPC_SPI_UART.o)
+    0x0000949c   0x00000018   Code   RO         3540    i.UART_0_FPC_SpiUartWriteTxData  LOCK.a(UART_0_FPC_SPI_UART.o)
+    0x000094b4   0x0000001c   Code   RO         3479    i.UART_0_FPC_Start  LOCK.a(UART_0_FPC.o)
+    0x000094d0   0x0000002c   Code   RO         3480    i.UART_0_FPC_Stop   LOCK.a(UART_0_FPC.o)
+    0x000094fc   0x00000094   Code   RO         6059    i.UART_0_FPC_UartInit  LOCK.a(UART_0_FPC_UART.o)
+    0x00009590   0x00000024   Code   RO         6060    i.UART_0_FPC_UartPostEnable  LOCK.a(UART_0_FPC_UART.o)
+    0x000095b4   0x00000028   Code   RO         6069    i.UART_0_FPC_UartStop  LOCK.a(UART_0_FPC_UART.o)
+    0x000095dc   0x0000002c   Code   RO         3326    i.UART_1_BLE_Stop   LOCK.a(UART_1_BLE.o)
+    0x00009608   0x00000028   Code   RO         3392    i.UART_1_BLE_UartStop  LOCK.a(UART_1_BLE_UART.o)
+    0x00009630   0x0000001c   Code   RO         3592    i.UART_2_EXT_Enable  LOCK.a(UART_2_EXT.o)
+    0x0000964c   0x00000024   Code   RO         5561    i.UART_2_EXT_SCB_IRQ_SetPriority  LOCK.a(UART_2_EXT_SCB_IRQ.o)
+    0x00009670   0x00000024   Code   RO         5564    i.UART_2_EXT_SCB_IRQ_StartEx  LOCK.a(UART_2_EXT_SCB_IRQ.o)
+    0x00009694   0x00000010   Code   RO         6211    i.UART_2_EXT_SPI_UART_ISR  LOCK.a(UART_2_EXT_SPI_UART_INT.o)
+    0x000096a4   0x00000010   Code   RO         6155    i.UART_2_EXT_SpiUartGetRxBufferSize  LOCK.a(UART_2_EXT_SPI_UART.o)
+    0x000096b4   0x0000000c   Code   RO         6158    i.UART_2_EXT_SpiUartReadRxData  LOCK.a(UART_2_EXT_SPI_UART.o)
+    0x000096c0   0x0000001c   Code   RO         3597    i.UART_2_EXT_Start  LOCK.a(UART_2_EXT.o)
+    0x000096dc   0x0000002c   Code   RO         3598    i.UART_2_EXT_Stop   LOCK.a(UART_2_EXT.o)
+    0x00009708   0x00000030   Code   RO         3652    i.UART_2_EXT_UartGetByte  LOCK.a(UART_2_EXT_UART.o)
+    0x00009738   0x00000094   Code   RO         3654    i.UART_2_EXT_UartInit  LOCK.a(UART_2_EXT_UART.o)
+    0x000097cc   0x00000024   Code   RO         3655    i.UART_2_EXT_UartPostEnable  LOCK.a(UART_2_EXT_UART.o)
+    0x000097f0   0x00000028   Code   RO         3664    i.UART_2_EXT_UartStop  LOCK.a(UART_2_EXT_UART.o)
+    0x00009818   0x00000032   Code   RO          777    i.UL_PcdAnticoll    nxp520.o
+    0x0000984a   0x00000002   PAD
+    0x0000984c   0x0000022c   Code   RO         1355    i.UserSetMenu       ManageMode.o
+    0x00009a78   0x00000010   Code   RO         4701    i.VOICE_BUSY_Read   LOCK.a(VOICE_BUSY.o)
+    0x00009a88   0x00000018   Code   RO         4747    i.VOICE_DATA_Write  LOCK.a(VOICE_DATA.o)
+    0x00009aa0   0x0000001e   Code   RO         1983    i.VOICE_POWER       power.o
+    0x00009abe   0x00000002   PAD
+    0x00009ac0   0x00000194   Code   RO         1356    i.VoiceSetMenu      ManageMode.o
+    0x00009c54   0x00000024   Code   RO         2362    i.Voice_Status      Voice.o
+    0x00009c78   0x0000000c   Code   RO         2363    i.Voice_init        Voice.o
+    0x00009c84   0x00000008   Code   RO         2364    i.Voice_play        Voice.o
+    0x00009c8c   0x00000030   Code   RO         2409    i.WDTIMER_ISR       Wdt.o
+    0x00009cbc   0x00000038   Code   RO         2410    i.WDT_Init          Wdt.o
+    0x00009cf4   0x00000008   Code   RO         2411    i.WDT_Status        Wdt.o
+    0x00009cfc   0x0000000c   Code   RO         2412    i.Wdt_Feed_Dog      Wdt.o
+    0x00009d08   0x00000064   Code   RO         2082    i.WriteCardRecord   Record.o
+    0x00009d6c   0x0000005c   Code   RO         2083    i.WriteFigRecord    Record.o
+    0x00009dc8   0x00000014   Code   RO         2084    i.WriteManagePSW    Record.o
+    0x00009ddc   0x000000f4   Code   RO         2085    i.WriteOpenDoorRecordById  Record.o
+    0x00009ed0   0x00000014   Code   RO         2086    i.WriteOptionRecord  Record.o
+    0x00009ee4   0x00000016   Code   RO         3256    i.WriteRow          LOCK.a(cy_em_eeprom.o)
+    0x00009efa   0x00000002   PAD
+    0x00009efc   0x00000068   Code   RO         2087    i.WriteUserPSW      Record.o
+    0x00009f64   0x00000028   Code   RO         6766    i.__0sprintf$3      mc_p.l(printf3.o)
+    0x00009f8c   0x0000002e   Code   RO         7012    i.__ARM_clz         mf_p.l(depilogue.o)
+    0x00009fba   0x00000030   Code   RO         5361    i.__ARM_common_ll_muluu  LOCK.a(RTC_1.o)
+    0x00009fea   0x0000001a   Code   RO          606    i.__ARM_common_switch8  gpio.o
+    0x0000a004   0x0000000e   Code   RO         7028    i.__scatterload_copy  mc_p.l(handlers.o)
+    0x0000a012   0x00000002   Code   RO         7029    i.__scatterload_null  mc_p.l(handlers.o)
+    0x0000a014   0x0000000e   Code   RO         7030    i.__scatterload_zeroinit  mc_p.l(handlers.o)
+    0x0000a022   0x00000002   PAD
+    0x0000a024   0x000001cc   Code   RO         6771    i._printf_core      mc_p.l(printf3.o)
+    0x0000a1f0   0x0000000a   Code   RO         6773    i._sputc            mc_p.l(printf3.o)
+    0x0000a1fa   0x00000016   Code   RO          778    i.cls_reg_mask      nxp520.o
+    0x0000a210   0x00000048   Code   RO         2485    i.initialize_psoc   Cm0plusStart.o
+    0x0000a258   0x0000000c   Code   RO         4784    i.isr_1_ClearPending  LOCK.a(isr_1.o)
+    0x0000a264   0x00000020   Code   RO         4792    i.isr_1_SetPriority  LOCK.a(isr_1.o)
+    0x0000a284   0x00000024   Code   RO         4795    i.isr_1_StartEx     LOCK.a(isr_1.o)
+    0x0000a2a8   0x0000000c   Code   RO         4949    i.isr_2_ClearPending  LOCK.a(isr_2.o)
+    0x0000a2b4   0x00000024   Code   RO         4957    i.isr_2_SetPriority  LOCK.a(isr_2.o)
+    0x0000a2d8   0x00000024   Code   RO         4960    i.isr_2_StartEx     LOCK.a(isr_2.o)
+    0x0000a2fc   0x0000000c   Code   RO         5114    i.isr_wdt_ClearPending  LOCK.a(isr_wdt.o)
+    0x0000a308   0x00000024   Code   RO         5122    i.isr_wdt_SetPriority  LOCK.a(isr_wdt.o)
+    0x0000a32c   0x00000024   Code   RO         5125    i.isr_wdt_StartEx   LOCK.a(isr_wdt.o)
+    0x0000a350   0x0000013c   Code   RO          780    i.lowpower_communicate_card  nxp520.o
+    0x0000a48c   0x000001c8   Code   RO            5    i.main              main.o
+    0x0000a654   0x00000062   Code   RO          783    i.nxp520_calulate_crc  nxp520.o
+    0x0000a6b6   0x00000002   PAD
+    0x0000a6b8   0x00000124   Code   RO          784    i.nxp520_communicate_card  nxp520.o
+    0x0000a7dc   0x000005f0   Data   RO         1042    .constdata          DisplayFont.o
+    0x0000adcc   0x00001298   Data   RO         1043    .constdata          DisplayFont.o
+    0x0000c064   0x00000028   Data   RO         1044    .constdata          DisplayFont.o
+    0x0000c08c   0x00000004   Data   RO         1045    .constdata          DisplayFont.o
+    0x0000c090   0x00000108   Data   RO         1358    .constdata          ManageMode.o
+    0x0000c198   0x00000040   Data   RO         1513    .constdata          MenuTips.o
+    0x0000c1d8   0x00000080   Data   RO         1514    .constdata          MenuTips.o
+    0x0000c258   0x00000040   Data   RO         1515    .constdata          MenuTips.o
+    0x0000c298   0x00000030   Data   RO         1516    .constdata          MenuTips.o
+    0x0000c2c8   0x00000020   Data   RO         1517    .constdata          MenuTips.o
+    0x0000c2e8   0x00000020   Data   RO         1518    .constdata          MenuTips.o
+    0x0000c308   0x00000020   Data   RO         1519    .constdata          MenuTips.o
+    0x0000c328   0x00000020   Data   RO         1520    .constdata          MenuTips.o
+    0x0000c348   0x00000020   Data   RO         1521    .constdata          MenuTips.o
+    0x0000c368   0x0000000c   Data   RO         1522    .constdata          MenuTips.o
+    0x0000c374   0x0000000c   Data   RO         1523    .constdata          MenuTips.o
+    0x0000c380   0x0000000c   Data   RO         1524    .constdata          MenuTips.o
+    0x0000c38c   0x0000000c   Data   RO         1525    .constdata          MenuTips.o
+    0x0000c398   0x0000000c   Data   RO         1526    .constdata          MenuTips.o
+    0x0000c3a4   0x0000000c   Data   RO         1527    .constdata          MenuTips.o
+    0x0000c3b0   0x0000000c   Data   RO         1528    .constdata          MenuTips.o
+    0x0000c3bc   0x0000000c   Data   RO         1529    .constdata          MenuTips.o
+    0x0000c3c8   0x0000000c   Data   RO         1531    .constdata          MenuTips.o
+    0x0000c3d4   0x0000000c   Data   RO         1536    .constdata          MenuTips.o
+    0x0000c3e0   0x0000000c   Data   RO         1537    .constdata          MenuTips.o
+    0x0000c3ec   0x0000000c   Data   RO         1538    .constdata          MenuTips.o
+    0x0000c3f8   0x0000000c   Data   RO         1539    .constdata          MenuTips.o
+    0x0000c404   0x0000000c   Data   RO         1543    .constdata          MenuTips.o
+    0x0000c410   0x0000000c   Data   RO         1545    .constdata          MenuTips.o
+    0x0000c41c   0x0000000c   Data   RO         1546    .constdata          MenuTips.o
+    0x0000c428   0x0000000c   Data   RO         1547    .constdata          MenuTips.o
+    0x0000c434   0x0000000c   Data   RO         1551    .constdata          MenuTips.o
+    0x0000c440   0x0000000c   Data   RO         1552    .constdata          MenuTips.o
+    0x0000c44c   0x0000000c   Data   RO         1554    .constdata          MenuTips.o
+    0x0000c458   0x0000000c   Data   RO         1556    .constdata          MenuTips.o
+    0x0000c464   0x0000000c   Data   RO         1559    .constdata          MenuTips.o
+    0x0000c470   0x0000000c   Data   RO         1561    .constdata          MenuTips.o
+    0x0000c47c   0x0000000c   Data   RO         1565    .constdata          MenuTips.o
+    0x0000c488   0x0000000c   Data   RO         1566    .constdata          MenuTips.o
+    0x0000c494   0x0000000c   Data   RO         1568    .constdata          MenuTips.o
+    0x0000c4a0   0x0000000c   Data   RO         1569    .constdata          MenuTips.o
+    0x0000c4ac   0x0000000c   Data   RO         1583    .constdata          MenuTips.o
+    0x0000c4b8   0x0000000c   Data   RO         1584    .constdata          MenuTips.o
+    0x0000c4c4   0x0000000c   Data   RO         1585    .constdata          MenuTips.o
+    0x0000c4d0   0x0000000c   Data   RO         1587    .constdata          MenuTips.o
+    0x0000c4dc   0x0000000c   Data   RO         1589    .constdata          MenuTips.o
+    0x0000c4e8   0x0000000c   Data   RO         1590    .constdata          MenuTips.o
+    0x0000c4f4   0x0000000c   Data   RO         1591    .constdata          MenuTips.o
+    0x0000c500   0x0000000c   Data   RO         1592    .constdata          MenuTips.o
+    0x0000c50c   0x0000000c   Data   RO         1593    .constdata          MenuTips.o
+    0x0000c518   0x0000000c   Data   RO         1605    .constdata          MenuTips.o
+    0x0000c524   0x0000000c   Data   RO         1608    .constdata          MenuTips.o
+    0x0000c530   0x0000000c   Data   RO         1609    .constdata          MenuTips.o
+    0x0000c53c   0x0000000c   Data   RO         1612    .constdata          MenuTips.o
+    0x0000c548   0x0000000c   Data   RO         1613    .constdata          MenuTips.o
+    0x0000c554   0x0000000c   Data   RO         1614    .constdata          MenuTips.o
+    0x0000c560   0x0000000c   Data   RO         1615    .constdata          MenuTips.o
+    0x0000c56c   0x0000000c   Data   RO         1616    .constdata          MenuTips.o
+    0x0000c578   0x0000000c   Data   RO         1617    .constdata          MenuTips.o
+    0x0000c584   0x00000024   Data   RO         1815    .constdata          Led.o
+    0x0000c5a8   0x00000017   Data   RO         2585    .constdata          LOCK.a(CyLib.o)
+    0x0000c5bf   0x00000001   PAD
+    0x0000c5c0   0x00000235   Data   RO         4257    .constdata          LOCK.a(CapSense_Structure.o)
+    0x0000c7f5   0x00000003   PAD
+    0x0000c7f8   0x000002a0   Data   RO         4258    .constdata          LOCK.a(CapSense_Structure.o)
+    0x0000ca98   0x00000001   Data   RO         4343    .constdata          LOCK.a(CapSense_Sensing.o)
+    0x0000ca99   0x00000003   PAD
+    0x0000ca9c   0x00000010   Data   RO         4595    .constdata          LOCK.a(ADC.o)
+    0x0000caac   0x00000024   Data   RO         5224    .constdata          LOCK.a(RTC_1.o)
+    0x0000cad0   0x0000008f   Data   RO         1618    .conststring        MenuTips.o
+    0x0000cb5f   0x00000001   PAD
+    0x0000cb60   0x0000010f   Data   RO         1619    .conststring        MenuTips.o
+    0x0000cc6f   0x00000001   PAD
+    0x0000cc70   0x0000007f   Data   RO         1620    .conststring        MenuTips.o
+    0x0000ccef   0x00000001   PAD
+    0x0000ccf0   0x0000005f   Data   RO         1621    .conststring        MenuTips.o
+    0x0000cd4f   0x00000001   PAD
+    0x0000cd50   0x0000003f   Data   RO         1622    .conststring        MenuTips.o
+    0x0000cd8f   0x00000001   PAD
+    0x0000cd90   0x0000003f   Data   RO         1623    .conststring        MenuTips.o
+    0x0000cdcf   0x00000001   PAD
+    0x0000cdd0   0x0000003f   Data   RO         1624    .conststring        MenuTips.o
+    0x0000ce0f   0x00000001   PAD
+    0x0000ce10   0x0000003f   Data   RO         1625    .conststring        MenuTips.o
+    0x0000ce4f   0x00000001   PAD
+    0x0000ce50   0x0000003f   Data   RO         1626    .conststring        MenuTips.o
+    0x0000ce8f   0x00000001   PAD
+    0x0000ce90   0x00000019   Data   RO         1627    .conststring        MenuTips.o
+    0x0000cea9   0x00000003   PAD
+    0x0000ceac   0x00000023   Data   RO         1628    .conststring        MenuTips.o
+    0x0000cecf   0x00000001   PAD
+    0x0000ced0   0x0000001b   Data   RO         1629    .conststring        MenuTips.o
+    0x0000ceeb   0x00000001   PAD
+    0x0000ceec   0x0000001b   Data   RO         1630    .conststring        MenuTips.o
+    0x0000cf07   0x00000001   PAD
+    0x0000cf08   0x00000015   Data   RO         1631    .conststring        MenuTips.o
+    0x0000cf1d   0x00000003   PAD
+    0x0000cf20   0x0000001d   Data   RO         1632    .conststring        MenuTips.o
+    0x0000cf3d   0x00000003   PAD
+    0x0000cf40   0x00000019   Data   RO         1633    .conststring        MenuTips.o
+    0x0000cf59   0x00000003   PAD
+    0x0000cf5c   0x00000019   Data   RO         1634    .conststring        MenuTips.o
+    0x0000cf75   0x00000003   PAD
+    0x0000cf78   0x00000015   Data   RO         1636    .conststring        MenuTips.o
+    0x0000cf8d   0x00000003   PAD
+    0x0000cf90   0x00000015   Data   RO         1641    .conststring        MenuTips.o
+    0x0000cfa5   0x00000003   PAD
+    0x0000cfa8   0x00000015   Data   RO         1642    .conststring        MenuTips.o
+    0x0000cfbd   0x00000003   PAD
+    0x0000cfc0   0x00000015   Data   RO         1643    .conststring        MenuTips.o
+    0x0000cfd5   0x00000003   PAD
+    0x0000cfd8   0x00000015   Data   RO         1644    .conststring        MenuTips.o
+    0x0000cfed   0x00000003   PAD
+    0x0000cff0   0x0000001b   Data   RO         1648    .conststring        MenuTips.o
+    0x0000d00b   0x00000001   PAD
+    0x0000d00c   0x0000001d   Data   RO         1650    .conststring        MenuTips.o
+    0x0000d029   0x00000003   PAD
+    0x0000d02c   0x00000017   Data   RO         1651    .conststring        MenuTips.o
+    0x0000d043   0x00000001   PAD
+    0x0000d044   0x00000017   Data   RO         1652    .conststring        MenuTips.o
+    0x0000d05b   0x00000001   PAD
+    0x0000d05c   0x00000019   Data   RO         1656    .conststring        MenuTips.o
+    0x0000d075   0x00000003   PAD
+    0x0000d078   0x0000001b   Data   RO         1657    .conststring        MenuTips.o
+    0x0000d093   0x00000001   PAD
+    0x0000d094   0x0000001b   Data   RO         1659    .conststring        MenuTips.o
+    0x0000d0af   0x00000001   PAD
+    0x0000d0b0   0x00000017   Data   RO         1661    .conststring        MenuTips.o
+    0x0000d0c7   0x00000001   PAD
+    0x0000d0c8   0x00000019   Data   RO         1664    .conststring        MenuTips.o
+    0x0000d0e1   0x00000003   PAD
+    0x0000d0e4   0x0000001b   Data   RO         1666    .conststring        MenuTips.o
+    0x0000d0ff   0x00000001   PAD
+    0x0000d100   0x0000001f   Data   RO         1670    .conststring        MenuTips.o
+    0x0000d11f   0x00000001   PAD
+    0x0000d120   0x00000017   Data   RO         1671    .conststring        MenuTips.o
+    0x0000d137   0x00000001   PAD
+    0x0000d138   0x00000021   Data   RO         1673    .conststring        MenuTips.o
+    0x0000d159   0x00000003   PAD
+    0x0000d15c   0x0000000f   Data   RO         1674    .conststring        MenuTips.o
+    0x0000d16b   0x00000001   PAD
+    0x0000d16c   0x00000019   Data   RO         1688    .conststring        MenuTips.o
+    0x0000d185   0x00000003   PAD
+    0x0000d188   0x00000011   Data   RO         1689    .conststring        MenuTips.o
+    0x0000d199   0x00000003   PAD
+    0x0000d19c   0x00000019   Data   RO         1690    .conststring        MenuTips.o
+    0x0000d1b5   0x00000003   PAD
+    0x0000d1b8   0x0000000b   Data   RO         1692    .conststring        MenuTips.o
+    0x0000d1c3   0x00000001   PAD
+    0x0000d1c4   0x0000001d   Data   RO         1694    .conststring        MenuTips.o
+    0x0000d1e1   0x00000003   PAD
+    0x0000d1e4   0x0000001d   Data   RO         1695    .conststring        MenuTips.o
+    0x0000d201   0x00000003   PAD
+    0x0000d204   0x00000009   Data   RO         1696    .conststring        MenuTips.o
+    0x0000d20d   0x00000003   PAD
+    0x0000d210   0x00000003   Data   RO         1697    .conststring        MenuTips.o
+    0x0000d213   0x00000001   PAD
+    0x0000d214   0x0000000d   Data   RO         1698    .conststring        MenuTips.o
+    0x0000d221   0x00000003   PAD
+    0x0000d224   0x00000019   Data   RO         1710    .conststring        MenuTips.o
+    0x0000d23d   0x00000003   PAD
+    0x0000d240   0x0000000f   Data   RO         1713    .conststring        MenuTips.o
+    0x0000d24f   0x00000001   PAD
+    0x0000d250   0x0000000f   Data   RO         1714    .conststring        MenuTips.o
+    0x0000d25f   0x00000001   PAD
+    0x0000d260   0x0000001b   Data   RO         1717    .conststring        MenuTips.o
+    0x0000d27b   0x00000001   PAD
+    0x0000d27c   0x00000017   Data   RO         1718    .conststring        MenuTips.o
+    0x0000d293   0x00000001   PAD
+    0x0000d294   0x00000019   Data   RO         1719    .conststring        MenuTips.o
+    0x0000d2ad   0x00000003   PAD
+    0x0000d2b0   0x00000015   Data   RO         1720    .conststring        MenuTips.o
+    0x0000d2c5   0x00000003   PAD
+    0x0000d2c8   0x00000015   Data   RO         1721    .conststring        MenuTips.o
+    0x0000d2dd   0x00000003   PAD
+    0x0000d2e0   0x00000015   Data   RO         1722    .conststring        MenuTips.o
+    0x0000d2f5   0x00000003   PAD
+    0x0000d2f8   0x00000020   Data   RO         7026    Region$$Table       anon$$obj.o
+
+
+    Execution Region ISRVECTORS (Base: 0x20000000, Size: 0x000000b0, Max: 0xffffffff, ABSOLUTE, UNINIT)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x20000000   0x000000b0   Zero   RW         2487    .ramvectors         Cm0plusStart.o
+
+
+    Execution Region NOINIT_DATA (Base: 0x200000b0, Size: 0x00000004, Max: 0xffffffff, ABSOLUTE, UNINIT)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x200000b0   0x00000004   Zero   RW         2486    .noinit             Cm0plusStart.o
+
+
+    Execution Region DATA (Base: 0x200000b4, Size: 0x000005a8, Max: 0xffffffff, ABSOLUTE, COMPRESSED[0x0000003c])
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x200000b4   0x0000000a   Data   RW          621    .data               Bat.o
+    0x200000be   0x00000004   Data   RW          705    .data               Card.o
+    0x200000c2   0x00000014   Data   RW         1108    .data               Fingerprint.o
+    0x200000d6   0x00000002   PAD
+    0x200000d8   0x00000058   Data   RW         1359    .data               ManageMode.o
+    0x20000130   0x00000014   Data   RW         1757    .data               NormalMode.o
+    0x20000144   0x0000001c   Data   RW         1816    .data               Led.o
+    0x20000160   0x00000015   Data   RW         1900    .data               MLock.o
+    0x20000175   0x00000001   PAD
+    0x20000176   0x00000016   Data   RW         2261    .data               SwitchKey.o
+    0x2000018c   0x0000000a   Data   RW         2310    .data               Tuch.o
+    0x20000196   0x00000001   Data   RW         2366    .data               Voice.o
+    0x20000197   0x00000002   Data   RW         2413    .data               Wdt.o
+    0x20000199   0x00000003   PAD
+    0x2000019c   0x00000018   Data   RW         2586    .data               LOCK.a(CyLib.o)
+    0x200001b4   0x00000010   Data   RW         2989    .data               LOCK.a(CyLFClk.o)
+    0x200001c4   0x00000002   Data   RW         3328    .data               LOCK.a(UART_1_BLE.o)
+    0x200001c6   0x00000002   PAD
+    0x200001c8   0x00000008   Data   RW         3481    .data               LOCK.a(UART_0_FPC.o)
+    0x200001d0   0x00000002   Data   RW         3482    .data               LOCK.a(UART_0_FPC.o)
+    0x200001d2   0x00000002   PAD
+    0x200001d4   0x00000008   Data   RW         3599    .data               LOCK.a(UART_2_EXT.o)
+    0x200001dc   0x00000002   Data   RW         3600    .data               LOCK.a(UART_2_EXT.o)
+    0x200001de   0x00000001   Data   RW         3752    .data               LOCK.a(SPI_0_OLED_FLASH.o)
+    0x200001df   0x00000001   PAD
+    0x200001e0   0x00000002   Data   RW         3753    .data               LOCK.a(SPI_0_OLED_FLASH.o)
+    0x200001e2   0x00000001   Data   RW         3864    .data               LOCK.a(SPI_1_CARD.o)
+    0x200001e3   0x00000001   PAD
+    0x200001e4   0x00000002   Data   RW         3865    .data               LOCK.a(SPI_1_CARD.o)
+    0x200001e6   0x00000001   Data   RW         4190    .data               LOCK.a(CapSense_Control.o)
+    0x200001e7   0x00000001   Data   RW         4259    .data               LOCK.a(CapSense_Structure.o)
+    0x200001e8   0x00000001   Data   RW         4260    .data               LOCK.a(CapSense_Structure.o)
+    0x200001e9   0x00000001   Data   RW         4261    .data               LOCK.a(CapSense_Structure.o)
+    0x200001ea   0x00000001   Data   RW         4262    .data               LOCK.a(CapSense_Structure.o)
+    0x200001eb   0x00000001   Data   RW         4263    .data               LOCK.a(CapSense_Structure.o)
+    0x200001ec   0x00000001   Data   RW         4264    .data               LOCK.a(CapSense_Structure.o)
+    0x200001ed   0x00000001   Data   RW         4265    .data               LOCK.a(CapSense_Structure.o)
+    0x200001ee   0x00000001   Data   RW         4266    .data               LOCK.a(CapSense_Structure.o)
+    0x200001ef   0x00000001   Data   RW         4267    .data               LOCK.a(CapSense_Structure.o)
+    0x200001f0   0x00000001   Data   RW         4268    .data               LOCK.a(CapSense_Structure.o)
+    0x200001f1   0x00000001   Data   RW         4269    .data               LOCK.a(CapSense_Structure.o)
+    0x200001f2   0x00000001   Data   RW         4270    .data               LOCK.a(CapSense_Structure.o)
+    0x200001f3   0x00000002   Data   RW         4271    .data               LOCK.a(CapSense_Structure.o)
+    0x200001f5   0x00000003   Data   RW         4344    .data               LOCK.a(CapSense_Sensing.o)
+    0x200001f8   0x00000001   Data   RW         4345    .data               LOCK.a(CapSense_Sensing.o)
+    0x200001f9   0x00000003   PAD
+    0x200001fc   0x00000004   Data   RW         4346    .data               LOCK.a(CapSense_Sensing.o)
+    0x20000200   0x00000004   Data   RW         4347    .data               LOCK.a(CapSense_Sensing.o)
+    0x20000204   0x00000004   Data   RW         4348    .data               LOCK.a(CapSense_Sensing.o)
+    0x20000208   0x00000004   Data   RW         4349    .data               LOCK.a(CapSense_Sensing.o)
+    0x2000020c   0x00000008   Data   RW         4478    .data               LOCK.a(CapSense_SensingCSD_LL.o)
+    0x20000214   0x00000008   Data   RW         4596    .data               LOCK.a(ADC.o)
+    0x2000021c   0x00000004   PAD
+    0x20000220   0x00000020   Data   RW         5225    .data               LOCK.a(RTC_1.o)
+    0x20000240   0x00000008   Data   RW         5850    .data               LOCK.a(Opamp_Rf.o)
+    0x20000248   0x00000008   Data   RW         5897    .data               LOCK.a(Opamp_Bat.o)
+    0x20000250   0x00000004   Data   RW         6345    .data               LOCK.a(CapSense_Tuner.o)
+    0x20000254   0x00000020   Zero   RW          560    .bss                gpio.o
+    0x20000274   0x00000022   Zero   RW          704    .bss                Card.o
+    0x20000296   0x00000066   Zero   RW         1107    .bss                Fingerprint.o
+    0x200002fc   0x0000004a   Zero   RW         1244    .bss                Function.o
+    0x20000346   0x0000012a   Zero   RW         1357    .bss                ManageMode.o
+    0x20000470   0x00000010   Zero   RW         1756    .bss                NormalMode.o
+    0x20000480   0x00000014   Zero   RW         2584    .bss                LOCK.a(CyLib.o)
+    0x20000494   0x0000000c   Zero   RW         2987    .bss                LOCK.a(CyLFClk.o)
+    0x200004a0   0x0000016c   Zero   RW         4256    .bss                LOCK.a(CapSense_Structure.o)
+    0x2000060c   0x0000000c   Zero   RW         4594    .bss                LOCK.a(ADC.o)
+    0x20000618   0x00000010   Zero   RW         5223    .bss                LOCK.a(RTC_1.o)
+    0x20000628   0x0000001c   Zero   RW         5372    .bss                LOCK.a(Em_EEPROM.o)
+    0x20000644   0x00000018   Zero   RW         5948    .bss                LOCK.a(CyFlash.o)
+
+
+    Execution Region ARM_LIB_HEAP (Base: 0x20003600, Size: 0x00000200, Max: 0x00000200, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x20003600   0x00000200   Zero   RW            1    ARM_LIB_HEAP.bss    anon$$obj.o
+
+
+    Execution Region ARM_LIB_STACK (Base: 0x20003800, Size: 0x00000800, Max: 0x00000800, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x20003800   0x00000800   Zero   RW            2    ARM_LIB_STACK.bss   anon$$obj.o
+
+
+
+  Load Region EM_EEPROM (Base: 0x0001b000, Size: 0x00004200, Max: 0xffffffff, ABSOLUTE)
+
+    Execution Region .my_emulated_eeprom (Base: 0x0001b000, Size: 0x00004200, Max: 0xffffffff, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x0001b000   0x0000113c   Data   RO         2088    .ARM.__AT_0x0001B000  Record.o
+    0x0001c13c   0x000000c4   PAD
+    0x0001c200   0x00003000   Data   RO         2089    .my_emulated_eeprom  Record.o
+
+
+
+  Load Region CYFLASHPROTECT (Base: 0x90400000, Size: 0x00000040, Max: 0xffffffff, ABSOLUTE)
+
+    Execution Region .cyflashprotect (Base: 0x90400000, Size: 0x00000040, Max: 0xffffffff, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x90400000   0x00000040   Data   RO         2472    .cyflashprotect     cymetadata.o
+
+
+
+  Load Region CYMETA (Base: 0x90500000, Size: 0x0000000c, Max: 0xffffffff, ABSOLUTE)
+
+    Execution Region .cymeta (Base: 0x90500000, Size: 0x0000000c, Max: 0xffffffff, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x90500000   0x0000000c   Data   RO         2473    .cymeta             cymetadata.o
+
+
+
+  Load Region CYCHIPPROTECT (Base: 0x90600000, Size: 0x00000004, Max: 0xffffffff, ABSOLUTE)
+
+    Execution Region .cychipprotect (Base: 0x90600000, Size: 0x00000004, Max: 0xffffffff, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x90600000   0x00000001   Data   RO         2471    .cychipprotect      cymetadata.o
+

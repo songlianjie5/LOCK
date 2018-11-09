@@ -1,0 +1,1381 @@
+--------------- Rebuild Started: 10/15/2018 09:34:02 Project: LOCK, Configuration: ARM MDK Generic Release ---------------
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\main.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\gpio.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\Bat.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\BLE.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\Card.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\nxp520.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\Display.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\DisplayFont.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\Extend.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\Fingerprint.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\List.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\Function.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\LockMode.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\ManageMode.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\MenuTips.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\NormalMode.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\Utilities.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\Led.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\adc_hal.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\Lock.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\lock_evt.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\lock_hal.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\power.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\Record.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\Rtc.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\SwitchKey.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\Tuch.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\Voice.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\Wdt.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\cyfitter_cfg.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\cymetadata.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\Cm0plusStart.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\CyBootAsmRv.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\CyFlash.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\CyLib.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\cyPm.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\cyutils.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\CyDMA.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\CyLFClk.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\cy_em_eeprom.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\UART_1_BLE.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\UART_1_BLE_SPI_UART.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\UART_1_BLE_SPI_UART_INT.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\UART_1_BLE_PM.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\UART_1_BLE_UART.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\UART_1_BLE_BOOT.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\UART_1_BLE_UART_BOOT.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\UART_0_FPC.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\UART_0_FPC_SPI_UART.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\UART_0_FPC_SPI_UART_INT.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\UART_0_FPC_PM.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\UART_0_FPC_UART.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\UART_0_FPC_BOOT.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\UART_0_FPC_UART_BOOT.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\UART_2_EXT.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\UART_2_EXT_SPI_UART.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\UART_2_EXT_SPI_UART_INT.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\UART_2_EXT_PM.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\UART_2_EXT_UART.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\UART_2_EXT_BOOT.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\UART_2_EXT_UART_BOOT.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\SPI_0_OLED_FLASH.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\SPI_0_OLED_FLASH_SPI_UART.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\SPI_0_OLED_FLASH_PM.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\SPI_0_OLED_FLASH_SPI.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\SPI_0_OLED_FLASH_BOOT.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\SPI_0_OLED_FLASH_SPI_BOOT.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\SPI_1_CARD.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\SPI_1_CARD_SPI_UART.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\SPI_1_CARD_PM.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\SPI_1_CARD_SPI.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\SPI_1_CARD_BOOT.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\SPI_1_CARD_SPI_BOOT.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\CARD_RESET.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\CARD_RESET_PM.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\OLED_DC.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\OLED_DC_PM.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\I2C_SCL.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\I2C_SCL_PM.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\I2C_SDA.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\I2C_SDA_PM.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\I2C_ST.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\I2C_ST_PM.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\CapSense_Control.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\CapSense_Processing.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\CapSense_Structure.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\CapSense_Tuner.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\CapSense_Filter.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\CapSense_Sensing.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\CapSense_INT.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\CapSense_SensingCSD_LL.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\ADC.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\ADC_PM.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\ADC_INT.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\BAT_ADC.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\BAT_ADC_PM.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\MOTO_ADC.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\MOTO_ADC_PM.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\RF_ADC.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\RF_ADC_PM.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\VOICE_BUSY.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\VOICE_BUSY_PM.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\VOICE_DATA.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\VOICE_DATA_PM.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\isr_1.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\GPIO_ISR1.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\GPIO_ISR1_PM.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\isr_2.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\OP3_INT.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\OP3_INT_PM.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\OP1_INT.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\OP1_INT_PM.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\COVER_CHK_INT.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\COVER_CHK_INT_PM.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\isr_wdt.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\RTC_1.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\Em_EEPROM.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\UART_1_BLE_SCBCLK.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\UART_1_BLE_tx.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\UART_1_BLE_tx_PM.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\UART_1_BLE_SCB_IRQ.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\UART_1_BLE_rx.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\UART_1_BLE_rx_PM.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\UART_0_FPC_SCBCLK.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\UART_0_FPC_tx.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\UART_0_FPC_tx_PM.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\UART_0_FPC_SCB_IRQ.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\UART_0_FPC_rx.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\UART_0_FPC_rx_PM.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\UART_2_EXT_SCBCLK.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\UART_2_EXT_tx.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\UART_2_EXT_tx_PM.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\UART_2_EXT_SCB_IRQ.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\UART_2_EXT_rx.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\UART_2_EXT_rx_PM.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\SPI_0_OLED_FLASH_SCBCLK.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\SPI_0_OLED_FLASH_ss1_m.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\SPI_0_OLED_FLASH_ss1_m_PM.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\SPI_0_OLED_FLASH_sclk_m.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\SPI_0_OLED_FLASH_sclk_m_PM.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\SPI_0_OLED_FLASH_miso_m.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\SPI_0_OLED_FLASH_miso_m_PM.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\SPI_0_OLED_FLASH_mosi_m.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\SPI_0_OLED_FLASH_mosi_m_PM.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\SPI_0_OLED_FLASH_ss0_m.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\SPI_0_OLED_FLASH_ss0_m_PM.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\SPI_1_CARD_SCBCLK.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\SPI_1_CARD_sclk_m.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\SPI_1_CARD_sclk_m_PM.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\SPI_1_CARD_miso_m.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\SPI_1_CARD_miso_m_PM.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\SPI_1_CARD_mosi_m.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\SPI_1_CARD_mosi_m_PM.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\SPI_1_CARD_ss0_m.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\SPI_1_CARD_ss0_m_PM.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\CapSense_ISR.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\ADC_IRQ.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\ADC_intClock.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\Opamp_Rf.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\Opamp_Rf_PM.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\Opamp_Bat.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\Opamp_Bat_PM.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\TEST.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\TEST_PM.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\LOCKINT.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\LOCKINT_PM.o"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\LOCK.map"
+Deleting file ".\LOCK.cycdx"
+Deleting file ".\LOCK.rpt"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\.deps\SOURCE_C__ARM_MDK_GENERIC.P"
+Deleting file ".\CortexM0p\ARM_MDK_Generic\Release\.deps\SOURCE_ASM__ARM_MDK_GENERIC.P"
+cydsfit.exe -.appdatapath "C:\Users\windows7\AppData\Local\Cypress Semiconductor\PSoC Creator\4.2" -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -.fdsreffile=referenced_files.txt -p E:\Cypress\NEW_LOCK\LOCK.cydsn\LOCK.cyprj -d CY8C4147AZI-S455 -s E:\Cypress\NEW_LOCK\LOCK.cydsn\Generated_Source\PSoC4 -- -yv2 -q10 -ygs -o2 -v2 -.fftcfgtype=LE
+Elaborating Design...
+HDL Generation...
+Synthesis...
+Tech Mapping...
+Analog Placement...
+Analog Routing...
+Analog Code Generation...
+Digital Placement...
+Digital Routing...
+Bitstream Generation...
+Bitstream Verification...
+Static timing analysis...
+API Generation...
+Dependency Generation...
+Cleanup...
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c main.c -o .\CortexM0p\ARM_MDK_Generic\Release\main.o
+.\Modules\Bat\Bat.h:17:6: Warning:  #1295-D: Deprecated declaration Bat_Init - give arg types
+  void Bat_Init();
+       ^
+.\Modules\Bat\Bat.h:19:9: Warning:  #1295-D: Deprecated declaration Bat_Numeric - give arg types
+  uint8_t Bat_Numeric();//鐢甸噺鐧惧垎姣? 0-100
+          ^
+.\Modules\Power\Power.h:82:6: Warning:  #1295-D: Deprecated declaration FL3225_Init - give arg types
+  void FL3225_Init();
+       ^
+.\Modules\Power\Power.h:89:7: Warning:  #1-D: last line of file ends without a newline
+  #endif
+        ^
+.\Modules\Record\Record.h:88:13: Warning:  #1295-D: Deprecated declaration Record_InitSet - give arg types
+  extern 
+ool Record_InitSet();
+              ^
+.\Modules\Mcu\gpio.h:62:6: Warning:  #1295-D: Deprecated declaration GPIO_SaveStat - give arg types
+  void GPIO_SaveStat();//淇濆瓨GPIO鍒濆鍖栫姸鎬佸瘎瀛樺櫒鐨勫€?
+       ^
+.\Modules\Mcu\gpio.h:64:6: Warning:  #1295-D: Deprecated declaration GPIO_LoadStat - give arg types
+  void GPIO_LoadStat();//鎭㈠GPIO瀵勫瓨鍣ㄥ垵濮嬪寲鐨勫€?
+       ^
+.\Modules\Mcu\gpio.h:66:6: Warning:  #1295-D: Deprecated declaration GPIO_SleepSet - give arg types
+  void GPIO_SleepSet();//鐫＄湢鍓嶅皢鎵€鏈塈O鍙ｈ缃垚楂橀樆鐘舵€?
+       ^
+.\Modules\Mcu\gpio.h:68:15: Warning:  #1295-D: Deprecated declaration GPIO_GetRegData - give arg types
+  pGPIO_REGDATA GPIO_GetRegData();
+                ^
+.\Modules\Mcu\gpio.h:77:5: Warning:  #1-D: last line of file ends without a newline
+      ^
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Modules\Mcu\gpio.c -o .\CortexM0p\ARM_MDK_Generic\Release\gpio.o
+.\Modules\Bat\Bat.h:17:6: Warning:  #1295-D: Deprecated declaration Bat_Init - give arg types
+  void Bat_Init();
+       ^
+.\Modules\Bat\Bat.h:19:9: Warning:  #1295-D: Deprecated declaration Bat_Numeric - give arg types
+  uint8_t Bat_Numeric();//鐢甸噺鐧惧垎姣? 0-100
+          ^
+.\Modules\Power\Power.h:82:6: Warning:  #1295-D: Deprecated declaration FL3225_Init - give arg types
+  void FL3225_Init();
+       ^
+.\Modules\Power\Power.h:89:7: Warning:  #1-D: last line of file ends without a newline
+  #endif
+        ^
+.\Modules\Record\Record.h:88:13: Warning:  #1295-D: Deprecated declaration Record_InitSet - give arg types
+  extern 
+ool Record_InitSet();
+              ^
+.\Modules\Mcu\gpio.h:77:5: Warning:  #1-D: last line of file ends without a newline
+      ^
+Modules\Mcu\gpio.h:62:6: Warning:  #1295-D: Deprecated declaration GPIO_SaveStat - give arg types
+  void GPIO_SaveStat();//淇濆瓨GPIO鍒濆鍖栫姸鎬佸瘎瀛樺櫒鐨勫€?
+       ^
+Modules\Mcu\gpio.h:64:6: Warning:  #1295-D: Deprecated declaration GPIO_LoadStat - give arg types
+  void GPIO_LoadStat();//鎭㈠GPIO瀵勫瓨鍣ㄥ垵濮嬪寲鐨勫€?
+       ^
+Modules\Mcu\gpio.h:66:6: Warning:  #1295-D: Deprecated declaration GPIO_SleepSet - give arg types
+  void GPIO_SleepSet();//鐫＄湢鍓嶅皢鎵€鏈塈O鍙ｈ缃垚楂橀樆鐘舵€?
+       ^
+Modules\Mcu\gpio.h:68:15: Warning:  #1295-D: Deprecated declaration GPIO_GetRegData - give arg types
+  pGPIO_REGDATA GPIO_GetRegData();
+                ^
+Modules\Mcu\gpio.h:77:5: Warning:  #1-D: last line of file ends without a newline
+      ^
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Modules\Bat\Bat.c -o .\CortexM0p\ARM_MDK_Generic\Release\Bat.o
+.\Modules\Power\Power.h:82:6: Warning:  #1295-D: Deprecated declaration FL3225_Init - give arg types
+  void FL3225_Init();
+       ^
+.\Modules\Power\Power.h:89:7: Warning:  #1-D: last line of file ends without a newline
+  #endif
+        ^
+.\Modules\Record\Record.h:88:13: Warning:  #1295-D: Deprecated declaration Record_InitSet - give arg types
+  extern 
+ool Record_InitSet();
+              ^
+.\Modules\Mcu\gpio.h:62:6: Warning:  #1295-D: Deprecated declaration GPIO_SaveStat - give arg types
+  void GPIO_SaveStat();//淇濆瓨GPIO鍒濆鍖栫姸鎬佸瘎瀛樺櫒鐨勫€?
+       ^
+.\Modules\Mcu\gpio.h:64:6: Warning:  #1295-D: Deprecated declaration GPIO_LoadStat - give arg types
+  void GPIO_LoadStat();//鎭㈠GPIO瀵勫瓨鍣ㄥ垵濮嬪寲鐨勫€?
+       ^
+.\Modules\Mcu\gpio.h:66:6: Warning:  #1295-D: Deprecated declaration GPIO_SleepSet - give arg types
+  void GPIO_SleepSet();//鐫＄湢鍓嶅皢鎵€鏈塈O鍙ｈ缃垚楂橀樆鐘舵€?
+       ^
+.\Modules\Mcu\gpio.h:68:15: Warning:  #1295-D: Deprecated declaration GPIO_GetRegData - give arg types
+  pGPIO_REGDATA GPIO_GetRegData();
+                ^
+.\Modules\Mcu\gpio.h:77:5: Warning:  #1-D: last line of file ends without a newline
+      ^
+Modules\Bat\Bat.h:17:6: Warning:  #1295-D: Deprecated declaration Bat_Init - give arg types
+  void Bat_Init();
+       ^
+Modules\Bat\Bat.h:19:9: Warning:  #1295-D: Deprecated declaration Bat_Numeric - give arg types
+  uint8_t Bat_Numeric();//鐢甸噺鐧惧垎姣? 0-100
+          ^
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Modules\Ble\BLE.c -o .\CortexM0p\ARM_MDK_Generic\Release\BLE.o
+.\Modules\Bat\Bat.h:17:6: Warning:  #1295-D: Deprecated declaration Bat_Init - give arg types
+  void Bat_Init();
+       ^
+.\Modules\Bat\Bat.h:19:9: Warning:  #1295-D: Deprecated declaration Bat_Numeric - give arg types
+  uint8_t Bat_Numeric();//鐢甸噺鐧惧垎姣? 0-100
+          ^
+.\Modules\Power\Power.h:82:6: Warning:  #1295-D: Deprecated declaration FL3225_Init - give arg types
+  void FL3225_Init();
+       ^
+.\Modules\Power\Power.h:89:7: Warning:  #1-D: last line of file ends without a newline
+  #endif
+        ^
+.\Modules\Record\Record.h:88:13: Warning:  #1295-D: Deprecated declaration Record_InitSet - give arg types
+  extern 
+ool Record_InitSet();
+              ^
+.\Modules\Mcu\gpio.h:62:6: Warning:  #1295-D: Deprecated declaration GPIO_SaveStat - give arg types
+  void GPIO_SaveStat();//淇濆瓨GPIO鍒濆鍖栫姸鎬佸瘎瀛樺櫒鐨勫€?
+       ^
+.\Modules\Mcu\gpio.h:64:6: Warning:  #1295-D: Deprecated declaration GPIO_LoadStat - give arg types
+  void GPIO_LoadStat();//鎭㈠GPIO瀵勫瓨鍣ㄥ垵濮嬪寲鐨勫€?
+       ^
+.\Modules\Mcu\gpio.h:66:6: Warning:  #1295-D: Deprecated declaration GPIO_SleepSet - give arg types
+  void GPIO_SleepSet();//鐫＄湢鍓嶅皢鎵€鏈塈O鍙ｈ缃垚楂橀樆鐘舵€?
+       ^
+.\Modules\Mcu\gpio.h:68:15: Warning:  #1295-D: Deprecated declaration GPIO_GetRegData - give arg types
+  pGPIO_REGDATA GPIO_GetRegData();
+                ^
+.\Modules\Mcu\gpio.h:77:5: Warning:  #1-D: last line of file ends without a newline
+      ^
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Modules\Card\Card.c -o .\CortexM0p\ARM_MDK_Generic\Release\Card.o
+.\Modules\Bat\Bat.h:17:6: Warning:  #1295-D: Deprecated declaration Bat_Init - give arg types
+  void Bat_Init();
+       ^
+.\Modules\Bat\Bat.h:19:9: Warning:  #1295-D: Deprecated declaration Bat_Numeric - give arg types
+  uint8_t Bat_Numeric();//鐢甸噺鐧惧垎姣? 0-100
+          ^
+.\Modules\Power\Power.h:82:6: Warning:  #1295-D: Deprecated declaration FL3225_Init - give arg types
+  void FL3225_Init();
+       ^
+.\Modules\Power\Power.h:89:7: Warning:  #1-D: last line of file ends without a newline
+  #endif
+        ^
+.\Modules\Record\Record.h:88:13: Warning:  #1295-D: Deprecated declaration Record_InitSet - give arg types
+  extern 
+ool Record_InitSet();
+              ^
+.\Modules\Mcu\gpio.h:62:6: Warning:  #1295-D: Deprecated declaration GPIO_SaveStat - give arg types
+  void GPIO_SaveStat();//淇濆瓨GPIO鍒濆鍖栫姸鎬佸瘎瀛樺櫒鐨勫€?
+       ^
+.\Modules\Mcu\gpio.h:64:6: Warning:  #1295-D: Deprecated declaration GPIO_LoadStat - give arg types
+  void GPIO_LoadStat();//鎭㈠GPIO瀵勫瓨鍣ㄥ垵濮嬪寲鐨勫€?
+       ^
+.\Modules\Mcu\gpio.h:66:6: Warning:  #1295-D: Deprecated declaration GPIO_SleepSet - give arg types
+  void GPIO_SleepSet();//鐫＄湢鍓嶅皢鎵€鏈塈O鍙ｈ缃垚楂橀樆鐘舵€?
+       ^
+.\Modules\Mcu\gpio.h:68:15: Warning:  #1295-D: Deprecated declaration GPIO_GetRegData - give arg types
+  pGPIO_REGDATA GPIO_GetRegData();
+                ^
+.\Modules\Mcu\gpio.h:77:5: Warning:  #1-D: last line of file ends without a newline
+      ^
+Modules\Card\Card.c:15:17: Warning:  #1295-D: Deprecated declaration Rf_Adc_Out - give arg types
+  static uint16_t Rf_Adc_Out();
+                  ^
+Modules\Card\Card.c:19:17: Warning:  #177-D: function "maxmin"  was declared but never referenced
+  static uint16_t maxmin(uint16_t *array,uint16_t len,uint16_t *maxval,uint16_t *minval);//璁＄畻鏁扮粍涓渶澶у€煎拰鏈€灏忓€肩殑宸€?
+                  ^
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Modules\Card\nxp520.c -o .\CortexM0p\ARM_MDK_Generic\Release\nxp520.o
+Modules\Card\nxp520.c:430:54: Warning:  #167-D: argument of type "volatile unsigned char *" is incompatible with parameter of type "unsigned char *"
+      status = nxp520_communicate_card(
+CD_TRANSCEIVE, ucComMF522Buf, 1, ucComMF522Buf, &unLen);
+                                                       ^
+Modules\Card\nxp520.c:430:72: Warning:  #167-D: argument of type "volatile unsigned char *" is incompatible with parameter of type "unsigned char *"
+      status = nxp520_communicate_card(
+CD_TRANSCEIVE, ucComMF522Buf, 1, ucComMF522Buf, &unLen);
+                                                                         ^
+Modules\Card\nxp520.c:430:87: Warning:  #167-D: argument of type "volatile unsigned int *" is incompatible with parameter of type "unsigned int *"
+      status = nxp520_communicate_card(
+CD_TRANSCEIVE, ucComMF522Buf, 1, ucComMF522Buf, &unLen);
+                                                                                        ^
+Modules\Card\nxp520.c:110:13: Warning:  #177-D: function "spi_write_string"  was declared but never referenced
+  static void spi_write_string(uint8_t cmd, uint8_t *pointer, uint16_t len)
+              ^
+Modules\Card\nxp520.c:123:13: Warning:  #177-D: function "spi_read_string"  was declared but never referenced
+  static void spi_read_string(uint8_t cmd, uint8_t *pointer, uint16_t len)
+              ^
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Modules\Display\Display.c -o .\CortexM0p\ARM_MDK_Generic\Release\Display.o
+.\Modules\Bat\Bat.h:17:6: Warning:  #1295-D: Deprecated declaration Bat_Init - give arg types
+  void Bat_Init();
+       ^
+.\Modules\Bat\Bat.h:19:9: Warning:  #1295-D: Deprecated declaration Bat_Numeric - give arg types
+  uint8_t Bat_Numeric();//鐢甸噺鐧惧垎姣? 0-100
+          ^
+.\Modules\Power\Power.h:82:6: Warning:  #1295-D: Deprecated declaration FL3225_Init - give arg types
+  void FL3225_Init();
+       ^
+.\Modules\Power\Power.h:89:7: Warning:  #1-D: last line of file ends without a newline
+  #endif
+        ^
+.\Modules\Record\Record.h:88:13: Warning:  #1295-D: Deprecated declaration Record_InitSet - give arg types
+  extern 
+ool Record_InitSet();
+              ^
+.\Modules\Mcu\gpio.h:62:6: Warning:  #1295-D: Deprecated declaration GPIO_SaveStat - give arg types
+  void GPIO_SaveStat();//淇濆瓨GPIO鍒濆鍖栫姸鎬佸瘎瀛樺櫒鐨勫€?
+       ^
+.\Modules\Mcu\gpio.h:64:6: Warning:  #1295-D: Deprecated declaration GPIO_LoadStat - give arg types
+  void GPIO_LoadStat();//鎭㈠GPIO瀵勫瓨鍣ㄥ垵濮嬪寲鐨勫€?
+       ^
+.\Modules\Mcu\gpio.h:66:6: Warning:  #1295-D: Deprecated declaration GPIO_SleepSet - give arg types
+  void GPIO_SleepSet();//鐫＄湢鍓嶅皢鎵€鏈塈O鍙ｈ缃垚楂橀樆鐘舵€?
+       ^
+.\Modules\Mcu\gpio.h:68:15: Warning:  #1295-D: Deprecated declaration GPIO_GetRegData - give arg types
+  pGPIO_REGDATA GPIO_GetRegData();
+                ^
+.\Modules\Mcu\gpio.h:77:5: Warning:  #1-D: last line of file ends without a newline
+      ^
+Modules\Display\Display.c:23:5: Warning:  #111-D: statement is unreachable
+      return 0;
+      ^
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Modules\Display\DisplayFont.c -o .\CortexM0p\ARM_MDK_Generic\Release\DisplayFont.o
+.\Modules\Bat\Bat.h:17:6: Warning:  #1295-D: Deprecated declaration Bat_Init - give arg types
+  void Bat_Init();
+       ^
+.\Modules\Bat\Bat.h:19:9: Warning:  #1295-D: Deprecated declaration Bat_Numeric - give arg types
+  uint8_t Bat_Numeric();//鐢甸噺鐧惧垎姣? 0-100
+          ^
+.\Modules\Power\Power.h:82:6: Warning:  #1295-D: Deprecated declaration FL3225_Init - give arg types
+  void FL3225_Init();
+       ^
+.\Modules\Power\Power.h:89:7: Warning:  #1-D: last line of file ends without a newline
+  #endif
+        ^
+.\Modules\Record\Record.h:88:13: Warning:  #1295-D: Deprecated declaration Record_InitSet - give arg types
+  extern 
+ool Record_InitSet();
+              ^
+.\Modules\Mcu\gpio.h:62:6: Warning:  #1295-D: Deprecated declaration GPIO_SaveStat - give arg types
+  void GPIO_SaveStat();//淇濆瓨GPIO鍒濆鍖栫姸鎬佸瘎瀛樺櫒鐨勫€?
+       ^
+.\Modules\Mcu\gpio.h:64:6: Warning:  #1295-D: Deprecated declaration GPIO_LoadStat - give arg types
+  void GPIO_LoadStat();//鎭㈠GPIO瀵勫瓨鍣ㄥ垵濮嬪寲鐨勫€?
+       ^
+.\Modules\Mcu\gpio.h:66:6: Warning:  #1295-D: Deprecated declaration GPIO_SleepSet - give arg types
+  void GPIO_SleepSet();//鐫＄湢鍓嶅皢鎵€鏈塈O鍙ｈ缃垚楂橀樆鐘舵€?
+       ^
+.\Modules\Mcu\gpio.h:68:15: Warning:  #1295-D: Deprecated declaration GPIO_GetRegData - give arg types
+  pGPIO_REGDATA GPIO_GetRegData();
+                ^
+.\Modules\Mcu\gpio.h:77:5: Warning:  #1-D: last line of file ends without a newline
+      ^
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Modules\Extend\Extend.c -o .\CortexM0p\ARM_MDK_Generic\Release\Extend.o
+.\Modules\Bat\Bat.h:17:6: Warning:  #1295-D: Deprecated declaration Bat_Init - give arg types
+  void Bat_Init();
+       ^
+.\Modules\Bat\Bat.h:19:9: Warning:  #1295-D: Deprecated declaration Bat_Numeric - give arg types
+  uint8_t Bat_Numeric();//鐢甸噺鐧惧垎姣? 0-100
+          ^
+.\Modules\Power\Power.h:82:6: Warning:  #1295-D: Deprecated declaration FL3225_Init - give arg types
+  void FL3225_Init();
+       ^
+.\Modules\Power\Power.h:89:7: Warning:  #1-D: last line of file ends without a newline
+  #endif
+        ^
+.\Modules\Record\Record.h:88:13: Warning:  #1295-D: Deprecated declaration Record_InitSet - give arg types
+  extern 
+ool Record_InitSet();
+              ^
+.\Modules\Mcu\gpio.h:62:6: Warning:  #1295-D: Deprecated declaration GPIO_SaveStat - give arg types
+  void GPIO_SaveStat();//淇濆瓨GPIO鍒濆鍖栫姸鎬佸瘎瀛樺櫒鐨勫€?
+       ^
+.\Modules\Mcu\gpio.h:64:6: Warning:  #1295-D: Deprecated declaration GPIO_LoadStat - give arg types
+  void GPIO_LoadStat();//鎭㈠GPIO瀵勫瓨鍣ㄥ垵濮嬪寲鐨勫€?
+       ^
+.\Modules\Mcu\gpio.h:66:6: Warning:  #1295-D: Deprecated declaration GPIO_SleepSet - give arg types
+  void GPIO_SleepSet();//鐫＄湢鍓嶅皢鎵€鏈塈O鍙ｈ缃垚楂橀樆鐘舵€?
+       ^
+.\Modules\Mcu\gpio.h:68:15: Warning:  #1295-D: Deprecated declaration GPIO_GetRegData - give arg types
+  pGPIO_REGDATA GPIO_GetRegData();
+                ^
+.\Modules\Mcu\gpio.h:77:5: Warning:  #1-D: last line of file ends without a newline
+      ^
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Modules\Fingerprint\Fingerprint.c -o .\CortexM0p\ARM_MDK_Generic\Release\Fingerprint.o
+.\Modules\Bat\Bat.h:17:6: Warning:  #1295-D: Deprecated declaration Bat_Init - give arg types
+  void Bat_Init();
+       ^
+.\Modules\Bat\Bat.h:19:9: Warning:  #1295-D: Deprecated declaration Bat_Numeric - give arg types
+  uint8_t Bat_Numeric();//鐢甸噺鐧惧垎姣? 0-100
+          ^
+.\Modules\Power\Power.h:82:6: Warning:  #1295-D: Deprecated declaration FL3225_Init - give arg types
+  void FL3225_Init();
+       ^
+.\Modules\Power\Power.h:89:7: Warning:  #1-D: last line of file ends without a newline
+  #endif
+        ^
+.\Modules\Record\Record.h:88:13: Warning:  #1295-D: Deprecated declaration Record_InitSet - give arg types
+  extern 
+ool Record_InitSet();
+              ^
+.\Modules\Mcu\gpio.h:62:6: Warning:  #1295-D: Deprecated declaration GPIO_SaveStat - give arg types
+  void GPIO_SaveStat();//淇濆瓨GPIO鍒濆鍖栫姸鎬佸瘎瀛樺櫒鐨勫€?
+       ^
+.\Modules\Mcu\gpio.h:64:6: Warning:  #1295-D: Deprecated declaration GPIO_LoadStat - give arg types
+  void GPIO_LoadStat();//鎭㈠GPIO瀵勫瓨鍣ㄥ垵濮嬪寲鐨勫€?
+       ^
+.\Modules\Mcu\gpio.h:66:6: Warning:  #1295-D: Deprecated declaration GPIO_SleepSet - give arg types
+  void GPIO_SleepSet();//鐫＄湢鍓嶅皢鎵€鏈塈O鍙ｈ缃垚楂橀樆鐘舵€?
+       ^
+.\Modules\Mcu\gpio.h:68:15: Warning:  #1295-D: Deprecated declaration GPIO_GetRegData - give arg types
+  pGPIO_REGDATA GPIO_GetRegData();
+                ^
+.\Modules\Mcu\gpio.h:77:5: Warning:  #1-D: last line of file ends without a newline
+      ^
+Modules\Fingerprint\Fingerprint.c:221:42: Warning:  #167-D: argument of type "volatile uint8_t *" is incompatible with parameter of type "uint8_t *"
+          			if(Fingerprint_Check_Ack(0x55,&Pageid)==0)
+          			                              ^
+Modules\Fingerprint\Fingerprint.c:244:51: Warning:  #167-D: argument of type "volatile uint8_t *" is incompatible with parameter of type "uint8_t *"
+                      ret = Fingerprint_Check_Ack(0,&Pageid);
+                                                    ^
+Modules\Fingerprint\Fingerprint.c:270:39: Warning:  #167-D: argument of type "volatile uint8_t *" is incompatible with parameter of type "uint8_t *"
+          			if(Fingerprint_Check_Ack(0,&Pageid)==0)
+          			                           ^
+Modules\Fingerprint\Fingerprint.c:290:51: Warning:  #167-D: argument of type "volatile uint8_t *" is incompatible with parameter of type "uint8_t *"
+                      ret = Fingerprint_Check_Ack(0,&Pageid);
+                                                    ^
+Modules\Fingerprint\Fingerprint.c:318:51: Warning:  #167-D: argument of type "volatile uint8_t *" is incompatible with parameter of type "uint8_t *"
+                      ret = Fingerprint_Check_Ack(0,&Pageid);
+                                                    ^
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Modules\Function\List\List.c -o .\CortexM0p\ARM_MDK_Generic\Release\List.o
+.\Modules\Bat\Bat.h:17:6: Warning:  #1295-D: Deprecated declaration Bat_Init - give arg types
+  void Bat_Init();
+       ^
+.\Modules\Bat\Bat.h:19:9: Warning:  #1295-D: Deprecated declaration Bat_Numeric - give arg types
+  uint8_t Bat_Numeric();//鐢甸噺鐧惧垎姣? 0-100
+          ^
+.\Modules\Power\Power.h:82:6: Warning:  #1295-D: Deprecated declaration FL3225_Init - give arg types
+  void FL3225_Init();
+       ^
+.\Modules\Power\Power.h:89:7: Warning:  #1-D: last line of file ends without a newline
+  #endif
+        ^
+.\Modules\Record\Record.h:88:13: Warning:  #1295-D: Deprecated declaration Record_InitSet - give arg types
+  extern 
+ool Record_InitSet();
+              ^
+.\Modules\Mcu\gpio.h:62:6: Warning:  #1295-D: Deprecated declaration GPIO_SaveStat - give arg types
+  void GPIO_SaveStat();//淇濆瓨GPIO鍒濆鍖栫姸鎬佸瘎瀛樺櫒鐨勫€?
+       ^
+.\Modules\Mcu\gpio.h:64:6: Warning:  #1295-D: Deprecated declaration GPIO_LoadStat - give arg types
+  void GPIO_LoadStat();//鎭㈠GPIO瀵勫瓨鍣ㄥ垵濮嬪寲鐨勫€?
+       ^
+.\Modules\Mcu\gpio.h:66:6: Warning:  #1295-D: Deprecated declaration GPIO_SleepSet - give arg types
+  void GPIO_SleepSet();//鐫＄湢鍓嶅皢鎵€鏈塈O鍙ｈ缃垚楂橀樆鐘舵€?
+       ^
+.\Modules\Mcu\gpio.h:68:15: Warning:  #1295-D: Deprecated declaration GPIO_GetRegData - give arg types
+  pGPIO_REGDATA GPIO_GetRegData();
+                ^
+.\Modules\Mcu\gpio.h:77:5: Warning:  #1-D: last line of file ends without a newline
+      ^
+Modules\Function\List\List.c:19:1: Warning:  #940-D: missing return statement at end of non-void function "ListInit" 
+  }
+  ^
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Modules\Function\Function.c -o .\CortexM0p\ARM_MDK_Generic\Release\Function.o
+.\Modules\Bat\Bat.h:17:6: Warning:  #1295-D: Deprecated declaration Bat_Init - give arg types
+  void Bat_Init();
+       ^
+.\Modules\Bat\Bat.h:19:9: Warning:  #1295-D: Deprecated declaration Bat_Numeric - give arg types
+  uint8_t Bat_Numeric();//鐢甸噺鐧惧垎姣? 0-100
+          ^
+.\Modules\Power\Power.h:82:6: Warning:  #1295-D: Deprecated declaration FL3225_Init - give arg types
+  void FL3225_Init();
+       ^
+.\Modules\Power\Power.h:89:7: Warning:  #1-D: last line of file ends without a newline
+  #endif
+        ^
+.\Modules\Record\Record.h:88:13: Warning:  #1295-D: Deprecated declaration Record_InitSet - give arg types
+  extern 
+ool Record_InitSet();
+              ^
+.\Modules\Mcu\gpio.h:62:6: Warning:  #1295-D: Deprecated declaration GPIO_SaveStat - give arg types
+  void GPIO_SaveStat();//淇濆瓨GPIO鍒濆鍖栫姸鎬佸瘎瀛樺櫒鐨勫€?
+       ^
+.\Modules\Mcu\gpio.h:64:6: Warning:  #1295-D: Deprecated declaration GPIO_LoadStat - give arg types
+  void GPIO_LoadStat();//鎭㈠GPIO瀵勫瓨鍣ㄥ垵濮嬪寲鐨勫€?
+       ^
+.\Modules\Mcu\gpio.h:66:6: Warning:  #1295-D: Deprecated declaration GPIO_SleepSet - give arg types
+  void GPIO_SleepSet();//鐫＄湢鍓嶅皢鎵€鏈塈O鍙ｈ缃垚楂橀樆鐘舵€?
+       ^
+.\Modules\Mcu\gpio.h:68:15: Warning:  #1295-D: Deprecated declaration GPIO_GetRegData - give arg types
+  pGPIO_REGDATA GPIO_GetRegData();
+                ^
+.\Modules\Mcu\gpio.h:77:5: Warning:  #1-D: last line of file ends without a newline
+      ^
+Modules\Function\Function.c:45:12: Warning:  #223-D: function "LOCK_INT_ClearInterrupt" declared implicitly
+  	regdata = LOCK_INT_ClearInterrupt();//娓呴櫎涓柇
+  	          ^
+Modules\Function\Function.c:44:13: Warning:  #550-D: variable "regdata"  was set but never used
+      uint8_t regdata;
+              ^
+Modules\Function\Function.c:152:44: Warning:  #188-D: enumerated type mixed with another type
+      Function_status()->ManageMode.Language = optionTemp.Language;
+                                             ^
+Modules\Function\Function.c:153:41: Warning:  #188-D: enumerated type mixed with another type
+      Function_status()->ManageMode.Voice = optionTemp.Voice;
+                                          ^
+Modules\Function\Function.c:154:48: Warning:  #188-D: enumerated type mixed with another type
+      Function_status()->ManageMode.OpenDoorMode = optionTemp.OpenDoorMode;
+                                                 ^
+Modules\Function\Function.c:142:13: Warning:  #177-D: variable "p"  was declared but never referenced
+      uint8_t p[12]={8,9,4,5,6,1,2,3,7,0,1,7};
+              ^
+Modules\Function\Function.c:143:13: Warning:  #177-D: variable "userid"  was declared but never referenced
+      uint8_t userid;
+              ^
+Modules\Function\Function.c:144:13: Warning:  #177-D: variable "testpsw"  was declared but never referenced
+      uint8_t testpsw[]={0x85,0x87,0x85,0x87,0x85,0x87,0x00,0x00,0x00,0x00,0x00,0x00};
+              ^
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Modules\Function\LockMode.c -o .\CortexM0p\ARM_MDK_Generic\Release\LockMode.o
+.\Modules\Bat\Bat.h:17:6: Warning:  #1295-D: Deprecated declaration Bat_Init - give arg types
+  void Bat_Init();
+       ^
+.\Modules\Bat\Bat.h:19:9: Warning:  #1295-D: Deprecated declaration Bat_Numeric - give arg types
+  uint8_t Bat_Numeric();//鐢甸噺鐧惧垎姣? 0-100
+          ^
+.\Modules\Power\Power.h:82:6: Warning:  #1295-D: Deprecated declaration FL3225_Init - give arg types
+  void FL3225_Init();
+       ^
+.\Modules\Power\Power.h:89:7: Warning:  #1-D: last line of file ends without a newline
+  #endif
+        ^
+.\Modules\Record\Record.h:88:13: Warning:  #1295-D: Deprecated declaration Record_InitSet - give arg types
+  extern 
+ool Record_InitSet();
+              ^
+.\Modules\Mcu\gpio.h:62:6: Warning:  #1295-D: Deprecated declaration GPIO_SaveStat - give arg types
+  void GPIO_SaveStat();//淇濆瓨GPIO鍒濆鍖栫姸鎬佸瘎瀛樺櫒鐨勫€?
+       ^
+.\Modules\Mcu\gpio.h:64:6: Warning:  #1295-D: Deprecated declaration GPIO_LoadStat - give arg types
+  void GPIO_LoadStat();//鎭㈠GPIO瀵勫瓨鍣ㄥ垵濮嬪寲鐨勫€?
+       ^
+.\Modules\Mcu\gpio.h:66:6: Warning:  #1295-D: Deprecated declaration GPIO_SleepSet - give arg types
+  void GPIO_SleepSet();//鐫＄湢鍓嶅皢鎵€鏈塈O鍙ｈ缃垚楂橀樆鐘舵€?
+       ^
+.\Modules\Mcu\gpio.h:68:15: Warning:  #1295-D: Deprecated declaration GPIO_GetRegData - give arg types
+  pGPIO_REGDATA GPIO_GetRegData();
+                ^
+.\Modules\Mcu\gpio.h:77:5: Warning:  #1-D: last line of file ends without a newline
+      ^
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Modules\Function\ManageMode.c -o .\CortexM0p\ARM_MDK_Generic\Release\ManageMode.o
+.\Modules\Bat\Bat.h:17:6: Warning:  #1295-D: Deprecated declaration Bat_Init - give arg types
+  void Bat_Init();
+       ^
+.\Modules\Bat\Bat.h:19:9: Warning:  #1295-D: Deprecated declaration Bat_Numeric - give arg types
+  uint8_t Bat_Numeric();//鐢甸噺鐧惧垎姣? 0-100
+          ^
+.\Modules\Power\Power.h:82:6: Warning:  #1295-D: Deprecated declaration FL3225_Init - give arg types
+  void FL3225_Init();
+       ^
+.\Modules\Power\Power.h:89:7: Warning:  #1-D: last line of file ends without a newline
+  #endif
+        ^
+.\Modules\Record\Record.h:88:13: Warning:  #1295-D: Deprecated declaration Record_InitSet - give arg types
+  extern 
+ool Record_InitSet();
+              ^
+.\Modules\Mcu\gpio.h:62:6: Warning:  #1295-D: Deprecated declaration GPIO_SaveStat - give arg types
+  void GPIO_SaveStat();//淇濆瓨GPIO鍒濆鍖栫姸鎬佸瘎瀛樺櫒鐨勫€?
+       ^
+.\Modules\Mcu\gpio.h:64:6: Warning:  #1295-D: Deprecated declaration GPIO_LoadStat - give arg types
+  void GPIO_LoadStat();//鎭㈠GPIO瀵勫瓨鍣ㄥ垵濮嬪寲鐨勫€?
+       ^
+.\Modules\Mcu\gpio.h:66:6: Warning:  #1295-D: Deprecated declaration GPIO_SleepSet - give arg types
+  void GPIO_SleepSet();//鐫＄湢鍓嶅皢鎵€鏈塈O鍙ｈ缃垚楂橀樆鐘舵€?
+       ^
+.\Modules\Mcu\gpio.h:68:15: Warning:  #1295-D: Deprecated declaration GPIO_GetRegData - give arg types
+  pGPIO_REGDATA GPIO_GetRegData();
+                ^
+.\Modules\Mcu\gpio.h:77:5: Warning:  #1-D: last line of file ends without a newline
+      ^
+Modules\Function\ManageMode.c:312:19: Warning:  #177-D: variable "indexTab"  was declared but never referenced
+      const uint8_t indexTab[]={1,2,3,4,5,6,7,9};                                         //涓轰簡璺宠繃鏁板瓧8
+                    ^
+Modules\Function\ManageMode.c:706:13: Warning:  #177-D: variable "i"  was declared but never referenced
+      uint8_t i;
+              ^
+Modules\Function\ManageMode.c:996:13: Warning:  #177-D: variable "i"  was declared but never referenced
+      uint8_t i;
+              ^
+Modules\Function\ManageMode.c:2494:11: Warning:  #177-D: variable "rtcTemp"  was declared but never referenced
+      Rtc_t rtcTemp;
+            ^
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Modules\Function\MenuTips.c -o .\CortexM0p\ARM_MDK_Generic\Release\MenuTips.o
+.\Modules\Bat\Bat.h:17:6: Warning:  #1295-D: Deprecated declaration Bat_Init - give arg types
+  void Bat_Init();
+       ^
+.\Modules\Bat\Bat.h:19:9: Warning:  #1295-D: Deprecated declaration Bat_Numeric - give arg types
+  uint8_t Bat_Numeric();//鐢甸噺鐧惧垎姣? 0-100
+          ^
+.\Modules\Power\Power.h:82:6: Warning:  #1295-D: Deprecated declaration FL3225_Init - give arg types
+  void FL3225_Init();
+       ^
+.\Modules\Power\Power.h:89:7: Warning:  #1-D: last line of file ends without a newline
+  #endif
+        ^
+.\Modules\Record\Record.h:88:13: Warning:  #1295-D: Deprecated declaration Record_InitSet - give arg types
+  extern 
+ool Record_InitSet();
+              ^
+.\Modules\Mcu\gpio.h:62:6: Warning:  #1295-D: Deprecated declaration GPIO_SaveStat - give arg types
+  void GPIO_SaveStat();//淇濆瓨GPIO鍒濆鍖栫姸鎬佸瘎瀛樺櫒鐨勫€?
+       ^
+.\Modules\Mcu\gpio.h:64:6: Warning:  #1295-D: Deprecated declaration GPIO_LoadStat - give arg types
+  void GPIO_LoadStat();//鎭㈠GPIO瀵勫瓨鍣ㄥ垵濮嬪寲鐨勫€?
+       ^
+.\Modules\Mcu\gpio.h:66:6: Warning:  #1295-D: Deprecated declaration GPIO_SleepSet - give arg types
+  void GPIO_SleepSet();//鐫＄湢鍓嶅皢鎵€鏈塈O鍙ｈ缃垚楂橀樆鐘舵€?
+       ^
+.\Modules\Mcu\gpio.h:68:15: Warning:  #1295-D: Deprecated declaration GPIO_GetRegData - give arg types
+  pGPIO_REGDATA GPIO_GetRegData();
+                ^
+.\Modules\Mcu\gpio.h:77:5: Warning:  #1-D: last line of file ends without a newline
+      ^
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Modules\Function\NormalMode.c -o .\CortexM0p\ARM_MDK_Generic\Release\NormalMode.o
+.\Modules\Bat\Bat.h:17:6: Warning:  #1295-D: Deprecated declaration Bat_Init - give arg types
+  void Bat_Init();
+       ^
+.\Modules\Bat\Bat.h:19:9: Warning:  #1295-D: Deprecated declaration Bat_Numeric - give arg types
+  uint8_t Bat_Numeric();//鐢甸噺鐧惧垎姣? 0-100
+          ^
+.\Modules\Power\Power.h:82:6: Warning:  #1295-D: Deprecated declaration FL3225_Init - give arg types
+  void FL3225_Init();
+       ^
+.\Modules\Power\Power.h:89:7: Warning:  #1-D: last line of file ends without a newline
+  #endif
+        ^
+.\Modules\Record\Record.h:88:13: Warning:  #1295-D: Deprecated declaration Record_InitSet - give arg types
+  extern 
+ool Record_InitSet();
+              ^
+.\Modules\Mcu\gpio.h:62:6: Warning:  #1295-D: Deprecated declaration GPIO_SaveStat - give arg types
+  void GPIO_SaveStat();//淇濆瓨GPIO鍒濆鍖栫姸鎬佸瘎瀛樺櫒鐨勫€?
+       ^
+.\Modules\Mcu\gpio.h:64:6: Warning:  #1295-D: Deprecated declaration GPIO_LoadStat - give arg types
+  void GPIO_LoadStat();//鎭㈠GPIO瀵勫瓨鍣ㄥ垵濮嬪寲鐨勫€?
+       ^
+.\Modules\Mcu\gpio.h:66:6: Warning:  #1295-D: Deprecated declaration GPIO_SleepSet - give arg types
+  void GPIO_SleepSet();//鐫＄湢鍓嶅皢鎵€鏈塈O鍙ｈ缃垚楂橀樆鐘舵€?
+       ^
+.\Modules\Mcu\gpio.h:68:15: Warning:  #1295-D: Deprecated declaration GPIO_GetRegData - give arg types
+  pGPIO_REGDATA GPIO_GetRegData();
+                ^
+.\Modules\Mcu\gpio.h:77:5: Warning:  #1-D: last line of file ends without a newline
+      ^
+Modules\Function\NormalMode.c:3:16: Warning:  #1295-D: Deprecated declaration LockStatus_Proc - give arg types
+  static uint8_t LockStatus_Proc();
+                 ^
+Modules\Function\NormalMode.c:13:13: Warning:  #1295-D: Deprecated declaration OnKeyDoor_Proc - give arg types
+  static void OnKeyDoor_Proc();
+              ^
+Modules\Function\NormalMode.c:589:16: Warning:  #177-D: function "LockStatus_Proc"  was declared but never referenced
+  static uint8_t LockStatus_Proc()
+                 ^
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Modules\Function\Utilities.c -o .\CortexM0p\ARM_MDK_Generic\Release\Utilities.o
+.\Modules\Bat\Bat.h:17:6: Warning:  #1295-D: Deprecated declaration Bat_Init - give arg types
+  void Bat_Init();
+       ^
+.\Modules\Bat\Bat.h:19:9: Warning:  #1295-D: Deprecated declaration Bat_Numeric - give arg types
+  uint8_t Bat_Numeric();//鐢甸噺鐧惧垎姣? 0-100
+          ^
+.\Modules\Power\Power.h:82:6: Warning:  #1295-D: Deprecated declaration FL3225_Init - give arg types
+  void FL3225_Init();
+       ^
+.\Modules\Power\Power.h:89:7: Warning:  #1-D: last line of file ends without a newline
+  #endif
+        ^
+.\Modules\Record\Record.h:88:13: Warning:  #1295-D: Deprecated declaration Record_InitSet - give arg types
+  extern 
+ool Record_InitSet();
+              ^
+.\Modules\Mcu\gpio.h:62:6: Warning:  #1295-D: Deprecated declaration GPIO_SaveStat - give arg types
+  void GPIO_SaveStat();//淇濆瓨GPIO鍒濆鍖栫姸鎬佸瘎瀛樺櫒鐨勫€?
+       ^
+.\Modules\Mcu\gpio.h:64:6: Warning:  #1295-D: Deprecated declaration GPIO_LoadStat - give arg types
+  void GPIO_LoadStat();//鎭㈠GPIO瀵勫瓨鍣ㄥ垵濮嬪寲鐨勫€?
+       ^
+.\Modules\Mcu\gpio.h:66:6: Warning:  #1295-D: Deprecated declaration GPIO_SleepSet - give arg types
+  void GPIO_SleepSet();//鐫＄湢鍓嶅皢鎵€鏈塈O鍙ｈ缃垚楂橀樆鐘舵€?
+       ^
+.\Modules\Mcu\gpio.h:68:15: Warning:  #1295-D: Deprecated declaration GPIO_GetRegData - give arg types
+  pGPIO_REGDATA GPIO_GetRegData();
+                ^
+.\Modules\Mcu\gpio.h:77:5: Warning:  #1-D: last line of file ends without a newline
+      ^
+Modules\Function\Utilities.c:112:2: Warning:  #1-D: last line of file ends without a newline
+  }
+   ^
+Modules\Function\Utilities.c:3:16: Warning:  #177-D: function "KeysMan_GetKeysLen"  was declared but never referenced
+  static uint8_t KeysMan_GetKeysLen(uint8_t *pData, uint8_t maxLen)
+                 ^
+Modules\Function\Utilities.c:17:20: Warning:  #177-D: function "KeysMan_MemoryCmp"  was declared but never referenced
+  static ErrorStatus KeysMan_MemoryCmp(uint8_t *pMinData, uint8_t minLen, uint8_t *pMaxData, uint8_t maxLen, uint8_t opt)
+                     ^
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Modules\Led\Led.c -o .\CortexM0p\ARM_MDK_Generic\Release\Led.o
+.\Modules\Bat\Bat.h:17:6: Warning:  #1295-D: Deprecated declaration Bat_Init - give arg types
+  void Bat_Init();
+       ^
+.\Modules\Bat\Bat.h:19:9: Warning:  #1295-D: Deprecated declaration Bat_Numeric - give arg types
+  uint8_t Bat_Numeric();//鐢甸噺鐧惧垎姣? 0-100
+          ^
+.\Modules\Power\Power.h:82:6: Warning:  #1295-D: Deprecated declaration FL3225_Init - give arg types
+  void FL3225_Init();
+       ^
+.\Modules\Power\Power.h:89:7: Warning:  #1-D: last line of file ends without a newline
+  #endif
+        ^
+.\Modules\Record\Record.h:88:13: Warning:  #1295-D: Deprecated declaration Record_InitSet - give arg types
+  extern 
+ool Record_InitSet();
+              ^
+.\Modules\Mcu\gpio.h:62:6: Warning:  #1295-D: Deprecated declaration GPIO_SaveStat - give arg types
+  void GPIO_SaveStat();//淇濆瓨GPIO鍒濆鍖栫姸鎬佸瘎瀛樺櫒鐨勫€?
+       ^
+.\Modules\Mcu\gpio.h:64:6: Warning:  #1295-D: Deprecated declaration GPIO_LoadStat - give arg types
+  void GPIO_LoadStat();//鎭㈠GPIO瀵勫瓨鍣ㄥ垵濮嬪寲鐨勫€?
+       ^
+.\Modules\Mcu\gpio.h:66:6: Warning:  #1295-D: Deprecated declaration GPIO_SleepSet - give arg types
+  void GPIO_SleepSet();//鐫＄湢鍓嶅皢鎵€鏈塈O鍙ｈ缃垚楂橀樆鐘舵€?
+       ^
+.\Modules\Mcu\gpio.h:68:15: Warning:  #1295-D: Deprecated declaration GPIO_GetRegData - give arg types
+  pGPIO_REGDATA GPIO_GetRegData();
+                ^
+.\Modules\Mcu\gpio.h:77:5: Warning:  #1-D: last line of file ends without a newline
+      ^
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Modules\Lock\adc_hal.c -o .\CortexM0p\ARM_MDK_Generic\Release\adc_hal.o
+.\Modules\Bat\Bat.h:17:6: Warning:  #1295-D: Deprecated declaration Bat_Init - give arg types
+  void Bat_Init();
+       ^
+.\Modules\Bat\Bat.h:19:9: Warning:  #1295-D: Deprecated declaration Bat_Numeric - give arg types
+  uint8_t Bat_Numeric();//鐢甸噺鐧惧垎姣? 0-100
+          ^
+.\Modules\Power\Power.h:82:6: Warning:  #1295-D: Deprecated declaration FL3225_Init - give arg types
+  void FL3225_Init();
+       ^
+.\Modules\Power\Power.h:89:7: Warning:  #1-D: last line of file ends without a newline
+  #endif
+        ^
+.\Modules\Record\Record.h:88:13: Warning:  #1295-D: Deprecated declaration Record_InitSet - give arg types
+  extern 
+ool Record_InitSet();
+              ^
+.\Modules\Mcu\gpio.h:62:6: Warning:  #1295-D: Deprecated declaration GPIO_SaveStat - give arg types
+  void GPIO_SaveStat();//淇濆瓨GPIO鍒濆鍖栫姸鎬佸瘎瀛樺櫒鐨勫€?
+       ^
+.\Modules\Mcu\gpio.h:64:6: Warning:  #1295-D: Deprecated declaration GPIO_LoadStat - give arg types
+  void GPIO_LoadStat();//鎭㈠GPIO瀵勫瓨鍣ㄥ垵濮嬪寲鐨勫€?
+       ^
+.\Modules\Mcu\gpio.h:66:6: Warning:  #1295-D: Deprecated declaration GPIO_SleepSet - give arg types
+  void GPIO_SleepSet();//鐫＄湢鍓嶅皢鎵€鏈塈O鍙ｈ缃垚楂橀樆鐘舵€?
+       ^
+.\Modules\Mcu\gpio.h:68:15: Warning:  #1295-D: Deprecated declaration GPIO_GetRegData - give arg types
+  pGPIO_REGDATA GPIO_GetRegData();
+                ^
+.\Modules\Mcu\gpio.h:77:5: Warning:  #1-D: last line of file ends without a newline
+      ^
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Modules\Lock\Lock.c -o .\CortexM0p\ARM_MDK_Generic\Release\Lock.o
+.\Modules\Bat\Bat.h:17:6: Warning:  #1295-D: Deprecated declaration Bat_Init - give arg types
+  void Bat_Init();
+       ^
+.\Modules\Bat\Bat.h:19:9: Warning:  #1295-D: Deprecated declaration Bat_Numeric - give arg types
+  uint8_t Bat_Numeric();//鐢甸噺鐧惧垎姣? 0-100
+          ^
+.\Modules\Power\Power.h:82:6: Warning:  #1295-D: Deprecated declaration FL3225_Init - give arg types
+  void FL3225_Init();
+       ^
+.\Modules\Power\Power.h:89:7: Warning:  #1-D: last line of file ends without a newline
+  #endif
+        ^
+.\Modules\Record\Record.h:88:13: Warning:  #1295-D: Deprecated declaration Record_InitSet - give arg types
+  extern 
+ool Record_InitSet();
+              ^
+.\Modules\Mcu\gpio.h:62:6: Warning:  #1295-D: Deprecated declaration GPIO_SaveStat - give arg types
+  void GPIO_SaveStat();//淇濆瓨GPIO鍒濆鍖栫姸鎬佸瘎瀛樺櫒鐨勫€?
+       ^
+.\Modules\Mcu\gpio.h:64:6: Warning:  #1295-D: Deprecated declaration GPIO_LoadStat - give arg types
+  void GPIO_LoadStat();//鎭㈠GPIO瀵勫瓨鍣ㄥ垵濮嬪寲鐨勫€?
+       ^
+.\Modules\Mcu\gpio.h:66:6: Warning:  #1295-D: Deprecated declaration GPIO_SleepSet - give arg types
+  void GPIO_SleepSet();//鐫＄湢鍓嶅皢鎵€鏈塈O鍙ｈ缃垚楂橀樆鐘舵€?
+       ^
+.\Modules\Mcu\gpio.h:68:15: Warning:  #1295-D: Deprecated declaration GPIO_GetRegData - give arg types
+  pGPIO_REGDATA GPIO_GetRegData();
+                ^
+.\Modules\Mcu\gpio.h:77:5: Warning:  #1-D: last line of file ends without a newline
+      ^
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Modules\Lock\lock_evt.c -o .\CortexM0p\ARM_MDK_Generic\Release\lock_evt.o
+.\Modules\Bat\Bat.h:17:6: Warning:  #1295-D: Deprecated declaration Bat_Init - give arg types
+  void Bat_Init();
+       ^
+.\Modules\Bat\Bat.h:19:9: Warning:  #1295-D: Deprecated declaration Bat_Numeric - give arg types
+  uint8_t Bat_Numeric();//鐢甸噺鐧惧垎姣? 0-100
+          ^
+.\Modules\Power\Power.h:82:6: Warning:  #1295-D: Deprecated declaration FL3225_Init - give arg types
+  void FL3225_Init();
+       ^
+.\Modules\Power\Power.h:89:7: Warning:  #1-D: last line of file ends without a newline
+  #endif
+        ^
+.\Modules\Record\Record.h:88:13: Warning:  #1295-D: Deprecated declaration Record_InitSet - give arg types
+  extern 
+ool Record_InitSet();
+              ^
+.\Modules\Mcu\gpio.h:62:6: Warning:  #1295-D: Deprecated declaration GPIO_SaveStat - give arg types
+  void GPIO_SaveStat();//淇濆瓨GPIO鍒濆鍖栫姸鎬佸瘎瀛樺櫒鐨勫€?
+       ^
+.\Modules\Mcu\gpio.h:64:6: Warning:  #1295-D: Deprecated declaration GPIO_LoadStat - give arg types
+  void GPIO_LoadStat();//鎭㈠GPIO瀵勫瓨鍣ㄥ垵濮嬪寲鐨勫€?
+       ^
+.\Modules\Mcu\gpio.h:66:6: Warning:  #1295-D: Deprecated declaration GPIO_SleepSet - give arg types
+  void GPIO_SleepSet();//鐫＄湢鍓嶅皢鎵€鏈塈O鍙ｈ缃垚楂橀樆鐘舵€?
+       ^
+.\Modules\Mcu\gpio.h:68:15: Warning:  #1295-D: Deprecated declaration GPIO_GetRegData - give arg types
+  pGPIO_REGDATA GPIO_GetRegData();
+                ^
+.\Modules\Mcu\gpio.h:77:5: Warning:  #1-D: last line of file ends without a newline
+      ^
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Modules\Lock\lock_hal.c -o .\CortexM0p\ARM_MDK_Generic\Release\lock_hal.o
+.\Modules\Bat\Bat.h:17:6: Warning:  #1295-D: Deprecated declaration Bat_Init - give arg types
+  void Bat_Init();
+       ^
+.\Modules\Bat\Bat.h:19:9: Warning:  #1295-D: Deprecated declaration Bat_Numeric - give arg types
+  uint8_t Bat_Numeric();//鐢甸噺鐧惧垎姣? 0-100
+          ^
+.\Modules\Power\Power.h:82:6: Warning:  #1295-D: Deprecated declaration FL3225_Init - give arg types
+  void FL3225_Init();
+       ^
+.\Modules\Power\Power.h:89:7: Warning:  #1-D: last line of file ends without a newline
+  #endif
+        ^
+.\Modules\Record\Record.h:88:13: Warning:  #1295-D: Deprecated declaration Record_InitSet - give arg types
+  extern 
+ool Record_InitSet();
+              ^
+.\Modules\Mcu\gpio.h:62:6: Warning:  #1295-D: Deprecated declaration GPIO_SaveStat - give arg types
+  void GPIO_SaveStat();//淇濆瓨GPIO鍒濆鍖栫姸鎬佸瘎瀛樺櫒鐨勫€?
+       ^
+.\Modules\Mcu\gpio.h:64:6: Warning:  #1295-D: Deprecated declaration GPIO_LoadStat - give arg types
+  void GPIO_LoadStat();//鎭㈠GPIO瀵勫瓨鍣ㄥ垵濮嬪寲鐨勫€?
+       ^
+.\Modules\Mcu\gpio.h:66:6: Warning:  #1295-D: Deprecated declaration GPIO_SleepSet - give arg types
+  void GPIO_SleepSet();//鐫＄湢鍓嶅皢鎵€鏈塈O鍙ｈ缃垚楂橀樆鐘舵€?
+       ^
+.\Modules\Mcu\gpio.h:68:15: Warning:  #1295-D: Deprecated declaration GPIO_GetRegData - give arg types
+  pGPIO_REGDATA GPIO_GetRegData();
+                ^
+.\Modules\Mcu\gpio.h:77:5: Warning:  #1-D: last line of file ends without a newline
+      ^
+Modules\Lock\lock_hal.c:150:9: Warning:  #223-D: function "AdcHal_InitChange" declared implicitly
+      if (AdcHal_InitChange(1))
+          ^
+Modules\Lock\lock_hal.c:152:18: Warning:  #223-D: function "AdcHal_ReadResult" declared implicitly
+          adcval = AdcHal_ReadResult(1);
+                   ^
+Modules\Lock\lock_hal.c:163:5: Warning:  #223-D: function "LockEvt_Create" declared implicitly
+      LockEvt_Create(LockHal_AdcDogStart, 10);//10ms后再次启动
+      ^
+Modules\Lock\lock_hal.c:179:3: Warning:  #223-D: function "LockEvt_Clear" declared implicitly
+  		LockEvt_Clear();
+  		^
+Modules\Lock\lock_hal.c:212:3: Warning:  #223-D: function "LockEvt_Clear" declared implicitly
+  		LockEvt_Clear();
+  		^
+Modules\Lock\lock_hal.c:246:6: Warning:  #223-D: function "LockEvt_Create" declared implicitly
+  					LockEvt_Create(LockHal_MotorRepeatLocked, MOTOR_REVERSE_GAP_TIME);
+  					^
+Modules\Lock\lock_hal.c:263:2: Warning:  #223-D: function "LockEvt_Clear" declared implicitly
+  	LockEvt_Clear();
+  	^
+Modules\Lock\lock_hal.c:264:2: Warning:  #223-D: function "LockEvt_Create" declared implicitly
+  	LockEvt_Create(LockHal_MotorStop, MOTOR_BRAKE_TIME);//30ms后停止电机
+  	^
+Modules\Lock\lock_hal.c:280:3: Warning:  #223-D: function "LockEvt_Clear" declared implicitly
+  		LockEvt_Clear();
+  		^
+Modules\Lock\lock_hal.c:281:3: Warning:  #223-D: function "LockEvt_Create" declared implicitly
+  		LockEvt_Create(LockHal_MotorBackStop, MOTOR_BACK_TIMEOUT);//启动回拖超时
+  		^
+Modules\Lock\lock_hal.c:330:2: Warning:  #223-D: function "LockEvt_Clear" declared implicitly
+  	LockEvt_Clear();
+  	^
+Modules\Lock\lock_hal.c:331:2: Warning:  #223-D: function "LockEvt_Create" declared implicitly
+  	LockEvt_Create(LockHal_MotorBackStart, MOTOR_ABNORMAL_REVERSE_GAP_TIME);
+  	^
+Modules\Lock\lock_hal.c:390:2: Warning:  #223-D: function "LockEvt_Clear" declared implicitly
+  	LockEvt_Clear();
+  	^
+Modules\Lock\lock_hal.c:416:2: Warning:  #223-D: function "LockEvt_Create" declared implicitly
+  	LockEvt_Create(LockHal_AdcDogStart, MOTOR_ADC_DETECT_DELAY_TIME);//100ms后启动电流监控
+  	^
+Modules\Lock\lock_hal.c:432:2: Warning:  #223-D: function "LockEvt_Clear" declared implicitly
+  	LockEvt_Clear();
+  	^
+Modules\Lock\lock_hal.c:457:2: Warning:  #223-D: function "LockEvt_Create" declared implicitly
+  	LockEvt_Create(LockHal_AdcDogStart, MOTOR_ADC_DETECT_DELAY_TIME);//100ms后启动电流监控
+  	^
+Modules\Lock\lock_hal.c:521:6: Warning:  #223-D: function "LockEvt_Create" declared implicitly
+  					LockEvt_Create(LockHal_MotorStop, MOTOR_LOCKED_MORE_TIME);//过推---50ms后停止电机
+  					^
+Modules\Lock\lock_hal.c:548:5: Warning:  #223-D: function "LockEvt_Create" declared implicitly
+  				LockEvt_Create(LockHal_MotorBackStart, MOTOR_REVERSE_GAP_TIME);//1000ms后回拖
+  				^
+Modules\Lock\lock_hal.c:625:18: Warning:  #223-D: function "OP2_INT_Read" declared implicitly
+  			gpioBuf[i] |= 
+ENSOR_UNLOCK_GPIO;
+  			              ^
+Modules\Lock\lock_hal.c:631:18: Warning:  #223-D: function "LOCK_INT_Read" declared implicitly
+  			gpioBuf[i] |= 
+ENSOR_DOOR_GPIO;
+  			              ^
+Modules\Lock\lock_hal.c:813:3: Warning:  #223-D: function "LockEvt_Create" declared implicitly
+  		LockEvt_Create(LockHal_MotorCheck, 30);
+  		^
+Modules\Lock\lock_hal.c:849:6: Warning:  #223-D: function "LockEvt_TimeUpdate" declared implicitly
+      	LockEvt_TimeUpdate();
+      	^
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Modules\Power\power.c -o .\CortexM0p\ARM_MDK_Generic\Release\power.o
+.\Modules\Bat\Bat.h:17:6: Warning:  #1295-D: Deprecated declaration Bat_Init - give arg types
+  void Bat_Init();
+       ^
+.\Modules\Bat\Bat.h:19:9: Warning:  #1295-D: Deprecated declaration Bat_Numeric - give arg types
+  uint8_t Bat_Numeric();//鐢甸噺鐧惧垎姣? 0-100
+          ^
+.\Modules\Power\Power.h:89:7: Warning:  #1-D: last line of file ends without a newline
+  #endif
+        ^
+.\Modules\Record\Record.h:88:13: Warning:  #1295-D: Deprecated declaration Record_InitSet - give arg types
+  extern 
+ool Record_InitSet();
+              ^
+.\Modules\Mcu\gpio.h:62:6: Warning:  #1295-D: Deprecated declaration GPIO_SaveStat - give arg types
+  void GPIO_SaveStat();//淇濆瓨GPIO鍒濆鍖栫姸鎬佸瘎瀛樺櫒鐨勫€?
+       ^
+.\Modules\Mcu\gpio.h:64:6: Warning:  #1295-D: Deprecated declaration GPIO_LoadStat - give arg types
+  void GPIO_LoadStat();//鎭㈠GPIO瀵勫瓨鍣ㄥ垵濮嬪寲鐨勫€?
+       ^
+.\Modules\Mcu\gpio.h:66:6: Warning:  #1295-D: Deprecated declaration GPIO_SleepSet - give arg types
+  void GPIO_SleepSet();//鐫＄湢鍓嶅皢鎵€鏈塈O鍙ｈ缃垚楂橀樆鐘舵€?
+       ^
+.\Modules\Mcu\gpio.h:68:15: Warning:  #1295-D: Deprecated declaration GPIO_GetRegData - give arg types
+  pGPIO_REGDATA GPIO_GetRegData();
+                ^
+.\Modules\Mcu\gpio.h:77:5: Warning:  #1-D: last line of file ends without a newline
+      ^
+Modules\Power\Power.h:82:6: Warning:  #1295-D: Deprecated declaration FL3225_Init - give arg types
+  void FL3225_Init();
+       ^
+Modules\Power\Power.h:89:7: Warning:  #1-D: last line of file ends without a newline
+  #endif
+        ^
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Modules\Record\Record.c -o .\CortexM0p\ARM_MDK_Generic\Release\Record.o
+.\Modules\Bat\Bat.h:17:6: Warning:  #1295-D: Deprecated declaration Bat_Init - give arg types
+  void Bat_Init();
+       ^
+.\Modules\Bat\Bat.h:19:9: Warning:  #1295-D: Deprecated declaration Bat_Numeric - give arg types
+  uint8_t Bat_Numeric();//鐢甸噺鐧惧垎姣? 0-100
+          ^
+.\Modules\Power\Power.h:82:6: Warning:  #1295-D: Deprecated declaration FL3225_Init - give arg types
+  void FL3225_Init();
+       ^
+.\Modules\Power\Power.h:89:7: Warning:  #1-D: last line of file ends without a newline
+  #endif
+        ^
+.\Modules\Mcu\gpio.h:62:6: Warning:  #1295-D: Deprecated declaration GPIO_SaveStat - give arg types
+  void GPIO_SaveStat();//淇濆瓨GPIO鍒濆鍖栫姸鎬佸瘎瀛樺櫒鐨勫€?
+       ^
+.\Modules\Mcu\gpio.h:64:6: Warning:  #1295-D: Deprecated declaration GPIO_LoadStat - give arg types
+  void GPIO_LoadStat();//鎭㈠GPIO瀵勫瓨鍣ㄥ垵濮嬪寲鐨勫€?
+       ^
+.\Modules\Mcu\gpio.h:66:6: Warning:  #1295-D: Deprecated declaration GPIO_SleepSet - give arg types
+  void GPIO_SleepSet();//鐫＄湢鍓嶅皢鎵€鏈塈O鍙ｈ缃垚楂橀樆鐘舵€?
+       ^
+.\Modules\Mcu\gpio.h:68:15: Warning:  #1295-D: Deprecated declaration GPIO_GetRegData - give arg types
+  pGPIO_REGDATA GPIO_GetRegData();
+                ^
+.\Modules\Mcu\gpio.h:77:5: Warning:  #1-D: last line of file ends without a newline
+      ^
+Modules\Record\Record.h:88:13: Warning:  #1295-D: Deprecated declaration Record_InitSet - give arg types
+  extern 
+ool Record_InitSet();
+              ^
+Modules\Record\Record.c:470:4: Warning:  #1-D: last line of file ends without a newline
+  //}
+     ^
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Modules\Rtc\Rtc.c -o .\CortexM0p\ARM_MDK_Generic\Release\Rtc.o
+.\Modules\Bat\Bat.h:17:6: Warning:  #1295-D: Deprecated declaration Bat_Init - give arg types
+  void Bat_Init();
+       ^
+.\Modules\Bat\Bat.h:19:9: Warning:  #1295-D: Deprecated declaration Bat_Numeric - give arg types
+  uint8_t Bat_Numeric();//鐢甸噺鐧惧垎姣? 0-100
+          ^
+.\Modules\Power\Power.h:82:6: Warning:  #1295-D: Deprecated declaration FL3225_Init - give arg types
+  void FL3225_Init();
+       ^
+.\Modules\Power\Power.h:89:7: Warning:  #1-D: last line of file ends without a newline
+  #endif
+        ^
+.\Modules\Record\Record.h:88:13: Warning:  #1295-D: Deprecated declaration Record_InitSet - give arg types
+  extern 
+ool Record_InitSet();
+              ^
+.\Modules\Mcu\gpio.h:62:6: Warning:  #1295-D: Deprecated declaration GPIO_SaveStat - give arg types
+  void GPIO_SaveStat();//淇濆瓨GPIO鍒濆鍖栫姸鎬佸瘎瀛樺櫒鐨勫€?
+       ^
+.\Modules\Mcu\gpio.h:64:6: Warning:  #1295-D: Deprecated declaration GPIO_LoadStat - give arg types
+  void GPIO_LoadStat();//鎭㈠GPIO瀵勫瓨鍣ㄥ垵濮嬪寲鐨勫€?
+       ^
+.\Modules\Mcu\gpio.h:66:6: Warning:  #1295-D: Deprecated declaration GPIO_SleepSet - give arg types
+  void GPIO_SleepSet();//鐫＄湢鍓嶅皢鎵€鏈塈O鍙ｈ缃垚楂橀樆鐘舵€?
+       ^
+.\Modules\Mcu\gpio.h:68:15: Warning:  #1295-D: Deprecated declaration GPIO_GetRegData - give arg types
+  pGPIO_REGDATA GPIO_GetRegData();
+                ^
+.\Modules\Mcu\gpio.h:77:5: Warning:  #1-D: last line of file ends without a newline
+      ^
+Modules\Rtc\Rtc.c:53:2: Warning:  #1-D: last line of file ends without a newline
+  }
+   ^
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Modules\SwitchKey\SwitchKey.c -o .\CortexM0p\ARM_MDK_Generic\Release\SwitchKey.o
+.\Modules\Bat\Bat.h:17:6: Warning:  #1295-D: Deprecated declaration Bat_Init - give arg types
+  void Bat_Init();
+       ^
+.\Modules\Bat\Bat.h:19:9: Warning:  #1295-D: Deprecated declaration Bat_Numeric - give arg types
+  uint8_t Bat_Numeric();//鐢甸噺鐧惧垎姣? 0-100
+          ^
+.\Modules\Power\Power.h:82:6: Warning:  #1295-D: Deprecated declaration FL3225_Init - give arg types
+  void FL3225_Init();
+       ^
+.\Modules\Power\Power.h:89:7: Warning:  #1-D: last line of file ends without a newline
+  #endif
+        ^
+.\Modules\Record\Record.h:88:13: Warning:  #1295-D: Deprecated declaration Record_InitSet - give arg types
+  extern 
+ool Record_InitSet();
+              ^
+.\Modules\Mcu\gpio.h:62:6: Warning:  #1295-D: Deprecated declaration GPIO_SaveStat - give arg types
+  void GPIO_SaveStat();//淇濆瓨GPIO鍒濆鍖栫姸鎬佸瘎瀛樺櫒鐨勫€?
+       ^
+.\Modules\Mcu\gpio.h:64:6: Warning:  #1295-D: Deprecated declaration GPIO_LoadStat - give arg types
+  void GPIO_LoadStat();//鎭㈠GPIO瀵勫瓨鍣ㄥ垵濮嬪寲鐨勫€?
+       ^
+.\Modules\Mcu\gpio.h:66:6: Warning:  #1295-D: Deprecated declaration GPIO_SleepSet - give arg types
+  void GPIO_SleepSet();//鐫＄湢鍓嶅皢鎵€鏈塈O鍙ｈ缃垚楂橀樆鐘舵€?
+       ^
+.\Modules\Mcu\gpio.h:68:15: Warning:  #1295-D: Deprecated declaration GPIO_GetRegData - give arg types
+  pGPIO_REGDATA GPIO_GetRegData();
+                ^
+.\Modules\Mcu\gpio.h:77:5: Warning:  #1-D: last line of file ends without a newline
+      ^
+Modules\SwitchKey\SwitchKey.c:213:87: Warning:  #1-D: last line of file ends without a newline
+  //====================================================================================
+                                                                                        ^
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Modules\Tuch\Tuch.c -o .\CortexM0p\ARM_MDK_Generic\Release\Tuch.o
+.\Modules\Bat\Bat.h:17:6: Warning:  #1295-D: Deprecated declaration Bat_Init - give arg types
+  void Bat_Init();
+       ^
+.\Modules\Bat\Bat.h:19:9: Warning:  #1295-D: Deprecated declaration Bat_Numeric - give arg types
+  uint8_t Bat_Numeric();//鐢甸噺鐧惧垎姣? 0-100
+          ^
+.\Modules\Power\Power.h:82:6: Warning:  #1295-D: Deprecated declaration FL3225_Init - give arg types
+  void FL3225_Init();
+       ^
+.\Modules\Power\Power.h:89:7: Warning:  #1-D: last line of file ends without a newline
+  #endif
+        ^
+.\Modules\Record\Record.h:88:13: Warning:  #1295-D: Deprecated declaration Record_InitSet - give arg types
+  extern 
+ool Record_InitSet();
+              ^
+.\Modules\Mcu\gpio.h:62:6: Warning:  #1295-D: Deprecated declaration GPIO_SaveStat - give arg types
+  void GPIO_SaveStat();//淇濆瓨GPIO鍒濆鍖栫姸鎬佸瘎瀛樺櫒鐨勫€?
+       ^
+.\Modules\Mcu\gpio.h:64:6: Warning:  #1295-D: Deprecated declaration GPIO_LoadStat - give arg types
+  void GPIO_LoadStat();//鎭㈠GPIO瀵勫瓨鍣ㄥ垵濮嬪寲鐨勫€?
+       ^
+.\Modules\Mcu\gpio.h:66:6: Warning:  #1295-D: Deprecated declaration GPIO_SleepSet - give arg types
+  void GPIO_SleepSet();//鐫＄湢鍓嶅皢鎵€鏈塈O鍙ｈ缃垚楂橀樆鐘舵€?
+       ^
+.\Modules\Mcu\gpio.h:68:15: Warning:  #1295-D: Deprecated declaration GPIO_GetRegData - give arg types
+  pGPIO_REGDATA GPIO_GetRegData();
+                ^
+.\Modules\Mcu\gpio.h:77:5: Warning:  #1-D: last line of file ends without a newline
+      ^
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Modules\Voice\Voice.c -o .\CortexM0p\ARM_MDK_Generic\Release\Voice.o
+.\Modules\Bat\Bat.h:17:6: Warning:  #1295-D: Deprecated declaration Bat_Init - give arg types
+  void Bat_Init();
+       ^
+.\Modules\Bat\Bat.h:19:9: Warning:  #1295-D: Deprecated declaration Bat_Numeric - give arg types
+  uint8_t Bat_Numeric();//鐢甸噺鐧惧垎姣? 0-100
+          ^
+.\Modules\Power\Power.h:82:6: Warning:  #1295-D: Deprecated declaration FL3225_Init - give arg types
+  void FL3225_Init();
+       ^
+.\Modules\Power\Power.h:89:7: Warning:  #1-D: last line of file ends without a newline
+  #endif
+        ^
+.\Modules\Record\Record.h:88:13: Warning:  #1295-D: Deprecated declaration Record_InitSet - give arg types
+  extern 
+ool Record_InitSet();
+              ^
+.\Modules\Mcu\gpio.h:62:6: Warning:  #1295-D: Deprecated declaration GPIO_SaveStat - give arg types
+  void GPIO_SaveStat();//淇濆瓨GPIO鍒濆鍖栫姸鎬佸瘎瀛樺櫒鐨勫€?
+       ^
+.\Modules\Mcu\gpio.h:64:6: Warning:  #1295-D: Deprecated declaration GPIO_LoadStat - give arg types
+  void GPIO_LoadStat();//鎭㈠GPIO瀵勫瓨鍣ㄥ垵濮嬪寲鐨勫€?
+       ^
+.\Modules\Mcu\gpio.h:66:6: Warning:  #1295-D: Deprecated declaration GPIO_SleepSet - give arg types
+  void GPIO_SleepSet();//鐫＄湢鍓嶅皢鎵€鏈塈O鍙ｈ缃垚楂橀樆鐘舵€?
+       ^
+.\Modules\Mcu\gpio.h:68:15: Warning:  #1295-D: Deprecated declaration GPIO_GetRegData - give arg types
+  pGPIO_REGDATA GPIO_GetRegData();
+                ^
+.\Modules\Mcu\gpio.h:77:5: Warning:  #1-D: last line of file ends without a newline
+      ^
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Modules\Wdt\Wdt.c -o .\CortexM0p\ARM_MDK_Generic\Release\Wdt.o
+.\Modules\Bat\Bat.h:17:6: Warning:  #1295-D: Deprecated declaration Bat_Init - give arg types
+  void Bat_Init();
+       ^
+.\Modules\Bat\Bat.h:19:9: Warning:  #1295-D: Deprecated declaration Bat_Numeric - give arg types
+  uint8_t Bat_Numeric();//鐢甸噺鐧惧垎姣? 0-100
+          ^
+.\Modules\Power\Power.h:82:6: Warning:  #1295-D: Deprecated declaration FL3225_Init - give arg types
+  void FL3225_Init();
+       ^
+.\Modules\Power\Power.h:89:7: Warning:  #1-D: last line of file ends without a newline
+  #endif
+        ^
+.\Modules\Record\Record.h:88:13: Warning:  #1295-D: Deprecated declaration Record_InitSet - give arg types
+  extern 
+ool Record_InitSet();
+              ^
+.\Modules\Mcu\gpio.h:62:6: Warning:  #1295-D: Deprecated declaration GPIO_SaveStat - give arg types
+  void GPIO_SaveStat();//淇濆瓨GPIO鍒濆鍖栫姸鎬佸瘎瀛樺櫒鐨勫€?
+       ^
+.\Modules\Mcu\gpio.h:64:6: Warning:  #1295-D: Deprecated declaration GPIO_LoadStat - give arg types
+  void GPIO_LoadStat();//鎭㈠GPIO瀵勫瓨鍣ㄥ垵濮嬪寲鐨勫€?
+       ^
+.\Modules\Mcu\gpio.h:66:6: Warning:  #1295-D: Deprecated declaration GPIO_SleepSet - give arg types
+  void GPIO_SleepSet();//鐫＄湢鍓嶅皢鎵€鏈塈O鍙ｈ缃垚楂橀樆鐘舵€?
+       ^
+.\Modules\Mcu\gpio.h:68:15: Warning:  #1295-D: Deprecated declaration GPIO_GetRegData - give arg types
+  pGPIO_REGDATA GPIO_GetRegData();
+                ^
+.\Modules\Mcu\gpio.h:77:5: Warning:  #1-D: last line of file ends without a newline
+      ^
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\cyfitter_cfg.c -o .\CortexM0p\ARM_MDK_Generic\Release\cyfitter_cfg.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\cymetadata.c -o .\CortexM0p\ARM_MDK_Generic\Release\cymetadata.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\Cm0plusStart.c -o .\CortexM0p\ARM_MDK_Generic\Release\Cm0plusStart.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\CyFlash.c -o .\CortexM0p\ARM_MDK_Generic\Release\CyFlash.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\CyLib.c -o .\CortexM0p\ARM_MDK_Generic\Release\CyLib.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\cyPm.c -o .\CortexM0p\ARM_MDK_Generic\Release\cyPm.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\cyutils.c -o .\CortexM0p\ARM_MDK_Generic\Release\cyutils.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\CyDMA.c -o .\CortexM0p\ARM_MDK_Generic\Release\CyDMA.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\CyLFClk.c -o .\CortexM0p\ARM_MDK_Generic\Release\CyLFClk.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\cy_em_eeprom.c -o .\CortexM0p\ARM_MDK_Generic\Release\cy_em_eeprom.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\UART_1_BLE.c -o .\CortexM0p\ARM_MDK_Generic\Release\UART_1_BLE.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\UART_1_BLE_SPI_UART.c -o .\CortexM0p\ARM_MDK_Generic\Release\UART_1_BLE_SPI_UART.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\UART_1_BLE_SPI_UART_INT.c -o .\CortexM0p\ARM_MDK_Generic\Release\UART_1_BLE_SPI_UART_INT.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\UART_1_BLE_PM.c -o .\CortexM0p\ARM_MDK_Generic\Release\UART_1_BLE_PM.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\UART_1_BLE_UART.c -o .\CortexM0p\ARM_MDK_Generic\Release\UART_1_BLE_UART.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\UART_1_BLE_BOOT.c -o .\CortexM0p\ARM_MDK_Generic\Release\UART_1_BLE_BOOT.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\UART_1_BLE_UART_BOOT.c -o .\CortexM0p\ARM_MDK_Generic\Release\UART_1_BLE_UART_BOOT.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\UART_0_FPC.c -o .\CortexM0p\ARM_MDK_Generic\Release\UART_0_FPC.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\UART_0_FPC_SPI_UART.c -o .\CortexM0p\ARM_MDK_Generic\Release\UART_0_FPC_SPI_UART.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\UART_0_FPC_SPI_UART_INT.c -o .\CortexM0p\ARM_MDK_Generic\Release\UART_0_FPC_SPI_UART_INT.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\UART_0_FPC_PM.c -o .\CortexM0p\ARM_MDK_Generic\Release\UART_0_FPC_PM.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\UART_0_FPC_UART.c -o .\CortexM0p\ARM_MDK_Generic\Release\UART_0_FPC_UART.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\UART_0_FPC_BOOT.c -o .\CortexM0p\ARM_MDK_Generic\Release\UART_0_FPC_BOOT.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\UART_0_FPC_UART_BOOT.c -o .\CortexM0p\ARM_MDK_Generic\Release\UART_0_FPC_UART_BOOT.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\UART_2_EXT.c -o .\CortexM0p\ARM_MDK_Generic\Release\UART_2_EXT.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\UART_2_EXT_SPI_UART.c -o .\CortexM0p\ARM_MDK_Generic\Release\UART_2_EXT_SPI_UART.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\UART_2_EXT_SPI_UART_INT.c -o .\CortexM0p\ARM_MDK_Generic\Release\UART_2_EXT_SPI_UART_INT.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\UART_2_EXT_PM.c -o .\CortexM0p\ARM_MDK_Generic\Release\UART_2_EXT_PM.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\UART_2_EXT_UART.c -o .\CortexM0p\ARM_MDK_Generic\Release\UART_2_EXT_UART.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\UART_2_EXT_BOOT.c -o .\CortexM0p\ARM_MDK_Generic\Release\UART_2_EXT_BOOT.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\UART_2_EXT_UART_BOOT.c -o .\CortexM0p\ARM_MDK_Generic\Release\UART_2_EXT_UART_BOOT.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\SPI_0_OLED_FLASH.c -o .\CortexM0p\ARM_MDK_Generic\Release\SPI_0_OLED_FLASH.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\SPI_0_OLED_FLASH_SPI_UART.c -o .\CortexM0p\ARM_MDK_Generic\Release\SPI_0_OLED_FLASH_SPI_UART.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\SPI_0_OLED_FLASH_PM.c -o .\CortexM0p\ARM_MDK_Generic\Release\SPI_0_OLED_FLASH_PM.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\SPI_0_OLED_FLASH_SPI.c -o .\CortexM0p\ARM_MDK_Generic\Release\SPI_0_OLED_FLASH_SPI.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\SPI_0_OLED_FLASH_BOOT.c -o .\CortexM0p\ARM_MDK_Generic\Release\SPI_0_OLED_FLASH_BOOT.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\SPI_0_OLED_FLASH_SPI_BOOT.c -o .\CortexM0p\ARM_MDK_Generic\Release\SPI_0_OLED_FLASH_SPI_BOOT.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\SPI_1_CARD.c -o .\CortexM0p\ARM_MDK_Generic\Release\SPI_1_CARD.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\SPI_1_CARD_SPI_UART.c -o .\CortexM0p\ARM_MDK_Generic\Release\SPI_1_CARD_SPI_UART.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\SPI_1_CARD_PM.c -o .\CortexM0p\ARM_MDK_Generic\Release\SPI_1_CARD_PM.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\SPI_1_CARD_SPI.c -o .\CortexM0p\ARM_MDK_Generic\Release\SPI_1_CARD_SPI.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\SPI_1_CARD_BOOT.c -o .\CortexM0p\ARM_MDK_Generic\Release\SPI_1_CARD_BOOT.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\SPI_1_CARD_SPI_BOOT.c -o .\CortexM0p\ARM_MDK_Generic\Release\SPI_1_CARD_SPI_BOOT.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\CARD_RESET.c -o .\CortexM0p\ARM_MDK_Generic\Release\CARD_RESET.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\CARD_RESET_PM.c -o .\CortexM0p\ARM_MDK_Generic\Release\CARD_RESET_PM.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\OLED_DC.c -o .\CortexM0p\ARM_MDK_Generic\Release\OLED_DC.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\OLED_DC_PM.c -o .\CortexM0p\ARM_MDK_Generic\Release\OLED_DC_PM.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\I2C_SCL.c -o .\CortexM0p\ARM_MDK_Generic\Release\I2C_SCL.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\I2C_SCL_PM.c -o .\CortexM0p\ARM_MDK_Generic\Release\I2C_SCL_PM.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\I2C_SDA.c -o .\CortexM0p\ARM_MDK_Generic\Release\I2C_SDA.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\I2C_SDA_PM.c -o .\CortexM0p\ARM_MDK_Generic\Release\I2C_SDA_PM.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\I2C_ST.c -o .\CortexM0p\ARM_MDK_Generic\Release\I2C_ST.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\I2C_ST_PM.c -o .\CortexM0p\ARM_MDK_Generic\Release\I2C_ST_PM.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\CapSense_Control.c -o .\CortexM0p\ARM_MDK_Generic\Release\CapSense_Control.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\CapSense_Processing.c -o .\CortexM0p\ARM_MDK_Generic\Release\CapSense_Processing.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\CapSense_Structure.c -o .\CortexM0p\ARM_MDK_Generic\Release\CapSense_Structure.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\CapSense_Tuner.c -o .\CortexM0p\ARM_MDK_Generic\Release\CapSense_Tuner.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\CapSense_Filter.c -o .\CortexM0p\ARM_MDK_Generic\Release\CapSense_Filter.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\CapSense_Sensing.c -o .\CortexM0p\ARM_MDK_Generic\Release\CapSense_Sensing.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\CapSense_INT.c -o .\CortexM0p\ARM_MDK_Generic\Release\CapSense_INT.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\CapSense_SensingCSD_LL.c -o .\CortexM0p\ARM_MDK_Generic\Release\CapSense_SensingCSD_LL.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\ADC.c -o .\CortexM0p\ARM_MDK_Generic\Release\ADC.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\ADC_PM.c -o .\CortexM0p\ARM_MDK_Generic\Release\ADC_PM.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\ADC_INT.c -o .\CortexM0p\ARM_MDK_Generic\Release\ADC_INT.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\BAT_ADC.c -o .\CortexM0p\ARM_MDK_Generic\Release\BAT_ADC.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\BAT_ADC_PM.c -o .\CortexM0p\ARM_MDK_Generic\Release\BAT_ADC_PM.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\MOTO_ADC.c -o .\CortexM0p\ARM_MDK_Generic\Release\MOTO_ADC.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\MOTO_ADC_PM.c -o .\CortexM0p\ARM_MDK_Generic\Release\MOTO_ADC_PM.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\RF_ADC.c -o .\CortexM0p\ARM_MDK_Generic\Release\RF_ADC.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\RF_ADC_PM.c -o .\CortexM0p\ARM_MDK_Generic\Release\RF_ADC_PM.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\VOICE_BUSY.c -o .\CortexM0p\ARM_MDK_Generic\Release\VOICE_BUSY.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\VOICE_BUSY_PM.c -o .\CortexM0p\ARM_MDK_Generic\Release\VOICE_BUSY_PM.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\VOICE_DATA.c -o .\CortexM0p\ARM_MDK_Generic\Release\VOICE_DATA.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\VOICE_DATA_PM.c -o .\CortexM0p\ARM_MDK_Generic\Release\VOICE_DATA_PM.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\isr_1.c -o .\CortexM0p\ARM_MDK_Generic\Release\isr_1.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\GPIO_ISR1.c -o .\CortexM0p\ARM_MDK_Generic\Release\GPIO_ISR1.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\GPIO_ISR1_PM.c -o .\CortexM0p\ARM_MDK_Generic\Release\GPIO_ISR1_PM.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\isr_2.c -o .\CortexM0p\ARM_MDK_Generic\Release\isr_2.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\OP3_INT.c -o .\CortexM0p\ARM_MDK_Generic\Release\OP3_INT.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\OP3_INT_PM.c -o .\CortexM0p\ARM_MDK_Generic\Release\OP3_INT_PM.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\OP1_INT.c -o .\CortexM0p\ARM_MDK_Generic\Release\OP1_INT.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\OP1_INT_PM.c -o .\CortexM0p\ARM_MDK_Generic\Release\OP1_INT_PM.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\COVER_CHK_INT.c -o .\CortexM0p\ARM_MDK_Generic\Release\COVER_CHK_INT.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\COVER_CHK_INT_PM.c -o .\CortexM0p\ARM_MDK_Generic\Release\COVER_CHK_INT_PM.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\isr_wdt.c -o .\CortexM0p\ARM_MDK_Generic\Release\isr_wdt.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\RTC_1.c -o .\CortexM0p\ARM_MDK_Generic\Release\RTC_1.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\Em_EEPROM.c -o .\CortexM0p\ARM_MDK_Generic\Release\Em_EEPROM.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\UART_1_BLE_SCBCLK.c -o .\CortexM0p\ARM_MDK_Generic\Release\UART_1_BLE_SCBCLK.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\UART_1_BLE_tx.c -o .\CortexM0p\ARM_MDK_Generic\Release\UART_1_BLE_tx.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\UART_1_BLE_tx_PM.c -o .\CortexM0p\ARM_MDK_Generic\Release\UART_1_BLE_tx_PM.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\UART_1_BLE_SCB_IRQ.c -o .\CortexM0p\ARM_MDK_Generic\Release\UART_1_BLE_SCB_IRQ.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\UART_1_BLE_rx.c -o .\CortexM0p\ARM_MDK_Generic\Release\UART_1_BLE_rx.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\UART_1_BLE_rx_PM.c -o .\CortexM0p\ARM_MDK_Generic\Release\UART_1_BLE_rx_PM.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\UART_0_FPC_SCBCLK.c -o .\CortexM0p\ARM_MDK_Generic\Release\UART_0_FPC_SCBCLK.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\UART_0_FPC_tx.c -o .\CortexM0p\ARM_MDK_Generic\Release\UART_0_FPC_tx.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\UART_0_FPC_tx_PM.c -o .\CortexM0p\ARM_MDK_Generic\Release\UART_0_FPC_tx_PM.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\UART_0_FPC_SCB_IRQ.c -o .\CortexM0p\ARM_MDK_Generic\Release\UART_0_FPC_SCB_IRQ.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\UART_0_FPC_rx.c -o .\CortexM0p\ARM_MDK_Generic\Release\UART_0_FPC_rx.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\UART_0_FPC_rx_PM.c -o .\CortexM0p\ARM_MDK_Generic\Release\UART_0_FPC_rx_PM.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\UART_2_EXT_SCBCLK.c -o .\CortexM0p\ARM_MDK_Generic\Release\UART_2_EXT_SCBCLK.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\UART_2_EXT_tx.c -o .\CortexM0p\ARM_MDK_Generic\Release\UART_2_EXT_tx.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\UART_2_EXT_tx_PM.c -o .\CortexM0p\ARM_MDK_Generic\Release\UART_2_EXT_tx_PM.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\UART_2_EXT_SCB_IRQ.c -o .\CortexM0p\ARM_MDK_Generic\Release\UART_2_EXT_SCB_IRQ.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\UART_2_EXT_rx.c -o .\CortexM0p\ARM_MDK_Generic\Release\UART_2_EXT_rx.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\UART_2_EXT_rx_PM.c -o .\CortexM0p\ARM_MDK_Generic\Release\UART_2_EXT_rx_PM.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\SPI_0_OLED_FLASH_SCBCLK.c -o .\CortexM0p\ARM_MDK_Generic\Release\SPI_0_OLED_FLASH_SCBCLK.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\SPI_0_OLED_FLASH_ss1_m.c -o .\CortexM0p\ARM_MDK_Generic\Release\SPI_0_OLED_FLASH_ss1_m.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\SPI_0_OLED_FLASH_ss1_m_PM.c -o .\CortexM0p\ARM_MDK_Generic\Release\SPI_0_OLED_FLASH_ss1_m_PM.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\SPI_0_OLED_FLASH_sclk_m.c -o .\CortexM0p\ARM_MDK_Generic\Release\SPI_0_OLED_FLASH_sclk_m.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\SPI_0_OLED_FLASH_sclk_m_PM.c -o .\CortexM0p\ARM_MDK_Generic\Release\SPI_0_OLED_FLASH_sclk_m_PM.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\SPI_0_OLED_FLASH_miso_m.c -o .\CortexM0p\ARM_MDK_Generic\Release\SPI_0_OLED_FLASH_miso_m.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\SPI_0_OLED_FLASH_miso_m_PM.c -o .\CortexM0p\ARM_MDK_Generic\Release\SPI_0_OLED_FLASH_miso_m_PM.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\SPI_0_OLED_FLASH_mosi_m.c -o .\CortexM0p\ARM_MDK_Generic\Release\SPI_0_OLED_FLASH_mosi_m.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\SPI_0_OLED_FLASH_mosi_m_PM.c -o .\CortexM0p\ARM_MDK_Generic\Release\SPI_0_OLED_FLASH_mosi_m_PM.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\SPI_0_OLED_FLASH_ss0_m.c -o .\CortexM0p\ARM_MDK_Generic\Release\SPI_0_OLED_FLASH_ss0_m.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\SPI_0_OLED_FLASH_ss0_m_PM.c -o .\CortexM0p\ARM_MDK_Generic\Release\SPI_0_OLED_FLASH_ss0_m_PM.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\SPI_1_CARD_SCBCLK.c -o .\CortexM0p\ARM_MDK_Generic\Release\SPI_1_CARD_SCBCLK.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\SPI_1_CARD_sclk_m.c -o .\CortexM0p\ARM_MDK_Generic\Release\SPI_1_CARD_sclk_m.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\SPI_1_CARD_sclk_m_PM.c -o .\CortexM0p\ARM_MDK_Generic\Release\SPI_1_CARD_sclk_m_PM.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\SPI_1_CARD_miso_m.c -o .\CortexM0p\ARM_MDK_Generic\Release\SPI_1_CARD_miso_m.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\SPI_1_CARD_miso_m_PM.c -o .\CortexM0p\ARM_MDK_Generic\Release\SPI_1_CARD_miso_m_PM.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\SPI_1_CARD_mosi_m.c -o .\CortexM0p\ARM_MDK_Generic\Release\SPI_1_CARD_mosi_m.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\SPI_1_CARD_mosi_m_PM.c -o .\CortexM0p\ARM_MDK_Generic\Release\SPI_1_CARD_mosi_m_PM.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\SPI_1_CARD_ss0_m.c -o .\CortexM0p\ARM_MDK_Generic\Release\SPI_1_CARD_ss0_m.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\SPI_1_CARD_ss0_m_PM.c -o .\CortexM0p\ARM_MDK_Generic\Release\SPI_1_CARD_ss0_m_PM.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\CapSense_ISR.c -o .\CortexM0p\ARM_MDK_Generic\Release\CapSense_ISR.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\ADC_IRQ.c -o .\CortexM0p\ARM_MDK_Generic\Release\ADC_IRQ.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\ADC_intClock.c -o .\CortexM0p\ARM_MDK_Generic\Release\ADC_intClock.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\Opamp_Rf.c -o .\CortexM0p\ARM_MDK_Generic\Release\Opamp_Rf.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\Opamp_Rf_PM.c -o .\CortexM0p\ARM_MDK_Generic\Release\Opamp_Rf_PM.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\Opamp_Bat.c -o .\CortexM0p\ARM_MDK_Generic\Release\Opamp_Bat.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\Opamp_Bat_PM.c -o .\CortexM0p\ARM_MDK_Generic\Release\Opamp_Bat_PM.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\TEST.c -o .\CortexM0p\ARM_MDK_Generic\Release\TEST.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\TEST_PM.c -o .\CortexM0p\ARM_MDK_Generic\Release\TEST_PM.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\LOCKINT.c -o .\CortexM0p\ARM_MDK_Generic\Release\LOCKINT.o
+armcc.exe --cpu=Cortex-M0plus --C99 --diag_style=gnu -I.\Modules\Bat -I.\Modules\Ble -I.\Modules\Card -I.\Modules\Display -I.\Modules\Extend -I.\Modules\Fingerprint -I.\Modules\Function -I.\Modules\Led -I.\Modules\Lock -I.\Modules\Power -I.\Modules\Record -I.\Modules\Rtc -I.\Modules\SwitchKey -I.\Modules\Tuch -I.\Modules\Voice -I.\Modules\Wdt -I.\Modules\Mcu -I.\Modules\Function\List -I. -IGenerated_Source\PSoC4 --list --signed_chars -g -D NDEBUG -D CY_CORE_ID=0 -Ospace --split_sections -D__MICROLIB -c Generated_Source\PSoC4\LOCKINT_PM.c -o .\CortexM0p\ARM_MDK_Generic\Release\LOCKINT_PM.o
+armasm.exe --cpu=Cortex-M0plus --diag_style=gnu --thumb -i. -iGenerated_Source\PSoC4 -g --list=.\CortexM0p\ARM_MDK_Generic\Release/CyBootAsmRv.lst "--predefine=__MICROLIB SETA 1" Generated_Source\PSoC4\CyBootAsmRv.s -o .\CortexM0p\ARM_MDK_Generic\Release\CyBootAsmRv.o
+armar.exe -rs .\CortexM0p\ARM_MDK_Generic\Release\LOCK.a .\CortexM0p\ARM_MDK_Generic\Release\CyFlash.o .\CortexM0p\ARM_MDK_Generic\Release\CyLib.o .\CortexM0p\ARM_MDK_Generic\Release\cyPm.o .\CortexM0p\ARM_MDK_Generic\Release\cyutils.o .\CortexM0p\ARM_MDK_Generic\Release\CyDMA.o .\CortexM0p\ARM_MDK_Generic\Release\CyLFClk.o .\CortexM0p\ARM_MDK_Generic\Release\cy_em_eeprom.o .\CortexM0p\ARM_MDK_Generic\Release\UART_1_BLE.o .\CortexM0p\ARM_MDK_Generic\Release\UART_1_BLE_SPI_UART.o .\CortexM0p\ARM_MDK_Generic\Release\UART_1_BLE_SPI_UART_INT.o .\CortexM0p\ARM_MDK_Generic\Release\UART_1_BLE_PM.o .\CortexM0p\ARM_MDK_Generic\Release\UART_1_BLE_UART.o .\CortexM0p\ARM_MDK_Generic\Release\UART_1_BLE_BOOT.o .\CortexM0p\ARM_MDK_Generic\Release\UART_1_BLE_UART_BOOT.o .\CortexM0p\ARM_MDK_Generic\Release\UART_0_FPC.o .\CortexM0p\ARM_MDK_Generic\Release\UART_0_FPC_SPI_UART.o .\CortexM0p\ARM_MDK_Generic\Release\UART_0_FPC_SPI_UART_INT.o .\CortexM0p\ARM_MDK_Generic\Release\UART_0_FPC_PM.o .\CortexM0p\ARM_MDK_Generic\Release\UART_0_FPC_UART.o .\CortexM0p\ARM_MDK_Generic\Release\UART_0_FPC_BOOT.o .\CortexM0p\ARM_MDK_Generic\Release\UART_0_FPC_UART_BOOT.o .\CortexM0p\ARM_MDK_Generic\Release\UART_2_EXT.o .\CortexM0p\ARM_MDK_Generic\Release\UART_2_EXT_SPI_UART.o .\CortexM0p\ARM_MDK_Generic\Release\UART_2_EXT_SPI_UART_INT.o .\CortexM0p\ARM_MDK_Generic\Release\UART_2_EXT_PM.o .\CortexM0p\ARM_MDK_Generic\Release\UART_2_EXT_UART.o .\CortexM0p\ARM_MDK_Generic\Release\UART_2_EXT_BOOT.o .\CortexM0p\ARM_MDK_Generic\Release\UART_2_EXT_UART_BOOT.o .\CortexM0p\ARM_MDK_Generic\Release\SPI_0_OLED_FLASH.o .\CortexM0p\ARM_MDK_Generic\Release\SPI_0_OLED_FLASH_SPI_UART.o .\CortexM0p\ARM_MDK_Generic\Release\SPI_0_OLED_FLASH_PM.o .\CortexM0p\ARM_MDK_Generic\Release\SPI_0_OLED_FLASH_SPI.o .\CortexM0p\ARM_MDK_Generic\Release\SPI_0_OLED_FLASH_BOOT.o .\CortexM0p\ARM_MDK_Generic\Release\SPI_0_OLED_FLASH_SPI_BOOT.o .\CortexM0p\ARM_MDK_Generic\Release\SPI_1_CARD.o .\CortexM0p\ARM_MDK_Generic\Release\SPI_1_CARD_SPI_UART.o .\CortexM0p\ARM_MDK_Generic\Release\SPI_1_CARD_PM.o .\CortexM0p\ARM_MDK_Generic\Release\SPI_1_CARD_SPI.o .\CortexM0p\ARM_MDK_Generic\Release\SPI_1_CARD_BOOT.o .\CortexM0p\ARM_MDK_Generic\Release\SPI_1_CARD_SPI_BOOT.o .\CortexM0p\ARM_MDK_Generic\Release\CARD_RESET.o .\CortexM0p\ARM_MDK_Generic\Release\CARD_RESET_PM.o .\CortexM0p\ARM_MDK_Generic\Release\OLED_DC.o .\CortexM0p\ARM_MDK_Generic\Release\OLED_DC_PM.o .\CortexM0p\ARM_MDK_Generic\Release\I2C_SCL.o .\CortexM0p\ARM_MDK_Generic\Release\I2C_SCL_PM.o .\CortexM0p\ARM_MDK_Generic\Release\I2C_SDA.o .\CortexM0p\ARM_MDK_Generic\Release\I2C_SDA_PM.o .\CortexM0p\ARM_MDK_Generic\Release\I2C_ST.o .\CortexM0p\ARM_MDK_Generic\Release\I2C_ST_PM.o .\CortexM0p\ARM_MDK_Generic\Release\CapSense_Control.o .\CortexM0p\ARM_MDK_Generic\Release\CapSense_Processing.o .\CortexM0p\ARM_MDK_Generic\Release\CapSense_Structure.o .\CortexM0p\ARM_MDK_Generic\Release\CapSense_Tuner.o .\CortexM0p\ARM_MDK_Generic\Release\CapSense_Filter.o .\CortexM0p\ARM_MDK_Generic\Release\CapSense_Sensing.o .\CortexM0p\ARM_MDK_Generic\Release\CapSense_INT.o .\CortexM0p\ARM_MDK_Generic\Release\CapSense_SensingCSD_LL.o .\CortexM0p\ARM_MDK_Generic\Release\ADC.o .\CortexM0p\ARM_MDK_Generic\Release\ADC_PM.o .\CortexM0p\ARM_MDK_Generic\Release\ADC_INT.o .\CortexM0p\ARM_MDK_Generic\Release\BAT_ADC.o .\CortexM0p\ARM_MDK_Generic\Release\BAT_ADC_PM.o .\CortexM0p\ARM_MDK_Generic\Release\MOTO_ADC.o .\CortexM0p\ARM_MDK_Generic\Release\MOTO_ADC_PM.o .\CortexM0p\ARM_MDK_Generic\Release\RF_ADC.o .\CortexM0p\ARM_MDK_Generic\Release\RF_ADC_PM.o .\CortexM0p\ARM_MDK_Generic\Release\VOICE_BUSY.o .\CortexM0p\ARM_MDK_Generic\Release\VOICE_BUSY_PM.o .\CortexM0p\ARM_MDK_Generic\Release\VOICE_DATA.o .\CortexM0p\ARM_MDK_Generic\Release\VOICE_DATA_PM.o .\CortexM0p\ARM_MDK_Generic\Release\isr_1.o .\CortexM0p\ARM_MDK_Generic\Release\GPIO_ISR1.o .\CortexM0p\ARM_MDK_Generic\Release\GPIO_ISR1_PM.o .\CortexM0p\ARM_MDK_Generic\Release\isr_2.o .\CortexM0p\ARM_MDK_Generic\Release\OP3_INT.o .\CortexM0p\ARM_MDK_Generic\Release\OP3_INT_PM.o .\CortexM0p\ARM_MDK_Generic\Release\OP1_INT.o .\CortexM0p\ARM_MDK_Generic\Release\OP1_INT_PM.o .\CortexM0p\ARM_MDK_Generic\Release\COVER_CHK_INT.o .\CortexM0p\ARM_MDK_Generic\Release\COVER_CHK_INT_PM.o .\CortexM0p\ARM_MDK_Generic\Release\isr_wdt.o .\CortexM0p\ARM_MDK_Generic\Release\RTC_1.o .\CortexM0p\ARM_MDK_Generic\Release\Em_EEPROM.o .\CortexM0p\ARM_MDK_Generic\Release\UART_1_BLE_SCBCLK.o .\CortexM0p\ARM_MDK_Generic\Release\UART_1_BLE_tx.o .\CortexM0p\ARM_MDK_Generic\Release\UART_1_BLE_tx_PM.o .\CortexM0p\ARM_MDK_Generic\Release\UART_1_BLE_SCB_IRQ.o .\CortexM0p\ARM_MDK_Generic\Release\UART_1_BLE_rx.o .\CortexM0p\ARM_MDK_Generic\Release\UART_1_BLE_rx_PM.o .\CortexM0p\ARM_MDK_Generic\Release\UART_0_FPC_SCBCLK.o .\CortexM0p\ARM_MDK_Generic\Release\UART_0_FPC_tx.o .\CortexM0p\ARM_MDK_Generic\Release\UART_0_FPC_tx_PM.o .\CortexM0p\ARM_MDK_Generic\Release\UART_0_FPC_SCB_IRQ.o .\CortexM0p\ARM_MDK_Generic\Release\UART_0_FPC_rx.o .\CortexM0p\ARM_MDK_Generic\Release\UART_0_FPC_rx_PM.o .\CortexM0p\ARM_MDK_Generic\Release\UART_2_EXT_SCBCLK.o .\CortexM0p\ARM_MDK_Generic\Release\UART_2_EXT_tx.o .\CortexM0p\ARM_MDK_Generic\Release\UART_2_EXT_tx_PM.o .\CortexM0p\ARM_MDK_Generic\Release\UART_2_EXT_SCB_IRQ.o .\CortexM0p\ARM_MDK_Generic\Release\UART_2_EXT_rx.o .\CortexM0p\ARM_MDK_Generic\Release\UART_2_EXT_rx_PM.o .\CortexM0p\ARM_MDK_Generic\Release\SPI_0_OLED_FLASH_SCBCLK.o .\CortexM0p\ARM_MDK_Generic\Release\SPI_0_OLED_FLASH_ss1_m.o .\CortexM0p\ARM_MDK_Generic\Release\SPI_0_OLED_FLASH_ss1_m_PM.o .\CortexM0p\ARM_MDK_Generic\Release\SPI_0_OLED_FLASH_sclk_m.o .\CortexM0p\ARM_MDK_Generic\Release\SPI_0_OLED_FLASH_sclk_m_PM.o .\CortexM0p\ARM_MDK_Generic\Release\SPI_0_OLED_FLASH_miso_m.o .\CortexM0p\ARM_MDK_Generic\Release\SPI_0_OLED_FLASH_miso_m_PM.o .\CortexM0p\ARM_MDK_Generic\Release\SPI_0_OLED_FLASH_mosi_m.o .\CortexM0p\ARM_MDK_Generic\Release\SPI_0_OLED_FLASH_mosi_m_PM.o .\CortexM0p\ARM_MDK_Generic\Release\SPI_0_OLED_FLASH_ss0_m.o .\CortexM0p\ARM_MDK_Generic\Release\SPI_0_OLED_FLASH_ss0_m_PM.o .\CortexM0p\ARM_MDK_Generic\Release\SPI_1_CARD_SCBCLK.o .\CortexM0p\ARM_MDK_Generic\Release\SPI_1_CARD_sclk_m.o .\CortexM0p\ARM_MDK_Generic\Release\SPI_1_CARD_sclk_m_PM.o .\CortexM0p\ARM_MDK_Generic\Release\SPI_1_CARD_miso_m.o .\CortexM0p\ARM_MDK_Generic\Release\SPI_1_CARD_miso_m_PM.o .\CortexM0p\ARM_MDK_Generic\Release\SPI_1_CARD_mosi_m.o .\CortexM0p\ARM_MDK_Generic\Release\SPI_1_CARD_mosi_m_PM.o .\CortexM0p\ARM_MDK_Generic\Release\SPI_1_CARD_ss0_m.o .\CortexM0p\ARM_MDK_Generic\Release\SPI_1_CARD_ss0_m_PM.o .\CortexM0p\ARM_MDK_Generic\Release\CapSense_ISR.o .\CortexM0p\ARM_MDK_Generic\Release\ADC_IRQ.o .\CortexM0p\ARM_MDK_Generic\Release\ADC_intClock.o .\CortexM0p\ARM_MDK_Generic\Release\Opamp_Rf.o .\CortexM0p\ARM_MDK_Generic\Release\Opamp_Rf_PM.o .\CortexM0p\ARM_MDK_Generic\Release\Opamp_Bat.o .\CortexM0p\ARM_MDK_Generic\Release\Opamp_Bat_PM.o .\CortexM0p\ARM_MDK_Generic\Release\TEST.o .\CortexM0p\ARM_MDK_Generic\Release\TEST_PM.o .\CortexM0p\ARM_MDK_Generic\Release\LOCKINT.o .\CortexM0p\ARM_MDK_Generic\Release\LOCKINT_PM.o .\CortexM0p\ARM_MDK_Generic\Release\CyBootAsmRv.o
+Creating archive '.\CortexM0p\ARM_MDK_Generic\Release\LOCK.a'
+armlink.exe -o E:\Cypress\NEW_LOCK\LOCK.cydsn\CortexM0p\ARM_MDK_Generic\Release\LOCK.elf .\CortexM0p\ARM_MDK_Generic\Release\main.o .\CortexM0p\ARM_MDK_Generic\Release\gpio.o .\CortexM0p\ARM_MDK_Generic\Release\Bat.o .\CortexM0p\ARM_MDK_Generic\Release\BLE.o .\CortexM0p\ARM_MDK_Generic\Release\Card.o .\CortexM0p\ARM_MDK_Generic\Release\nxp520.o .\CortexM0p\ARM_MDK_Generic\Release\Display.o .\CortexM0p\ARM_MDK_Generic\Release\DisplayFont.o .\CortexM0p\ARM_MDK_Generic\Release\Extend.o .\CortexM0p\ARM_MDK_Generic\Release\Fingerprint.o .\CortexM0p\ARM_MDK_Generic\Release\List.o .\CortexM0p\ARM_MDK_Generic\Release\Function.o .\CortexM0p\ARM_MDK_Generic\Release\LockMode.o .\CortexM0p\ARM_MDK_Generic\Release\ManageMode.o .\CortexM0p\ARM_MDK_Generic\Release\MenuTips.o .\CortexM0p\ARM_MDK_Generic\Release\NormalMode.o .\CortexM0p\ARM_MDK_Generic\Release\Utilities.o .\CortexM0p\ARM_MDK_Generic\Release\Led.o .\CortexM0p\ARM_MDK_Generic\Release\adc_hal.o .\CortexM0p\ARM_MDK_Generic\Release\Lock.o .\CortexM0p\ARM_MDK_Generic\Release\lock_evt.o .\CortexM0p\ARM_MDK_Generic\Release\lock_hal.o .\CortexM0p\ARM_MDK_Generic\Release\power.o .\CortexM0p\ARM_MDK_Generic\Release\Record.o .\CortexM0p\ARM_MDK_Generic\Release\Rtc.o .\CortexM0p\ARM_MDK_Generic\Release\SwitchKey.o .\CortexM0p\ARM_MDK_Generic\Release\Tuch.o .\CortexM0p\ARM_MDK_Generic\Release\Voice.o .\CortexM0p\ARM_MDK_Generic\Release\Wdt.o .\CortexM0p\ARM_MDK_Generic\Release\cyfitter_cfg.o .\CortexM0p\ARM_MDK_Generic\Release\cymetadata.o .\CortexM0p\ARM_MDK_Generic\Release\Cm0plusStart.o .\CortexM0p\ARM_MDK_Generic\Release\LOCK.a "d:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\CapSense_P4_v5_0\PSoC4\Library\Capsense_P4Library_MDKp.a" --cpu=Cortex-M0plus --diag_style=gnu --no_startup --library_type=microlib --map --list .\CortexM0p\ARM_MDK_Generic\Release/LOCK.map --scatter .\Generated_Source\PSoC4\Cm0plusRealViewEEPROM.scat
+ERROR: L6218E: Undefined symbol LOCK_INT_ClearInterrupt (referred from Function.o).ERROR: L6218E: Undefined symbol LOCK_INT_Read (referred from lock_hal.o).ERROR: L6218E: Undefined symbol OP2_INT_Read (referred from lock_hal.o).Finished: 0 information, 0 warning and 3 error messages.
+The command 'armlink.exe' failed with exit code '1'.
+--------------- Rebuild Failed: 10/15/2018 09:34:55 ---------------

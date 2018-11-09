@@ -1,0 +1,6 @@
+E:\Cypress\NEW_LOCK\LOCK.cydsn\LOCK.cyprj|0b45b741-bcc2-493f-9630-af27b5a1781b
+D:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|08a6d051-9cc9-490d-9f41-47df00e0568c
+C:\Users\windows7\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\Downloads ( 4.2).cyprj|a99527ef-c9b5-431c-b2b5-189e5a164deb
+d:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|8a380022-cef0-43e9-8053-a2758f623b27
+d:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|869d29e3-2c7e-4c7b-9b79-6aecb8166caf
+d:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|14fb5650-3f2b-476f-a9ef-5061f268ed7b
