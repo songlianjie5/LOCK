@@ -13,6 +13,7 @@
 #define _EXTEND_H
 #include "main.h"
     
+//添加测试
 extern void Extend_Init(void);
 
 #endif
